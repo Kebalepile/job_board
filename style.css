@@ -40,10 +40,11 @@ a {
 }
 
 body {
-  margin: auto;
+  /* margin: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  width:100dvw;
   background-color: #1c1c1c;
 }
 
@@ -53,10 +54,11 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
+  width: 100%;
 }
 
 .card {
@@ -72,7 +74,7 @@ li {
   margin: 3px;
 }
 #logo {
-  margin-top: 50px;
+  margin-top: 100px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -86,12 +88,13 @@ li {
 #headline {
   background-color: rgb(54, 54, 54);
   border-radius: 2px;
-  margin-bottom: 30px;
+
   background-image: url("./public/assets/icons/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* font-weight: bold; */
   text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black;
+width:90dvw;
+margin:auto auto 30px auto;
 }
 #headline-message {
   background-color: rgba(0, 0, 0, 0.233);
@@ -106,10 +109,14 @@ li {
   background-color: #27272780;
   border-radius: 5px;
   height: 120px;
+  width:50%;
+  margin:auto;
 }
 #job-board {
   height: 50dvh;
   overflow-y: scroll;
+  width:90dvw;
+margin:auto;
 }
 .posts {
   display: flex;
@@ -259,7 +266,8 @@ li {
 }
 
 #pvt-job-board {
-  margin-top: 50px;
+  margin: 50px auto auto auto;
+  width:90dvw;
 }
 #pvt-job-board > .board > section {
   display: flex;
@@ -477,6 +485,10 @@ li > a > img {
   #info {
     width: 80%;
   }
+  #headline-job-info {
+    width:65%;
+    
+   }
 }
 
 @media screen and (max-width: 550px) {
@@ -494,6 +506,10 @@ li > a > img {
   .other-agencies {
     font-size: medium;
   }
+  #headline-job-info {
+    width:90%;
+    font-size:13px;
+   }
 }
 
 @media screen and (max-width: 490px) {
@@ -510,8 +526,24 @@ li > a > img {
     font-size: smaller;
   }
 }
+@media screen and (max-width:478px){
+ 
+  /* #headline{
+    width:95dvw;
+    padding:0;
+    
+  }
+  #headline-job-info {
+   width:100%;
+   padding:0;
+  }*/
+}
 
 @media screen and (max-width: 411px) {
+  #headline-job-info {
+    width:90%;
+    font-size:13px;
+   }
   #info {
     width: 90%;
   }
@@ -539,6 +571,15 @@ li > a > img {
 }
 
 @media screen and (max-width: 391px) {
+  #headline-job-info {
+    width:100%;
+    font-size:13px;
+    padding:0;
+   }
+   #headline-job-info * {
+    text-align:center;
+
+   }
   .job-post-private {
     width: 140px;
   }

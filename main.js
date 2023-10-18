@@ -69,25 +69,23 @@ document.querySelector("#app").innerHTML = `
 `;
 const shareSiteButon = document.getElementById("share-site");
 
-      shareSiteButon.addEventListener("click", async () => {
-        const shareData = {
-          title:"Boitekong Job Board",
-          text: "available job vacancy, might be suitable for you!",
-          url: location.origin
-        };
-        try {
-          console.log(shareData)
-          await navigator.share(shareData);
-        } catch (err) {
-          console.error(err);
-        }
-      });
+shareSiteButon.addEventListener("click", async () => {
+  const shareData = {
+    title: "Boitekong Job Board",
+    text: "available job vacancy, might be suitable for you!",
+    url: location.origin
+  };
+  try {
+    await navigator.share(shareData);
+  } catch (err) {
+    console.error(err);
+  }
+});
 const closeButton = document.getElementById("close-dialog");
 
 closeButton.addEventListener("click", () => {
   dialog.close();
 });
-
 
 setupHeadline(document.querySelector("#headline-job-info"));
 setupPubliDepartments(document.querySelector("#job-board"));
@@ -95,4 +93,3 @@ setupPrivateCompanies(document.querySelector("#job-board"));
 setupPrivateSector(document.querySelector("#pvt-job-board"));
 setupNavigation(document.querySelector("header"));
 setupInstallPrormpt(document.querySelector("#install-app"));
-
