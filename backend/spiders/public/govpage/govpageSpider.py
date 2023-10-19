@@ -118,7 +118,7 @@ class Spider:
             By.CSS_SELECTOR, selector)
 
         if len(elems) > 0:
-            numOfDepartments: int = 0
+           
             for e in elems:
 
                 text: str = e.text.lower().lstrip()
@@ -138,13 +138,13 @@ class Spider:
                 c: bool = re.search(pattern, text, re.IGNORECASE)
 
                 if a and not b and not c:
-
-                    numOfDepartments += 1
                     govPageLinks["departments"][text] = href
+
+            numOfDepartments =len(govPageLinks["departments"].keys())
 
             log.info(
                 f"{self.Name}, scrapping deparment posts of {numOfDepartments} departments.")
-            log.info(govPageLinks["departments"])
+            
 
             for k in govPageLinks["departments"]:
 
@@ -177,7 +177,9 @@ class Spider:
             href = e.get_attribute("href")
 
             date = self.driver.find_element(
-                By.CSS_SELECTOR, ".blog-date > .date-text").text
+                By.CSS_SELECTOR, ".blog-date > .date-text")
+            
+            date = date.text
 
             blogPost = BlogPost()
             

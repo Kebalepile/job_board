@@ -151,7 +151,7 @@ class Spider:
                 By.CSS_SELECTOR, selector)
 
             if len(pvtElems) > 0:
-                numOfBusinesses: int = 0
+               
                 for e in pvtElems:
 
                     text: str = e.text.lower().lstrip()
@@ -163,17 +163,18 @@ class Spider:
 
                         if not readMore:
                             govPageLinks["businesses"][text] = href
-                            numOfBusinesses += 1
+                            
 
+                numOfBusinesses = len(govPageLinks["businesses"].keys())
                 log.info(
                     f"{self.Name}, found {numOfBusinesses} private sector posts to scrape.")
-                log.info(govPageLinks["businesses"])
+               
 
                 for k in govPageLinks["businesses"]:
                     blogpost = self.postContent(govPageLinks["businesses"][k])
                     govPageLinks["blogPosts"].append(blogpost)
 
-            # log.info(govPageLinks)
+            
             GovPageFile(govPageLinks)
             self.driver.close()
             log.info(f"{self.Name} done")
@@ -201,7 +202,9 @@ class Spider:
             href = e.get_attribute("href")
 
             date = self.driver.find_element(
-                By.CSS_SELECTOR, ".blog-date > .date-text").text
+                By.CSS_SELECTOR, ".blog-date > .date-text")
+            
+            date = date.text
 
             blogPost = BlogPost()
 
