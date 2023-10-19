@@ -167,6 +167,7 @@ class Spider:
 
                 log.info(
                     f"{self.Name}, found {numOfBusinesses} private sector posts to scrape.")
+                log.info(govPageLinks["businesses"])
 
                 for k in govPageLinks["businesses"]:
                     blogpost = self.postContent(govPageLinks["businesses"][k])

@@ -144,6 +144,7 @@ class Spider:
 
             log.info(
                 f"{self.Name}, scrapping deparment posts of {numOfDepartments} departments.")
+            log.info(govPageLinks["departments"])
 
             for k in govPageLinks["departments"]:
 
