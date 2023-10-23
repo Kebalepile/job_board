@@ -160,8 +160,8 @@ class Spider:
                     if text is not None and len(text) > 0:
                         readMore: bool = re.search(
                             r"read more", text, re.IGNORECASE)
-
-                        if not readMore:
+                        
+                        if not readMore and "https://www.govpage.co.za" in href:
                             govPageLinks["businesses"][text] = href
                             
 

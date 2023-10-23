@@ -136,9 +136,10 @@ class Spider:
                 pattern = r"private property opportunities|private sector opportunities|public sector opportunities"
 
                 c: bool = re.search(pattern, text, re.IGNORECASE)
-
+                
                 if a and not b and not c:
-                    govPageLinks["departments"][text] = href
+                    if "https://www.govpage.co.za" in href:
+                        govPageLinks["departments"][text] = href
 
             numOfDepartments =len(govPageLinks["departments"].keys())
 
@@ -147,8 +148,10 @@ class Spider:
             
 
             for k in govPageLinks["departments"]:
-
-                blogpost = self.postContent(govPageLinks["departments"][k])
+                url: str = govPageLinks["departments"][k]
+                # log.info(f'{k} => {url}')
+               
+                blogpost = self.postContent(url)
                 govPageLinks["blogPosts"].append(blogpost)
 
             GovPageFile(govPageLinks)
