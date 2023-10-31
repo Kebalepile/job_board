@@ -5,7 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/Kebalepile/job_board/spiders/types"
+	"io"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -84,7 +86,6 @@ func HeithaFile(data *types.HeithaJobs) error {
 	return nil
 }
 
-
 // saves scraped data into a json file in database private folder
 func ProPersonnelJsonFile(data *types.ProPersonnelJobs) error {
 
@@ -137,4 +138,31 @@ func ProPersonnelFile(data *types.ProPersonnelJobs) error {
 func cleanStr(s string) string {
 	re := regexp.MustCompile("[, ]")
 	return re.ReplaceAllString(s, "-")
+}
+
+// dowload agency icon from http site, in order to
+//
+//	prevent mixed content warning in prodcution.
+func DowloadIcon(url, filename, format string) error {
+	outputPath := "database/agency_icons"
+	// Download the image
+	res, err := http.Get(url)
+	if err != nil {
+		return err
+	}
+	defer res.Body.Close()
+
+	// Create the output file
+	outputFile, err := os.Create(filepath.Join(outputPath, filename, format))
+	if err != nil {
+		return err
+	}
+	defer outputFile.Close()
+
+	// Copy the response body to the output file
+	_, err = io.Copy(outputFile, res.Body)
+	if err != nil {
+		return err
+	}
+	return nil
 }

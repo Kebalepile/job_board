@@ -64,6 +64,10 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 		chromedp.Location(&url))
 	s.Error(err)
 
+	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
+	
+	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.png", s.Name)
+
 	if n := strings.Compare(url, s.AllowedDomains[1]); n == 0 {
 		log.Println("Searching for latest vacancies ", s.Name)
 
@@ -146,8 +150,8 @@ func (s *Spider) posts(ctx context.Context) (posts []types.JobPost) {
 			details,
 			province,
 			expiryDate,
-			iconLink: document.querySelector("link[rel='icon']").getAttribute('href')
-		} })`)
+			iconLink: "%s"
+		} })`, s.Posts.IconLink)
 
 	err := chromedp.Run(ctx,
 		chromedp.Evaluate(expression, &posts))

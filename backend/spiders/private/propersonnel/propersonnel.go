@@ -60,6 +60,10 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 		chromedp.Nodes(`#mobile-nav a`, &nodes, chromedp.ByQueryAll))
 	s.Error(err)
 
+	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".jpg")
+	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.jpg", s.Name)
+
+
 	if n := len(nodes); n > 0 {
 		var href string
 		for _, n := range nodes {
