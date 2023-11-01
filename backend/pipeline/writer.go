@@ -143,26 +143,26 @@ func cleanStr(s string) string {
 // dowload agency icon from http site, in order to
 //
 //	prevent mixed content warning in prodcution.
-func DowloadIcon(url, filename, format string) error {
-	outputPath := "database/agency_icons"
+func DowloadIcon(url, filename, format string) {
+
 	// Download the image
 	res, err := http.Get(url)
 	if err != nil {
-		return err
+		log.Fatal(err)
 	}
 	defer res.Body.Close()
 
 	// Create the output file
-	outputFile, err := os.Create(filepath.Join(outputPath, filename, format))
+	outputFile, err := os.Create(filepath.Join("database", "agency_icons", filename+format))
 	if err != nil {
-		return err
+		log.Fatal(err)
 	}
 	defer outputFile.Close()
 
 	// Copy the response body to the output file
 	_, err = io.Copy(outputFile, res.Body)
 	if err != nil {
-		return err
+		log.Fatal(err)
 	}
-	return nil
+
 }
