@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // Select the <div> element with class "row"
+      const row = document.querySelector(".row");
+    
+      const data = {};
+
+     
+      const jobTitle = row.querySelector(".job-title a");
+      if (jobTitle) {
+        data.title = jobTitle.textContent.replace(/\s*\n\s*/g, "").trim();
+      }
+
+      const locationText = row.querySelector(".job-location.text-wrapper");
+      if (locationText) {
+        data.location = locationText.textContent
+          .replace(/\s*\n\s*/g, "")
+          .trim();
+      }
+
+      const publishedText = row.querySelector("div:nth-child(4)");
+      if (publishedText) {
+        data.published = publishedText.textContent
+          .replace(/\s*\n\s*/g, "")
+          .trim();
+      }
+
+      const closingText = row.querySelector("div:nth-child(5)");
+      if (closingText) {
+        data.closing = closingText.textContent.replace(/\s*\n\s*/g, "").trim();
+      }
+
+      const jobLink = row.querySelector(".job-title a");
+      if (jobLink) {
+        data.more = jobLink.getAttribute("href");
+      }
+      console.log(data);
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row job-title">
+          <a href="/Vacancy/73108">Control Room Operator</a>
+        </div>
+
+        <div class="row margin-bottom-5"></div>
+
+        <div class="row">
+          <label>
+            <span
+              class="job-location text-wrapper"
+              data-toggle="tooltip"
+              title=""
+            >
+              <span class="fa fa-map-marker"></span>
+              Rustenburg, North West
+            </span>
+          </label>
+        </div>
+
+        <div class="row">Published 01 November 2023</div>
+        <div class="row">Closing Date:<b> 08 November 2023</b></div>
+      </div>
+    </div>
+  </body>
+</html>
