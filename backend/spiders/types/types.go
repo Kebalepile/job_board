@@ -65,3 +65,21 @@ type ProPersonnelJobs struct {
 	Title     string       `json:"title"`
 	BlogPosts []ProJobPost `json:"blogPosts"`
 }
+
+// Used in Minopex spider
+type MinopexJobPost struct {
+	JobTitle      string            `json:"jobTitle"`
+	PublishedDate string            `json:"publishedDate"`
+	ExpiryDate    string            `json:"expiryDate"`
+	Location      map[string]string `json:"location"`
+	Details       string            `json:"details"`
+	Apply         string            `json:"apply"`
+	IconLink      string            `json:"iconLink"`
+}
+
+// used in minopex spider
+type MinopexJobs struct {
+	IconLink  string        `json:"iconLink"`
+	Title     string        `json:"title"`
+	BlogPosts []MinopexJobPost `json:"blogPosts"`
+}

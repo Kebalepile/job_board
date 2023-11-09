@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/Kebalepile/job_board/spiders/private/heitha"
-	"github.com/Kebalepile/job_board/spiders/private/propersonnel"
-	// "github.com/Kebalepile/job_board/spiders/public/govpage"
+	// "github.com/Kebalepile/job_board/spiders/private/heitha"
+	"github.com/Kebalepile/job_board/spiders/private/minopex"
+	// "github.com/Kebalepile/job_board/spiders/private/propersonnel"
 	"github.com/Kebalepile/job_board/spiders/types"
 	"log"
 	"sync"
@@ -11,34 +11,34 @@ import (
 
 func main() {
 	log.Println("Job Board Scrapper Initiated ")
-	// govpageSpider := govpage.Spider{
-	// 	Name: "gov-page",
+
+	minopexSpider := minopex.Spider{
+		Name: "minopex",
+		AllowedDomains: []string{
+			"https://minopex.com/",
+			"https://minopex.simplify.hr/",
+		},
+	}
+	// heithaSpider := heitha.Spider{
+	// 	Name: "heitha-stuffing-group",
 	// 	AllowedDomains: []string{
-	// 		"https://www.govpage.co.za/",
-	// 		"https://www.govpage.co.za/latest-govpage-updates",
+	// 		"http://www.heitha.co.za/",
+	// 		"http://www.heitha.co.za/jobs",
 	// 	},
 	// }
 
-	heithaSpider := heitha.Spider{
-		Name: "heitha-stuffing-group",
-		AllowedDomains: []string{
-			"http://www.heitha.co.za/",
-			"http://www.heitha.co.za/jobs",
-		},
-	}
-
-	propersonnelSpider := propersonnel.Spider{
-		Name: "pro-personnel",
-		AllowedDomains: []string{
-			"https://www.pro-personnel.co.za/",
-			"https://www.pro-personnel.co.za/vacancies/",
-		},
-	}
+	// propersonnelSpider := propersonnel.Spider{
+	// 	Name: "pro-personnel",
+	// 	AllowedDomains: []string{
+	// 		"https://www.pro-personnel.co.za/",
+	// 		"https://www.pro-personnel.co.za/vacancies/",
+	// 	},
+	// }
 
 	goFuncs := []types.Crawler{
-		// &govpageSpider,
-		&heithaSpider,
-		&propersonnelSpider,
+		&minopexSpider,
+		// &heithaSpider,
+		// &propersonnelSpider,
 	}
 
 	var wg sync.WaitGroup

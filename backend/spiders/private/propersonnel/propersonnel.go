@@ -27,7 +27,7 @@ type Spider struct {
 func (s *Spider) Launch(wg *sync.WaitGroup) {
 	defer wg.Done()
 
-	log.Println(s.Name, " spider has Lunched ", s.Date())
+	log.Println(s.Name, " spider has Lunched ", s.date())
 	s.Posts.Title = s.Name
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
@@ -196,22 +196,22 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 				if err != nil {
 					s.Error(err)
 				}
-				s.Close()
+				s.close()
 			} else {
-				s.Close()
+				s.close()
 			}
 		}
 
 	}
 }
 
-func (s *Spider) Date() string {
+func (s *Spider) date() string {
 	t := time.Now()
 	return t.Format("02 January 2006")
 }
 
 // closes chromedp broswer instance
-func (s *Spider) Close() {
+func (s *Spider) close() {
 	log.Println(s.Name, "is done.")
 	s.Shutdown()
 }
@@ -229,6 +229,6 @@ func (s *Spider) Error(err error) {
 }
 
 // pauses spider for given duration
-func (s *Spider) Robala(second int) {
+func (s *Spider) robala(second int) {
 	time.Sleep(time.Duration(second) * time.Second)
 }
