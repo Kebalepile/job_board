@@ -63,11 +63,13 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
 
-	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.jpg", s.Name)
+	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.png", s.Name)
 
 	s.vacancies(ctx, url)
 }
 func (s *Spider) vacancies(ctx context.Context, url string) {
+	log.Println("Searching for latest vacancies ", s.Name)
+	
 	selector := `/html/body/div[1]/div/div[2]/div[1]/div/div/div/div/div/a`
 
 	expression := fmt.Sprintf(`(() => {
@@ -125,7 +127,6 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 		chromedp.Evaluate(expression, &s.Posts.BlogPosts))
 	s.error(err)
 
-	// log.Println(s.Posts.BlogPosts)
 	for i, p := range s.Posts.BlogPosts {
 		p.IconLink = s.Posts.IconLink
 
