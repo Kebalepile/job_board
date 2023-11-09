@@ -79,7 +79,7 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 					element.click();
 				}
 
-				let posts = document.querySelectorAll('#companyVacanciesResultsContainer .job-section > .row');
+				let posts = Array.from(document.querySelectorAll('#companyVacanciesResultsContainer .job-section > .row'));
 				return posts.map(p => {
 					const data = {};
 					const jobTitle = row.querySelector(".job-title a");
