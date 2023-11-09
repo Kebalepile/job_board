@@ -5,10 +5,8 @@ import (
 	"fmt"
 	"github.com/Kebalepile/job_board/pipeline"
 	"github.com/Kebalepile/job_board/spiders/types"
-	// "github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/chromedp"
 	"log"
-	// "strings"
 	"sync"
 	"time"
 )
@@ -27,7 +25,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	s.Posts.Title = s.Name
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
-		chromedp.Flag("headless", false), // set headless to true for production
+		chromedp.Flag("headless", true ), // set headless to true for production
 		chromedp.UserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"),
 		chromedp.WindowSize(768, 1024), // Tablet size
 	)
@@ -66,7 +64,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
 
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.jpg", s.Name)
-	
+
 	s.vacancies(ctx, url)
 }
 func (s *Spider) vacancies(ctx context.Context, url string) {
@@ -128,7 +126,8 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 	s.error(err)
 
 	// log.Println(s.Posts.BlogPosts)
-	for _, p := range s.Posts.BlogPosts {
+	for i, p := range s.Posts.BlogPosts {
+		p.IconLink = s.Posts.IconLink
 
 		expression = fmt.Sprintf(`(() => {
 			let details = document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
@@ -146,7 +145,7 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 			chromedp.Evaluate(expression, &p.Details),
 			chromedp.Evaluate(`document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.querySelector("a").href;`, &p.Apply))
 		s.error(err)
-	
+		s.Posts.BlogPosts[i] = p
 	}
 	err = pipeline.MinopexFile(&s.Posts)
 	s.error(err)
