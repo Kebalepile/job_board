@@ -53,20 +53,21 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 			return null;
 		})()`, selector)
 
-	var hrefValue string
+	var url string
 	err := chromedp.Run(
 		ctx,
 		chromedp.Navigate(s.AllowedDomains[0]),
 		chromedp.Sleep(5*time.Second),
 		chromedp.Evaluate(`document.querySelector("link[rel='icon']").getAttribute('href')`, &s.Posts.IconLink),
-		chromedp.Evaluate(expression, &hrefValue))
+		chromedp.Evaluate(expression, &url))
 	s.error(err)
 
-	log.Println(hrefValue)
 
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
+
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.jpg", s.Name)
-	s.vacancies(ctx, hrefValue)
+	
+	s.vacancies(ctx, url)
 }
 func (s *Spider) vacancies(ctx context.Context, url string) {
 	selector := `/html/body/div[1]/div/div[2]/div[1]/div/div/div/div/div/a`
@@ -82,13 +83,13 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 				let posts = Array.from(document.querySelectorAll('#companyVacanciesResultsContainer .job-section > .row'));
 				return posts.map(p => {
 					const data = {};
-					const jobTitle = row.querySelector(".job-title a");
+					const jobTitle = p.querySelector(".job-title a");
 
 					if (jobTitle) {
 						data.jobTitle = jobTitle.textContent.replace(/\s*\n\s*/g, "").trim();
 					}
 				
-					const locationText = row.querySelector(".job-location.text-wrapper");
+					const locationText = p.querySelector(".job-location.text-wrapper");
 
 					if (locationText) {
 						data.location = locationText.textContent
@@ -96,7 +97,7 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 							.trim();
 					}
 				
-					const publishedText = row.querySelector("div:nth-child(4)");
+					const publishedText = p.querySelector("div:nth-child(4)");
 
 					if (publishedText) {
 						data.publishedDate = publishedText.textContent
@@ -104,13 +105,13 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 							.trim();
 					}
 				
-					const closingText = row.querySelector("div:nth-child(5)");
+					const closingText = p.querySelector("div:nth-child(5)");
 
 					if (closingText) {
 						data.expiryDate = closingText.textContent.replace(/\s*\n\s*/g, "").trim();
 					}
 				
-					const jobLink = row.querySelector(".job-title a");
+					const jobLink = p.querySelector(".job-title a");
 
 					if (jobLink) {
 						data.apply = location.origin + jobLink.getAttribute("href");
@@ -126,7 +127,30 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 		chromedp.Evaluate(expression, &s.Posts.BlogPosts))
 	s.error(err)
 
-	log.Println(s.Posts.BlogPosts)
+	// log.Println(s.Posts.BlogPosts)
+	for _, p := range s.Posts.BlogPosts {
+
+		expression = fmt.Sprintf(`(() => {
+			let details = document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+			details.querySelector('a').href  = details.querySelector('a').href;
+
+			return [
+				document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[1]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML,
+				document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[2]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML,
+				details.innerHTML
+			];
+		})()`)
+		err = chromedp.Run(ctx,
+			chromedp.Navigate(p.Apply),
+			chromedp.Sleep(10*time.Second),
+			chromedp.Evaluate(expression, &p.Details),
+			chromedp.Evaluate(`document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.querySelector("a").href;`, &p.Apply))
+		s.error(err)
+	
+	}
+	err = pipeline.MinopexFile(&s.Posts)
+	s.error(err)
+	s.close()
 }
 
 func (s *Spider) date() string {

@@ -58,7 +58,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 		chromedp.Sleep(5*time.Second),
 		chromedp.WaitVisible(`#mobile-nav`),
 		chromedp.Nodes(`#mobile-nav a`, &nodes, chromedp.ByQueryAll))
-	s.Error(err)
+	s.error(err)
 
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".jpg")
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.jpg", s.Name)
@@ -89,7 +89,7 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 		chromedp.Sleep(5*time.Second),
 		chromedp.Title(&t))
 
-	s.Error(err)
+	s.error(err)
 
 	if yes := strings.Contains(strings.ToLower(t), "vacancies"); yes {
 
@@ -102,7 +102,7 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 
 		err = chromedp.Run(ctx,
 			chromedp.Nodes(iframe, &nodes, chromedp.ByQuery))
-		s.Error(err)
+		s.error(err)
 
 		if len(nodes) > 0 {
 
@@ -115,7 +115,7 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 				chromedp.WaitVisible(selector, chromedp.ByQuery),
 				chromedp.ScrollIntoView(selector),
 				chromedp.Nodes(`.job-spec`, &nodes, chromedp.ByQueryAll))
-			s.Error(err)
+			s.error(err)
 
 			log.Println(len(nodes), " job posts found on ", s.Name)
 
@@ -185,7 +185,7 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 					err = chromedp.Run(ctx,
 						chromedp.ScrollIntoView(id),
 						chromedp.Evaluate(expression, &JobPost))
-					s.Error(err)
+					s.error(err)
 					
 					JobPost.IconLink = s.Posts.IconLink
 					s.Posts.BlogPosts = append(s.Posts.BlogPosts, JobPost)
@@ -193,9 +193,9 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 				}
 
 				err = pipeline.ProPersonnelFile(&s.Posts)
-				if err != nil {
-					s.Error(err)
-				}
+				
+					s.error(err)
+				
 				s.close()
 			} else {
 				s.close()
@@ -216,10 +216,10 @@ func (s *Spider) close() {
 	s.Shutdown()
 }
 
-func (s *Spider) Error(err error) {
+func (s *Spider) error(err error) {
 	if err != nil {
 		log.Println("*************************************")
-		log.Println("Error from: ", s.Name, " spider")
+		log.Println("error from: ", s.Name, " spider")
 		log.Println(err.Error())
 		log.Println("Please restart scrapper")
 		log.Println("*************************************")
