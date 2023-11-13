@@ -64,7 +64,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
 
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.png", s.Name)
-
+	
 	s.vacancies(ctx, url)
 }
 func (s *Spider) vacancies(ctx context.Context, url string) {
@@ -114,7 +114,7 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 					const jobLink = p.querySelector(".job-title a");
 
 					if (jobLink) {
-						data.apply = location.origin + jobLink.getAttribute("href");
+						data.apply = jobLink.href;
 					}
 					return data
 
