@@ -48,9 +48,15 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 	log.Println("Loading ", s.Name)
 
+	continueElement := "body > div > div > div.container > div:nth-child(2) > div > p:nth-child(3) > a"
 	loginElement := "#btnLogin"
+
 	err := chromedp.Run(ctx,
 		chromedp.Navigate(s.AllowedDomains[0]),
+		chromedp.WaitVisible(continueElement),
+		chromedp.ScrollIntoView(continueElement),
+		chromedp.Click(continueElement),
+		chromedp.Sleep(10*time.Second),
 		chromedp.WaitVisible(loginElement),
 		chromedp.ScrollIntoView(loginElement),
 		chromedp.Click(loginElement))
@@ -62,6 +68,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 // login into the SA-Youth site.
 func (s *Spider) login(ctx context.Context) {
+	log.Println(s.Name, " entering login details.")
 
 	form := "#loginForm"
 	login := "#loginForm > yth-button-group > yth-button-legacy:nth-child(2)"
@@ -70,12 +77,18 @@ func (s *Spider) login(ctx context.Context) {
 	err := chromedp.Run(ctx,
 		chromedp.WaitVisible(form),
 		chromedp.ScrollIntoView(form),
-		chromedp.SendKeys("#Username", variables["A"], chromedp.ByID),
-		chromedp.SendKeys("#myPassword", variables["B"], chromedp.ByID),
+		// working with form input type of text & password
+		chromedp.SetValue("#Username", variables["A"], chromedp.ByID),
+		chromedp.SetValue("#myPassword", variables["B"], chromedp.ByID),
 		chromedp.ScrollIntoView(login),
 		chromedp.Click(login))
 
 	s.error(err)
+	s.jobPosts(ctx)
+}
+func (s *Spider) jobPosts(ctx context.Context) {
+	log.Println(s.Name, " loading job posts")
+	s.robala(60)
 }
 
 // Read .env variables to be used.
