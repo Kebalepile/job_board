@@ -1,13 +1,5 @@
 package sayouth
 
-// go to https://sayouth.mobi/Home/Index/EN
-//selector := "#btnLogin"
-// scroll slector element into view and click it
-// username := "#Username"
-// password := "#myPassword"
-// fill the log in form username & password
-// login := "#loginForm > yth-button-group > yth-button-legacy:nth-child(2)"
-// scroll login button into view and click it
 import (
 	// "fmt"
 	// "github.com/Kebalepile/job_board/pipeline"
@@ -85,7 +77,7 @@ func (s *Spider) login(ctx context.Context) {
 		`, nil))
 
 	s.error(err)
-	log.Println(s.Name," Login successful")
+	log.Println(s.Name, " Login successful")
 	s.jobPosts(ctx)
 }
 func (s *Spider) jobPosts(ctx context.Context) {
