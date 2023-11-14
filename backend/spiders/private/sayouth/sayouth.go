@@ -70,20 +70,22 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 func (s *Spider) login(ctx context.Context) {
 	log.Println(s.Name, " entering login details.")
 
-	form := "#loginForm"
-	login := "#loginForm > yth-button-group > yth-button-legacy:nth-child(2)"
 	variables := s.env()
 
 	err := chromedp.Run(ctx,
-		chromedp.WaitVisible(form),
-		chromedp.ScrollIntoView(form),
+
 		// working with form input type of text & password
 		chromedp.SetValue("#Username", variables["A"], chromedp.ByID),
 		chromedp.SetValue("#myPassword", variables["B"], chromedp.ByID),
-		chromedp.ScrollIntoView(login),
-		chromedp.Click(login))
+		chromedp.Sleep(10*time.Second),
+		chromedp.EvaluateAsDevTools(`
+			const button = document.querySelector("#loginForm > yth-button-group > yth-button-legacy:nth-child(2)").shadowRoot.querySelector("button");
+			button.scrollIntoView({ behavior: "auto", block: "center" });
+			button.click();
+		`, nil))
 
 	s.error(err)
+	log.Println(s.Name," Login successful")
 	s.jobPosts(ctx)
 }
 func (s *Spider) jobPosts(ctx context.Context) {
