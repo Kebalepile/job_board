@@ -1,9 +1,10 @@
 package sayouth
 
 import (
-	// "fmt"
+
 	// "github.com/Kebalepile/job_board/pipeline"
 	"context"
+	"fmt"
 	"log"
 	"sync"
 	"time"
@@ -48,7 +49,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	loginElement := "#btnLogin"
 	err := chromedp.Run(ctx,
 		chromedp.Navigate(s.AllowedDomains[0]),
-		chromedp.Sleep(10*time.Second),
+		chromedp.Sleep(1*time.Minute),
 		chromedp.Nodes(continueElement, &nodes, chromedp.ByQuery, chromedp.AtLeast(0)),
 		chromedp.ActionFunc(func(ctx context.Context) error {
 			if len(nodes) > 0 {
@@ -95,27 +96,35 @@ func (s *Spider) jobPosts(ctx context.Context) {
 	log.Println(s.Name, " loading site")
 
 	selector := "#btnSearchMoreJobs"
+	jsExpression := fmt.Sprintf(`
+		const moreButton = document.querySelector("%s").shadowRoot.querySelector("a");
+		moreButton.scrollIntoView({ behavior: "auto", block: "center" });
+		moreButton.click();
+	`, selector)
 	// download site icon image
 	err := chromedp.Run(ctx,
 		chromedp.Sleep(20*time.Second),
 		chromedp.WaitVisible(selector),
-		chromedp.ScrollIntoView(selector),
-		chromedp.Click(selector))
+		chromedp.EvaluateAsDevTools(jsExpression, nil))
 	s.error(err)
 
 	log.Println(s.Name, " searching for job posts")
 
 	selector = "#btnJobsSearch"
-
+	jsExpression = fmt.Sprintf(`
+		const searchButton = document.querySelector("%s").shadowRoot.querySelector("button");
+		searchButton.scrollIntoView({ behavior: "auto", block: "center" });
+		searchButton.click();
+	`, selector)
 	err = chromedp.Run(ctx,
 		chromedp.Sleep(20*time.Second),
 		chromedp.WaitVisible(selector),
-		chromedp.ScrollIntoView(selector),
-		chromedp.Click(selector))
+		chromedp.EvaluateAsDevTools(jsExpression, nil))
 	s.error(err)
 	s.crawl(ctx)
 }
 
+// scrape data of each job ppost on the site.
 func (s *Spider) crawl(ctx context.Context) {
 	log.Println(s.Name, " scraping job posts")
 	s.robala(20)
