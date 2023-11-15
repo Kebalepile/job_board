@@ -1,10 +1,9 @@
 package sayouth
 
 import (
-
-	// "github.com/Kebalepile/job_board/pipeline"
 	"context"
 	"fmt"
+	"github.com/Kebalepile/job_board/pipeline"
 	"log"
 	"sync"
 	"time"
@@ -104,9 +103,13 @@ func (s *Spider) jobPosts(ctx context.Context) {
 	// download site icon image
 	err := chromedp.Run(ctx,
 		chromedp.Sleep(20*time.Second),
+		chromedp.Evaluate(`document.querySelector("link[rel='icon']").getAttribute('href')`, &s.Posts.IconLink),
 		chromedp.WaitVisible(selector),
 		chromedp.EvaluateAsDevTools(jsExpression, nil))
 	s.error(err)
+
+	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
+	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.png", s.Name)
 
 	log.Println(s.Name, " searching for job posts")
 
@@ -126,8 +129,58 @@ func (s *Spider) jobPosts(ctx context.Context) {
 
 // scrape data of each job ppost on the site.
 func (s *Spider) crawl(ctx context.Context) {
+
 	log.Println(s.Name, " scraping job posts")
-	s.robala(20)
+	jsExpression := fmt.Sprintf(`(() => {
+		const posts Array.from(document.querySelectorAll(".CardsContainer > .card.card-blue"));
+		return posts.map(p =>{
+			const data  = {
+				iconLink:"%s",
+				summary:  p.querySelector('.opportunity').innerHTML,
+				apply: p.querySelector("#btnReadMoreSearch").shadowRoot.querySelector("a").href
+			};
+			// test code below, if it fails just store the href for later.
+			p.querySelector("#btnReadMoreSearch").shadowRoot.querySelector("a").click();
+			document.querySelector(".card-detail-cta.opportunity > options-dropdown").remove();
+			document.querySelector("div.row.hmt-5").remove();
+			data.details = document.querySelector(".card-details").innerHTML;
+			//  test code above, if it fails just store the href for later.
+			return data;
+		})
+	})()`, s.Posts.IconLink)
+
+	var posts []types.SaYouthPost
+	err := chromedp.Run(ctx,
+		chromedp.Evaluate(jsExpression, &posts))
+	s.error(err)
+
+	log.Println(posts)
+
+	for i, p := range posts {
+
+		jsExpression = fmt.Sprintf(`(() => {
+			document.querySelector(".card-detail-cta.opportunity > options-dropdown").remove();
+			document.querySelector("div.row.hmt-5").remove();
+			data.details = document.querySelector(".card-details").innerHTML;
+		})()`)
+
+		err := chromedp.Run(ctx,
+			chromedp.Navigate(p.Apply),
+			chromedp.Sleep(5*time.Second),
+			chromedp.Evaluate(jsExpression, &p.Details))
+		s.error(err)
+		posts[i] = p
+	}
+
+	log.Println(posts)
+
+	s.Posts.BlogPosts = posts
+	s.save()
+}
+func (s *Spider) save() {
+	err := pipeline.SaYouthFile(&s.Posts)
+	s.error(err)
+	s.close()
 }
 
 // Read .env variables to be used.

@@ -157,7 +157,29 @@ func MinopexFile(data *types.MinopexJobs) error {
 	return nil
 }
 
+func SaYouthFile(data *types.SaYouthJobs) error {
 
+	buffer := &bytes.Buffer{}
+	buffer.WriteString("export const data  = ")
+
+	encoder := json.NewEncoder(buffer)
+	encoder.SetEscapeHTML(false)
+	encoder.SetIndent("", "  ")
+
+	err := encoder.Encode(*data)
+	if err != nil {
+		return err
+	}
+	title := cleanStr(data.Title)
+	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.js", title))
+
+	err = os.WriteFile(filePath, buffer.Bytes(), 0644)
+	if err != nil {
+		return err
+	}
+	log.Print(data.Title, " Saved at ", filePath)
+	return nil
+}
 // replaces all `,` and spaces in s with `-`
 func cleanStr(s string) string {
 	re := regexp.MustCompile("[, ]")
