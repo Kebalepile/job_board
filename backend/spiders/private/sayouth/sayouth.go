@@ -45,6 +45,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 	err := chromedp.Run(ctx,
 		chromedp.Navigate(s.AllowedDomains[0]),
+		chromedp.Sleep(10*time.Second),
 		chromedp.WaitVisible(continueElement),
 		chromedp.ScrollIntoView(continueElement),
 		chromedp.Click(continueElement),
@@ -65,7 +66,6 @@ func (s *Spider) login(ctx context.Context) {
 	variables := s.env()
 
 	err := chromedp.Run(ctx,
-
 		// working with form input type of text & password
 		chromedp.SetValue("#Username", variables["A"], chromedp.ByID),
 		chromedp.SetValue("#myPassword", variables["B"], chromedp.ByID),
@@ -75,14 +75,41 @@ func (s *Spider) login(ctx context.Context) {
 			button.scrollIntoView({ behavior: "auto", block: "center" });
 			button.click();
 		`, nil))
-
 	s.error(err)
+
 	log.Println(s.Name, " Login successful")
+
 	s.jobPosts(ctx)
 }
+
+// searches for job posts.
 func (s *Spider) jobPosts(ctx context.Context) {
-	log.Println(s.Name, " loading job posts")
-	s.robala(60)
+	log.Println(s.Name, " loading site")
+
+	selector := "#btnSearchMoreJobs"
+// download site icon image
+	err := chromedp.Run(ctx,
+		chromedp.WaitVisible(selector),
+		chromedp.ScrollIntoView(selector),
+		chromedp.Click(selector))
+	s.error(err)
+
+	log.Println(s.Name, " searching for job posts")
+
+	s.robala(20)
+	selector = "#btnJobsSearch"
+
+	err = chromedp.Run(ctx,
+		chromedp.WaitVisible(selector),
+		chromedp.ScrollIntoView(selector),
+		chromedp.Click(selector))
+	s.error(err)
+	s.crawl(ctx)
+}
+
+func (s *Spider) crawl(ctx context.Context) {
+	log.Println(s.Name, " scraping job posts")
+	s.robala(20)
 }
 
 // Read .env variables to be used.
@@ -96,6 +123,7 @@ func (s *Spider) env() map[string]string {
 	return variables
 
 }
+
 func (s *Spider) date() string {
 	t := time.Now()
 	return t.Format("02 January 2006")

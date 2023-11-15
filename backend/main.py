@@ -5,8 +5,8 @@ import time
 
 def main():
 
-    govpage_spider = Spider()
-    govpage_spider.Launch()
+    # govpage_spider = Spider()
+    # govpage_spider.Launch()
 
     time.sleep(10) # pause for 10s
 
