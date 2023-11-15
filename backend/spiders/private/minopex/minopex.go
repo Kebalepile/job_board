@@ -25,7 +25,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	s.Posts.Title = s.Name
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
-		chromedp.Flag("headless", true ), // set headless to true for production
+		chromedp.Flag("headless", true), // set headless to true for production
 		chromedp.UserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"),
 		chromedp.WindowSize(768, 1024), // Tablet size
 	)
@@ -60,16 +60,15 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 		chromedp.Evaluate(expression, &url))
 	s.error(err)
 
-
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
 
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.png", s.Name)
-	
+
 	s.vacancies(ctx, url)
 }
 func (s *Spider) vacancies(ctx context.Context, url string) {
 	log.Println("Searching for latest vacancies ", s.Name)
-	
+
 	selector := `/html/body/div[1]/div/div[2]/div[1]/div/div/div/div/div/a`
 
 	expression := fmt.Sprintf(`(() => {
@@ -127,28 +126,38 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 		chromedp.Evaluate(expression, &s.Posts.BlogPosts))
 	s.error(err)
 
-	for i, p := range s.Posts.BlogPosts {
-		p.IconLink = s.Posts.IconLink
+	if len(s.Posts.BlogPosts) > 0 {
+		for i, p := range s.Posts.BlogPosts {
+			p.IconLink = s.Posts.IconLink
 
-		expression = fmt.Sprintf(`(() => {
-			let details = document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-			details.querySelector('a').href  = details.querySelector('a').href;
+			expression = fmt.Sprintf(`(() => {
+				let details = document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+				details.querySelector('a').href  = details.querySelector('a').href;
+	
+				return [
+					document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[1]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML,
+					document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[2]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML,
+					details.innerHTML
+				];
+			})()`)
+			err = chromedp.Run(ctx,
+				chromedp.Navigate(p.Apply),
+				chromedp.Sleep(10*time.Second),
+				chromedp.Evaluate(expression, &p.Details),
+				chromedp.Evaluate(`document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.querySelector("a").href;`, &p.Apply))
+			s.error(err)
+			s.Posts.BlogPosts[i] = p
+		}
 
-			return [
-				document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[1]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML,
-				document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[2]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML,
-				details.innerHTML
-			];
-		})()`)
-		err = chromedp.Run(ctx,
-			chromedp.Navigate(p.Apply),
-			chromedp.Sleep(10*time.Second),
-			chromedp.Evaluate(expression, &p.Details),
-			chromedp.Evaluate(`document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.querySelector("a").href;`, &p.Apply))
-		s.error(err)
-		s.Posts.BlogPosts[i] = p
+		s.save()
+	} else {
+		log.Println(s.Name, " sorry no job posts today.")
+		s.close()
 	}
-	err = pipeline.MinopexFile(&s.Posts)
+}
+
+func (s *Spider) save() {
+	err := pipeline.MinopexFile(&s.Posts)
 	s.error(err)
 	s.close()
 }

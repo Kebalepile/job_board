@@ -65,7 +65,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	s.Error(err)
 
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".png")
-	
+
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.png", s.Name)
 
 	if n := strings.Compare(url, s.AllowedDomains[1]); n == 0 {
@@ -107,11 +107,7 @@ func (s *Spider) jobs(ctx context.Context, url ...string) {
 	}
 
 	if n >= 10 {
-		err := pipeline.HeithaFile(&s.Posts)
-		if err != nil {
-			s.Error(err)
-		}
-		s.Close()
+		s.save()
 	} else {
 
 		expression := fmt.Sprintf(`document.querySelector(".active").nextElementSibling.querySelector("a").getAttribute("href")`)
@@ -159,6 +155,14 @@ func (s *Spider) posts(ctx context.Context) (posts []types.JobPost) {
 
 	return posts
 
+}
+
+func (s *Spider) save() {
+	err := pipeline.HeithaFile(&s.Posts)
+	if err != nil {
+		s.Error(err)
+	}
+	s.Close()
 }
 
 func (s *Spider) Date() string {

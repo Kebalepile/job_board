@@ -180,6 +180,7 @@ func SaYouthFile(data *types.SaYouthJobs) error {
 	log.Print(data.Title, " Saved at ", filePath)
 	return nil
 }
+
 // replaces all `,` and spaces in s with `-`
 func cleanStr(s string) string {
 	re := regexp.MustCompile("[, ]")

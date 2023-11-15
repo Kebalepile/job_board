@@ -68,13 +68,13 @@ type ProPersonnelJobs struct {
 
 // Used in Minopex spider
 type MinopexJobPost struct {
-	JobTitle      string `json:"jobTitle"`
-	PublishedDate string `json:"publishedDate"`
-	ExpiryDate    string `json:"expiryDate"`
-	Location      string `json:"location"`
+	JobTitle      string   `json:"jobTitle"`
+	PublishedDate string   `json:"publishedDate"`
+	ExpiryDate    string   `json:"expiryDate"`
+	Location      string   `json:"location"`
 	Details       []string `json:"details"`
-	Apply         string `json:"apply"`
-	IconLink      string `json:"iconLink"`
+	Apply         string   `json:"apply"`
+	IconLink      string   `json:"iconLink"`
 }
 
 // used in minopex spider
@@ -84,18 +84,17 @@ type MinopexJobs struct {
 	BlogPosts []MinopexJobPost `json:"blogPosts"`
 }
 
-
 // Used in SAyouth spider
 type SaYouthPost struct {
-	Summary      string `json:"summary"`
-	Details       string `json:"details"`
-	Apply         string `json:"apply"`
-	IconLink      string `json:"iconLink"`
+	Summary  string `json:"summary"`
+	Details  string `json:"details"`
+	Apply    string `json:"apply"`
+	IconLink string `json:"iconLink"`
 }
 
 // used in SAyouth spider
 type SaYouthJobs struct {
-	IconLink  string           `json:"iconLink"`
-	Title     string           `json:"title"`
+	IconLink  string        `json:"iconLink"`
+	Title     string        `json:"title"`
 	BlogPosts []SaYouthPost `json:"blogPosts"`
 }

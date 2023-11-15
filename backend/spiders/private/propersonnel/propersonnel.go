@@ -63,7 +63,6 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	pipeline.DowloadIcon(s.Posts.IconLink, s.Name, ".jpg")
 	s.Posts.IconLink = fmt.Sprintf("agency_icons/%s.jpg", s.Name)
 
-
 	if n := len(nodes); n > 0 {
 		var href string
 		for _, n := range nodes {
@@ -186,23 +185,28 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 						chromedp.ScrollIntoView(id),
 						chromedp.Evaluate(expression, &JobPost))
 					s.error(err)
-					
+
 					JobPost.IconLink = s.Posts.IconLink
 					s.Posts.BlogPosts = append(s.Posts.BlogPosts, JobPost)
 
 				}
 
-				err = pipeline.ProPersonnelFile(&s.Posts)
-				
-					s.error(err)
-				
-				s.close()
+				s.save()
 			} else {
+				log.Println(s.Name, " sorry no job posts found today.")
 				s.close()
 			}
 		}
 
 	}
+}
+
+func (s *Spider) save() {
+	err := pipeline.ProPersonnelFile(&s.Posts)
+
+	s.error(err)
+
+	s.close()
 }
 
 func (s *Spider) date() string {

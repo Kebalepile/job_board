@@ -96,9 +96,7 @@ class Spider:
             if vacanciesLink is not None:
                 self.departments(vacanciesLink)
             else:
-                log.waring(
-                    f"{self.Name}, Sorry, No Government Job Posts for today")
-                self.driver.close()
+                self.close()
 
     def departments(self, url: str):
 
@@ -215,7 +213,11 @@ class Spider:
                 blogPost["iframe"] = src
             return blogPost
         return "no blog post found"
-
+    
+    def close(self):
+        log.waring( f"{self.Name}, Sorry, No Government Job Posts for today")
+        self.driver.close()
+        
     def Weekday(self) -> str:
         current_date = datetime.now()
         day_of_week_name = current_date.strftime("%A")

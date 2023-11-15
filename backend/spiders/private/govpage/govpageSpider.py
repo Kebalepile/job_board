@@ -97,9 +97,7 @@ class Spider:
             if vacanciesLink is not None:
                 self.privateSector(vacanciesLink)
             else:
-                log.warning(
-                    f"{self.Name}, Sorry, No Government Job Posts for today")
-                self.driver.close()
+                self.close()
 
     def privateSector(self, url: str):
 
@@ -136,8 +134,7 @@ class Spider:
 
             if privateSectorURL is None:
 
-                log.warning(f"{self.Name}, Sorry, No Government Job Posts for today")
-                self.driver.close()
+                self.close()
 
             self.driver.get(privateSectorURL)
             self.driver.execute_script("""
@@ -237,7 +234,11 @@ class Spider:
                 blogPost["iframe"] = src
             return blogPost
         return "no blog post found"
-
+    
+    def close(self):
+        log.warning(f"{self.Name}, Sorry, No Government Job Posts for today")
+        self.driver.close()
+        
     def Weekday(self) -> str:
         current_date = datetime.now()
         day_of_week_name = current_date.strftime("%A")
