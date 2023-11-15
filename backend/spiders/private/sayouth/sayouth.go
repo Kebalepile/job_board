@@ -4,12 +4,14 @@ import (
 	// "fmt"
 	// "github.com/Kebalepile/job_board/pipeline"
 	"context"
-	"github.com/Kebalepile/job_board/spiders/types"
-	"github.com/chromedp/chromedp"
-	"github.com/joho/godotenv"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/Kebalepile/job_board/spiders/types"
+	"github.com/chromedp/cdproto/cdp"
+	"github.com/chromedp/chromedp"
+	"github.com/joho/godotenv"
 )
 
 type Spider struct {
@@ -40,22 +42,27 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 	log.Println("Loading ", s.Name)
 
+	var nodes []*cdp.Node
+
 	continueElement := "body > div > div > div.container > div:nth-child(2) > div > p:nth-child(3) > a"
 	loginElement := "#btnLogin"
-
 	err := chromedp.Run(ctx,
 		chromedp.Navigate(s.AllowedDomains[0]),
 		chromedp.Sleep(10*time.Second),
-		chromedp.WaitVisible(continueElement),
-		chromedp.ScrollIntoView(continueElement),
-		chromedp.Click(continueElement),
-		chromedp.Sleep(10*time.Second),
+		chromedp.Nodes(continueElement, &nodes, chromedp.ByQuery, chromedp.AtLeast(0)),
+		chromedp.ActionFunc(func(ctx context.Context) error {
+			if len(nodes) > 0 {
+				return chromedp.Click(continueElement).Do(ctx)
+			}
+			return nil
+		}),
+		chromedp.Sleep(20*time.Second),
 		chromedp.WaitVisible(loginElement),
 		chromedp.ScrollIntoView(loginElement),
 		chromedp.Click(loginElement))
 
 	s.error(err)
-	s.robala(10)
+
 	s.login(ctx)
 }
 
@@ -66,6 +73,7 @@ func (s *Spider) login(ctx context.Context) {
 	variables := s.env()
 
 	err := chromedp.Run(ctx,
+		chromedp.Sleep(20*time.Second),
 		// working with form input type of text & password
 		chromedp.SetValue("#Username", variables["A"], chromedp.ByID),
 		chromedp.SetValue("#myPassword", variables["B"], chromedp.ByID),
@@ -87,8 +95,9 @@ func (s *Spider) jobPosts(ctx context.Context) {
 	log.Println(s.Name, " loading site")
 
 	selector := "#btnSearchMoreJobs"
-// download site icon image
+	// download site icon image
 	err := chromedp.Run(ctx,
+		chromedp.Sleep(20*time.Second),
 		chromedp.WaitVisible(selector),
 		chromedp.ScrollIntoView(selector),
 		chromedp.Click(selector))
@@ -96,10 +105,10 @@ func (s *Spider) jobPosts(ctx context.Context) {
 
 	log.Println(s.Name, " searching for job posts")
 
-	s.robala(20)
 	selector = "#btnJobsSearch"
 
 	err = chromedp.Run(ctx,
+		chromedp.Sleep(20*time.Second),
 		chromedp.WaitVisible(selector),
 		chromedp.ScrollIntoView(selector),
 		chromedp.Click(selector))
