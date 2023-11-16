@@ -136,7 +136,7 @@ func (s *Spider) crawl(ctx context.Context) {
 	for n < 2 {
 		posts := s.Posts.BlogPosts
 		s.Posts.BlogPosts = append(posts, s.pagination(ctx)...)
-		
+
 		jsExpression := fmt.Sprintf(`(( ) => {
 			let i = Array.from(document.querySelectorAll(".pagination > .page-item"));
 			
@@ -159,16 +159,26 @@ func (s *Spider) crawl(ctx context.Context) {
 
 			const removeElement = (selector) => {
 				const card = document.querySelector(".card-detail");
-				const elem = card.querySelector(selector);
-				if (elem){
-					elem.remove();
+				if (card) {
+
+					const elem = card.querySelector(selector);
+					if (elem){
+						elem.remove();
+					}
 				}
+				
 			};
 
 			removeElement(".card-detail-cta.opportunity");
 			removeElement("div.row.hmt-5");
 			
-			return document.querySelector(".card-detail").innerHTML;
+			const card = document.querySelector(".card-detail");
+			if (card){
+				return card.innerHTML;
+			}else{
+				return "<h2>The opportunity that you are looking for is closed</h1>";
+			}
+			
 		})()`)
 
 		err := chromedp.Run(ctx,
@@ -184,7 +194,7 @@ func (s *Spider) crawl(ctx context.Context) {
 	s.save()
 }
 
-func(s *Spider) pagination(ctx context.Context) (posts []types.SaYouthPost){
+func (s *Spider) pagination(ctx context.Context) (posts []types.SaYouthPost) {
 
 	jsExpression := fmt.Sprintf(`(() => {
 
