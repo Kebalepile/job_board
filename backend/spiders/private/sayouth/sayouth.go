@@ -103,7 +103,7 @@ func (s *Spider) jobPosts(ctx context.Context) {
 	// download site icon image
 	err := chromedp.Run(ctx,
 		chromedp.Sleep(20*time.Second),
-		chromedp.Evaluate(`document.querySelector("link[rel='icon']").getAttribute('href')`, &s.Posts.IconLink),
+		chromedp.Evaluate(`document.querySelector("link[rel='icon']").href;`, &s.Posts.IconLink),
 		chromedp.WaitVisible(selector),
 		chromedp.EvaluateAsDevTools(jsExpression, nil))
 	s.error(err)
@@ -132,7 +132,11 @@ func (s *Spider) crawl(ctx context.Context) {
 
 	log.Println(s.Name, " scraping job posts")
 	jsExpression := fmt.Sprintf(`(() => {
-		const posts Array.from(document.querySelectorAll(".CardsContainer > .card.card-blue"));
+
+		document.querySelector(".pagination").scrollIntoView({ behavior: "auto", block: "center" });
+
+		const posts = Array.from(document.querySelectorAll(".CardsContainer > .card.card-blue"));
+		
 		return posts.map(p =>{
 			const data  = {
 				iconLink:"%s",
