@@ -25,7 +25,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 	defer wg.Done()
 	log.Println(s.Name, " spider has Lunched ", s.date())
-	// s.Posts.Title = s.Name
+	s.Posts.Title = s.Name
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
 		chromedp.Flag("headless", false), // set headless to true for production
@@ -131,56 +131,86 @@ func (s *Spider) jobPosts(ctx context.Context) {
 func (s *Spider) crawl(ctx context.Context) {
 
 	log.Println(s.Name, " scraping job posts")
+
+	n := 1
+	for n < 2 {
+		posts := s.Posts.BlogPosts
+		s.Posts.BlogPosts = append(posts, s.pagination(ctx)...)
+		
+		jsExpression := fmt.Sprintf(`(( ) => {
+			const items = Array.from(document.querySelectorAll(".pagination > .page-item"));
+			return items[items.lenght - 1].length
+		})()`)
+
+		err := chromedp.Run(ctx,
+			chromedp.Sleep(10*time.Second),
+			chromedp.Evaluate(jsExpression, &n))
+		s.error(err)
+
+	}
+
+	for i, p := range s.Posts.BlogPosts {
+
+		jsExpression := fmt.Sprintf(`(() => {
+
+			const removeElement = (selector) => {
+				const card = document.querySelector(".card-detail");
+				const elem = card.querySelector(selector);
+				if (elem){
+					elem.remove();
+				}
+			};
+
+			removeElement(".card-detail-cta.opportunity");
+			removeElement("div.row.hmt-5");
+			
+			return document.querySelector(".card-detail").innerHTML;
+		})()`)
+
+		err := chromedp.Run(ctx,
+			chromedp.Navigate(p.Apply),
+			chromedp.Sleep(10*time.Second),
+			chromedp.Evaluate(jsExpression, &p.Details))
+		s.error(err)
+		s.Posts.BlogPosts[i] = p
+	}
+
+	log.Println(s.Posts.BlogPosts)
+
+	s.save()
+}
+
+func(s *Spider) pagination(ctx context.Context) (posts []types.SaYouthPost){
+
 	jsExpression := fmt.Sprintf(`(() => {
 
-		document.querySelector(".pagination").scrollIntoView({ behavior: "auto", block: "center" });
+		const element = document.querySelector(".pagination");
+
+		if(element){
+			element.scrollIntoView({ behavior: "auto", block: "center" });
+		}
 
 		const posts = Array.from(document.querySelectorAll(".CardsContainer > .card.card-blue"));
-		
+
 		return posts.map(p =>{
 			const data  = {
 				iconLink:"%s",
 				summary:  p.querySelector('.opportunity').innerHTML,
 				apply: p.querySelector("#btnReadMoreSearch").shadowRoot.querySelector("a").href
 			};
-			// test code below, if it fails just store the href for later.
-			p.querySelector("#btnReadMoreSearch").shadowRoot.querySelector("a").click();
-			document.querySelector(".card-detail-cta.opportunity > options-dropdown").remove();
-			document.querySelector("div.row.hmt-5").remove();
-			data.details = document.querySelector(".card-details").innerHTML;
-			//  test code above, if it fails just store the href for later.
+			
 			return data;
-		})
+		});
 	})()`, s.Posts.IconLink)
 
-	var posts []types.SaYouthPost
 	err := chromedp.Run(ctx,
+		chromedp.Sleep(10*time.Second),
 		chromedp.Evaluate(jsExpression, &posts))
 	s.error(err)
 
-	log.Println(posts)
-
-	for i, p := range posts {
-
-		jsExpression = fmt.Sprintf(`(() => {
-			document.querySelector(".card-detail-cta.opportunity > options-dropdown").remove();
-			document.querySelector("div.row.hmt-5").remove();
-			data.details = document.querySelector(".card-details").innerHTML;
-		})()`)
-
-		err := chromedp.Run(ctx,
-			chromedp.Navigate(p.Apply),
-			chromedp.Sleep(5*time.Second),
-			chromedp.Evaluate(jsExpression, &p.Details))
-		s.error(err)
-		posts[i] = p
-	}
-
-	log.Println(posts)
-
-	s.Posts.BlogPosts = posts
-	s.save()
+	return posts
 }
+
 func (s *Spider) save() {
 	err := pipeline.SaYouthFile(&s.Posts)
 	s.error(err)
