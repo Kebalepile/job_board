@@ -138,8 +138,12 @@ func (s *Spider) crawl(ctx context.Context) {
 		s.Posts.BlogPosts = append(posts, s.pagination(ctx)...)
 		
 		jsExpression := fmt.Sprintf(`(( ) => {
-			const items = Array.from(document.querySelectorAll(".pagination > .page-item"));
-			return items[items.lenght - 1].length
+			let i = Array.from(document.querySelectorAll(".pagination > .page-item"));
+			
+			i = i[i.length - 1];
+			i.querySelector(".page-link").click();
+			
+			return i.classList.length;
 		})()`)
 
 		err := chromedp.Run(ctx,
