@@ -28,7 +28,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	s.Posts.Title = s.Name
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
-		chromedp.Flag("headless", false), // set headless to true for production
+		chromedp.Flag("headless", true), // set headless to true for production
 		chromedp.UserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"),
 		chromedp.WindowSize(768, 1024), // Tablet size
 	)
@@ -171,7 +171,7 @@ func (s *Spider) crawl(ctx context.Context) {
 
 			removeElement(".card-detail-cta.opportunity");
 			removeElement("div.row.hmt-5");
-			
+
 			const card = document.querySelector(".card-detail");
 			if (card){
 				return card.innerHTML;
@@ -188,8 +188,6 @@ func (s *Spider) crawl(ctx context.Context) {
 		s.error(err)
 		s.Posts.BlogPosts[i] = p
 	}
-
-	log.Println(s.Posts.BlogPosts)
 
 	s.save()
 }
