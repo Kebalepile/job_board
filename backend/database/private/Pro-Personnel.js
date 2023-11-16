@@ -3,6 +3,20 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
+      "jobTitle": "Bookkeeper",
+      "startDate": "2023-11-14 - 2023-12-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The candidate must have the following:* Full debtors and creditors function* Computer literacy in Pastel and accounting computer* Be willing to start immediately",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002314-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
       "jobTitle": "Branch Manager",
       "startDate": "2023-11-13 - 2023-12-13",
       "vacancyType": "Contractor",
@@ -210,20 +224,6 @@ export const data  = {
       "details": "Job Responsibilities: As a Sales Representative, you'll play a pivotal role in the organization. Your responsibilities will include, but are not limited to:Following up on Quotes and Emails: Promptly respond to customer inquiries, providing the information and support they need to make informed purchasing decisions.Daily Phone Calls: Engage with our existing customers to nurture relationships and ensure their needs are met. Be prepared to make cold calls to potential new customers, introducing them to our products and services.In-Store Assistance: Provide in-store support to walk-in customers, offering product information, assistance, and a memorable shopping experience.Phone Support: Assist customers who call in, addressing their queries, guiding them through the purchasing process, and resolving issues.Computer Literacy: Proficiency in Microsoft Excel, Word, Outlook, and Pastel is a must. You'll use these tools for order processing, customer communications, and reporting.Qualifications and Skills:\n\nValid driver's license.\nSales background is advantageous.\nComputer literacy in Excel, Word, Outlook, and Pastel.\nExceptional communication and interpersonal skills.\nSelf-motivated with a strong work ethic.\nAbility to work independently and as part of a team.\nExcellent time management and organizational skills.\n",
       "contact": "Rene",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002303-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Front End Loader",
-      "startDate": "2023-10-16 - 2023-11-15",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Mining",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Skills and Experience Required\n\nValid Front End Loader Certificate\nValid Driver's License\n3 Years Experience\nNo Criminal Record\nContactable References from previous employer\n",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002302-D",
       "iconLink": "agency_icons/pro-personnel.jpg"
     },
     {

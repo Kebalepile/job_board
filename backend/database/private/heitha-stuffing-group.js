@@ -3,6 +3,15 @@ export const data = {
   "title": "heitha-stuffing-group",
   "blogPosts": [
     {
+      "apply": "http://www.heitha.co.za/jobs/programme-manager-social-infrastructure-quantity-surveyor-6-months",
+      "jobTitle": " Quantity Surveyor Programme Manager: Social Infrastructure (6 Months)",
+      "jobSpecFields": "Government",
+      "details": "Purpose: The primary purpose of Programme Manager is to provide leadership and oversight for the planning, implementation and reporting of social infrastructure programmes falling within a defined sector.             Minimum Requirements, Minimum of a Bachelors’ degree in the Built Environment i.e. Building Architecture, Quantity Surveying, Civil Engineering, Structural Engineering and Construction Management.             Registration with the South African Council for Project and Construction Management Professions (SACPCMP) as a professional Construction Manager (PrCM) and or Professional Construction Project Manager (PrCPM).",
+      "province": "Limpopo",
+      "expiryDate": "Expiry Date: 2023-11-30 00:00:00",
+      "iconLink": "agency_icons/heitha-stuffing-group.png"
+    },
+    {
       "apply": "http://www.heitha.co.za/jobs/product-development-engineer36-months",
       "jobTitle": " Product Development Engineer (36 Months)",
       "jobSpecFields": "Government",
@@ -39,7 +48,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/jobs/administration-and-finance-manager-6-months",
+      "apply": "http://www.heitha.co.za/?page=2jobs/administration-and-finance-manager-6-months",
       "jobTitle": " Administration and Finance Manager ( 6 months)",
       "jobSpecFields": "Government",
       "details": "Purpose   To develop, implement and maintain effective and efficient administration of resources (financial, human and assets), systems and processes in order to enable operations to achieve corporate objectives.             Minimum Requirements   Bachelor’s degree in Finance/ Accounting/ Business Management. Minimum of 8 years’ experience in Finance and Corporate Services.             of which 3 years’ experience were in Financial Management.",
@@ -84,7 +93,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=2jobs/fitter-mining-maintenance-2-years",
+      "apply": "http://www.heitha.co.za/?page=3jobs/fitter-mining-maintenance-2-years",
       "jobTitle": " Fitter Mining Maintenance (2 Years)",
       "jobSpecFields": "Other",
       "details": "Purpose The incumbent will work as part of a team, which is responsible for maintenance on the Underground Refrigeration plant, Bulk air coolers and Condenser spray systems.             Minimum requirements Qualified Fitter. Minimum of two years’ experience in fitting.  Minimum of two years’ experience in Refrigeration and Ventilation maintenance. R1 and R2 Certificates in refrigeration will be advantageous.             Main duties  Carrying out repairs and maintenance on all mechanical equipment including but not limited to York CYK chillers, pump down units, pumps, ventilation fans, overhead cranes, crawl beams, pipes and valves and distribution lines for air and water",
@@ -129,7 +138,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=3jobs/data-analyst",
+      "apply": "http://www.heitha.co.za/?page=4jobs/data-analyst",
       "jobTitle": " Data Analyst",
       "jobSpecFields": "Other",
       "details": "Purpose  The candidate will be required to oversee CRM data and systems integration, manage data flow and analyses (including predictive modelling, segmentation, forecasting and choice modelling), present results and complete ad hoc special projects.             Relevant qualification. At least 3 years data analytic experience. Data Analyst, with CRM data analysis experience. Demonstrated experience working with SQL Server Reporting Services (SSRS).",
@@ -174,7 +183,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=4jobs/senior-manager-supply-chain-position-12-months",
+      "apply": "http://www.heitha.co.za/?page=5jobs/senior-manager-supply-chain-position-12-months",
       "jobTitle": " Senior Manager: Supply Chain (12 Months)",
       "jobSpecFields": "Government",
       "details": "The Senior Manager Supply Chain plans, directs and manages supply chain and facilities functions within the Company through consistent delivery.             5 years relevant experience in managing, implementing and executing supply chain management strategies of which 3 years should have been at a senior management level.",
@@ -219,7 +228,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=5jobs/chief-risk-officer",
+      "apply": "http://www.heitha.co.za/?page=6jobs/chief-risk-officer",
       "jobTitle": " Chief Risk Officer",
       "jobSpecFields": "Government",
       "details": "Lead and direct the following functions – enterprise risk, compliance, risk, environmental, social and governance. Assist the CEO in the development of organisation policies and goals that cover personnel and growth of the functions and/or business units.             10 + years of Comprehensive Risk Management in Financial Services, specifically in Development Finance.  Masters Degree in Commerce and/or Economics, CFA, MBA preferable in Corporate Finance, Accounting.             At least 10 years relevant financial or investment banking experience with emphasis on Credit Risk, Legal Risk, Enterprise Risk, ESG, Compliance and Post Investment Monitoring.",
@@ -264,7 +273,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=6jobs/manager-it-strategic-sourcing",
+      "apply": "http://www.heitha.co.za/?page=7jobs/manager-it-strategic-sourcing",
       "jobTitle": " Manager: IT Strategic Sourcing",
       "jobSpecFields": "Finance",
       "details": "To develop and execute an effective sourcing strategy framework for IT Procurement and this involves overseeing the entire IT Procurement lifecycle.             Develop and implement Negotiation Plans ensuring that appropriate contracting methods and contractual relationships with suppliers are employed for all spend across IT Agreements.             Ensuring appropriate and auditable sourcing standards, controls and governance frameworks are in place. Spend and Data Analytics to ensure optimal management of the IT Procurement Category.",
@@ -309,7 +318,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=7jobs/senior-management-accountant",
+      "apply": "http://www.heitha.co.za/?page=8jobs/senior-management-accountant",
       "jobTitle": " Senior Management Accountant",
       "jobSpecFields": "Insurance",
       "details": "To interpret financial data, to provide financial support, advice and reporting to the business that is aligned to the objectives of the organisation, aiding sound business decisions.             Relevant B degree qualification (BCom/ BAcc) specialising in: Accounting, Business, Finance, Management, Mathematics. 3 Years completed Articles.             5 years finance experience in a financial services.",
@@ -354,7 +363,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=8jobs/test-analyst",
+      "apply": "http://www.heitha.co.za/?page=9jobs/test-analyst",
       "jobTitle": " Test Analyst",
       "jobSpecFields": "Finance",
       "details": "The purpose of this role is to ensure that business change projects are tested efficiently within timescales and to a high quality to ensure that the change delivered meets the requirements.             It is also used to ensure that the business users of the system can carry out business processes without any unplanned disruption. Testing aim is to find defects in relation to the specified requirements.             The role does this by following structured testing techniques.",
@@ -399,7 +408,7 @@ export const data = {
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     },
     {
-      "apply": "http://www.heitha.co.za/?page=9jobs/manager-data-systems-and-reporting",
+      "apply": "http://www.heitha.co.za/?page=10jobs/manager-data-systems-and-reporting",
       "jobTitle": " Manager: Data Systems and Reporting",
       "jobSpecFields": "Government",
       "details": "Manage the engagement with external entities to implement, monitor and enhance the level of the company's compliance related to registration and reporting obligations.             Relevant Degree, BSc Computer Science or BCom Information Systems or equivalent is required. Postgraduate qualifications in anti-money laundering, forensic auditing or compliance management will be advantageous.             5 or more years technical experience and 3 years of proven managerial experience. Strong project management experience. Data management experience is a pre-requisite.",
@@ -441,15 +450,6 @@ export const data = {
       "details": "To provide office administration support services relating to filing, data capturing, records management, Reporting and other office/programme related basic administrative activities.             Minimum qualification, 3-year degree or BTech / diploma in administration, finance or related field. Microsoft Office Suite proficiency. 1 year experience, in admin or related role.",
       "province": "Kwazulula Natal",
       "expiryDate": "Expiry Date: 2023-09-01 13:30:00",
-      "iconLink": "agency_icons/heitha-stuffing-group.png"
-    },
-    {
-      "apply": "http://www.heitha.co.za/?page=10jobs/business-intelligence-developer",
-      "jobTitle": " Business Intelligence Developer",
-      "jobSpecFields": "Finance",
-      "details": "Designing, developing and maintaining BI and web solutions. Writing and executing queries upon request for data. Presenting information through reports and visualization.             BSc or B.Com(IT) qualification, or equivalent. Proven experience as a BI Developer; Industry experience 5yrs or more is preferred. C#, Windows development and asp.net web application development.             Experience in developing 3tier solutions. Experience in development practices like test-driven development, continuous integration, and continuous deployment.",
-      "province": "Gauteng",
-      "expiryDate": "Expiry Date: 2023-09-06 11:58:35",
       "iconLink": "agency_icons/heitha-stuffing-group.png"
     }
   ]
