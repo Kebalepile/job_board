@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import NavContext from "../contexts/navigation/context";
 import JobBoardContext from "../contexts/jobBoard/context";
-import { IoMdCloseCircle } from "react-icons/io";
 
 export default function Board() {
   const { JOBS, Display } = useContext(NavContext);
@@ -13,7 +12,15 @@ export default function Board() {
       <section className="scroll-posts">
         {blogPosts.map((p, i) => {
           return (
-            <article className="job-post" key={i} title={p.title}>
+            <article
+              className="job-post"
+              key={i}
+              title={p.title}
+              onClick={(e) => {
+                e.preventDefault();
+                ReadMore(p);
+              }}
+            >
               <div className="company-logo">
                 <img loading="lazy" src={p.imgSrc} alt="company logo" />
               </div>
@@ -24,12 +31,16 @@ export default function Board() {
       </section>
     );
   };
+  const ReadMore = (info) => {
+    console.log(info);
+  };
 
   return (
     <>
       {JOBS && (
         <dialog open id="board">
           <form>
+            <hr />
             <h3 className="i">
               Government Departments / Entites with Vacancies
             </h3>
@@ -38,15 +49,18 @@ export default function Board() {
             {Posts(PublicJobs().blogPosts)}
             <br />
             <br />
+            <hr />
             <h3 className="i">Private Companies hiring</h3>
             <hr />
             <br />
             {Posts(PrivateJobs().blogPosts)}
             <br />
+            <hr />
             <h3 className="i">
               Private Jobs from other companies (which may be smaller or not
               that famous)
             </h3>
+            <hr />
             <section className="icons i">
               {AgencyIcons.map((icon, i) => {
                 return (
@@ -61,6 +75,7 @@ export default function Board() {
               })}
             </section>
             <h3 />
+            <hr />
             <section className="posts">
               {OtherPrivateJobs().map((p, i) => {
                 if (p?.summary) {
@@ -74,7 +89,15 @@ export default function Board() {
                       )}
                       <hr />
                       <br />
-                      <button className="read-more">Read More</button>
+                      <button
+                        className="read-more"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          ReadMore(p);
+                        }}
+                      >
+                        Read More
+                      </button>
                     </article>
                   );
                 }
@@ -90,12 +113,13 @@ export default function Board() {
                         className="icon"
                         title="agency icon"
                       />
+                      <br />
                       {p?.jobSpecFields && (
                         <p className="job-field" title={p["jobSpecFields"]}>
                           {p["jobSpecFields"]}
                         </p>
                       )}
-                      <br/>
+                      <br />
                       {p?.province && (
                         <h5 className="province">Province: {p.province}</h5>
                       )}
@@ -120,41 +144,53 @@ export default function Board() {
                       )}
                       <br />
                       <section className="details">
-                        {
-                        Array.isArray(p.details) &&
-                        (<>
-                         <div className="short-detail"
-                             
-                             dangerouslySetInnerHTML={{ __html: p.details[1] }}
-                           ></div>
-                           <div className="ellipse">...</div></>)}
-                       {/* p.details.replaceAll(/\.(?=[A-Z0-9 ])/g, ".<br/><br/>") */}
-                     {! Array.isArray(p.details) && (
-                      <>
-                      <div className="snippet"
-                      dangerouslySetInnerHTML={{ __html: p.details }}></div>
-                      <div className="ellipse">...</div></>
-                     )}
-                     
+                        {Array.isArray(p.details) && (
+                          <>
+                            <div
+                              className="short-detail"
+                              dangerouslySetInnerHTML={{ __html: p.details[1] }}
+                            ></div>
+                            <div className="ellipse">...</div>
+                          </>
+                        )}
+                        {/* p.details.replaceAll(/\.(?=[A-Z0-9 ])/g, ".<br/><br/>") */}
+                        {!Array.isArray(p.details) && (
+                          <>
+                            <div
+                              className="snippet"
+                              dangerouslySetInnerHTML={{ __html: p.details }}
+                            ></div>
+                            <div className="ellipse">...</div>
+                          </>
+                        )}
                       </section>
-                     
                     </section>
-                    <br/>
-                    <button className="read-more">Read More</button>
+                    <br />
+                    <button
+                      className="read-more"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        ReadMore(p);
+                      }}
+                    >
+                      Read More
+                    </button>
                   </article>
                 );
               })}
             </section>
-
+            <br />
             <div className="i">
-              <IoMdCloseCircle
-                className="close"
+              <button
+                className="closeBtn"
                 onClick={(e) => {
                   e.preventDefault();
 
                   Display("JOBS");
                 }}
-              />
+              >
+                close
+              </button>
             </div>
           </form>
         </dialog>

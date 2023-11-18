@@ -134,6 +134,15 @@ body {
   height: 40px;
   cursor: pointer;
 }
+.closeBtn{
+  background-color: red;
+  color:wheat;
+  cursor: pointer;
+  border:none;
+  border-radius: 4px;
+  width:100px;
+  height: 30px;
+}
 #board {
   border: none;
   border-radius: 5px;
@@ -283,7 +292,7 @@ body {
   background-color: inherit;
 }
 
-.sa-youth > hr,
+form > hr,.sa-youth > hr,
 .post > hr {
   border: none;
   border-radius: 4px;

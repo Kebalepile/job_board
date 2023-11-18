@@ -2,7 +2,6 @@ import { useContext } from "react";
 import NavContext from "../contexts/navigation/context";
 import { PiTelegramLogoThin } from "react-icons/pi";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { IoMdCloseCircle } from "react-icons/io";
 
 export default function Info() {
   const { MENU, Display } = useContext(NavContext);
@@ -12,23 +11,24 @@ export default function Info() {
       {MENU && (
         <dialog id="info" open>
           <form>
-            <h6 className="i" style={{color:"gray"}}>© 2023 K.T Motshoana</h6>
-           
-            <h2 className="title"> Boitekong Community Job Board</h2>
+            <h2 style={{ textAlign: "center" }}>
+              {" "}
+              Boitekong Community Job Board
+            </h2>
             <hr />
             <p>
               We&apos;re all about connecting you with job opportunities from
-              various sectors. Our board features vacancies from:
+              various sectors. Our board features vacancies from :
             </p>
             <ul>
               <li>
-                <strong>Public sector departments and entities</strong> 🏛️
+                <strong>Public sector departments & entities</strong>
               </li>
               <li>
-                <strong>Private sector companies</strong> 🏢
+                <strong>Private sector companies</strong>
               </li>
               <li>
-                <strong>Job posts from other job agencies</strong> 📑
+                <strong>Job posts from job agencies</strong>
               </li>
             </ul>
 
@@ -38,19 +38,23 @@ export default function Info() {
               career path. Dive in and explore the multitude of opportunities
               waiting for you! 🚀💼
             </p>
+
             <div className="i">
-              <IoMdCloseCircle
-                className="close"
+              <button
+                className="closeBtn"
                 onClick={(e) => {
                   e.preventDefault();
 
-                  Display("MENU")
+                  Display("MENU");
                 }}
-              />
+              >
+                close
+              </button>
             </div>
+            <br />
             <hr />
 
-            <p className="i">Contact</p>
+            <p className="i">Contacts</p>
             <br />
             <p className="contacts">
               <a
@@ -70,6 +74,10 @@ export default function Info() {
                 <MdOutlineMailOutline />
               </a>
             </p>
+            <br />
+            <h6 className="i" style={{ color: "gray" }}>
+              © 2023 K.T Motshoana
+            </h6>
           </form>
         </dialog>
       )}
