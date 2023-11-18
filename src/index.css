@@ -31,7 +31,6 @@ body {
   min-height: 100vh;
 }
 
-
 @media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
@@ -135,7 +134,7 @@ body {
   height: 40px;
   cursor: pointer;
 }
-#board{
+#board {
   border: none;
   border-radius: 5px;
   color-scheme: dark light;
@@ -151,9 +150,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-#info{
+#info {
   border: none;
   border-radius: 5px;
   color-scheme: dark light;
@@ -169,7 +167,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 #info > form {
@@ -187,14 +184,13 @@ body {
   align-items: center;
   background-color: #27272780;
   border-radius: 5px;
-  font-size:small;
-  padding:15px;
+  font-size: small;
+  padding: 15px;
   text-align: left;
-
 }
 #headline-job-info > li {
   list-style: none;
-  margin-top:5px;
+  margin-top: 5px;
 }
 .job-post {
   display: flex;
@@ -219,10 +215,9 @@ body {
   align-items: center;
 }
 .company-logo img {
-  width:90%;
-  height:70%;
+  width: 90%;
+  height: 70%;
   border-radius: 2px;
- 
 }
 .title {
   text-align: center;
@@ -231,32 +226,32 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.scroll-posts{
+.scroll-posts {
   display: flex;
   overflow: auto;
-  max-width:375px;
-  min-width:320px;
+  max-width: 375px;
+  min-width: 320px;
   height: 230px;
 }
-.post{
-  border-top:5px solid #6ba1f4;
-  border-radius:3px;
-  margin-top:15px;
+.post {
+  /* min width is same as max width */
+  min-width: 320px;
+}
+.post > * {
+  margin: 0;
+}
+.posts {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  word-wrap: break-word;
-  /* background-color: #fff; */
-  background:green;
-  background-clip: border-box;
-  color:black;
-  padding:20px;
 }
-.sa-youth{
-  border-top:5px solid #6ba1f4;
-  border-radius:3px;
-  margin-top:15px;
+.sa-youth,
+.post {
+  border-top: 5px solid #6ba1f4;
+  border-radius: 3px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,11 +259,13 @@ body {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  color:black;
-  padding:20px;
+  color: black;
+  padding: 20px;
+  max-width: 320px;
 }
+
 .sa-youth > span {
-  height:450px;
+  height: 350px;
   overflow-y: scroll;
 }
 
@@ -283,15 +280,16 @@ body {
 }
 
 .sa-youth > span::-webkit-scrollbar-thumb {
-  background-color:inherit;
+  background-color: inherit;
 }
 
-.sa-youth > hr {
-  border:none;
-  border-radius:4px;
-  height:1px;
-  width:80%;
-  background-color:#989998;
+.sa-youth > hr,
+.post > hr {
+  border: none;
+  border-radius: 4px;
+  height: 1px;
+  width: 80%;
+  background-color: #989998;
 }
 .agency-icon {
   width: 40px;
@@ -319,16 +317,17 @@ p.verified-text {
   align-items: center;
   color: #1b6eef;
   font-weight: 500;
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin-bottom: 0;
 }
 .card-header-item {
   /* margin-bottom: 12px; */
   display: flex;
   align-items: center;
-  height:25px;
+  height: 25px;
 }
-.mb-3, .my-3 {
+.mb-3,
+.my-3 {
   margin-bottom: 24px !important;
 }
 .card-summary p {
@@ -337,7 +336,7 @@ p.verified-text {
   line-height: 19px;
   margin-bottom: 0;
 }
-.card-summary  strong{
+.card-summary strong {
   font-weight: normal;
 }
 .row {
@@ -345,11 +344,59 @@ p.verified-text {
   flex-wrap: wrap;
 }
 
-.read-more{
-  background-color:inherit;
-  color:#367ef1;
-  border:none;
+.post-summary {
+  text-align: justify;
+  /* background:red; */
+  width: 95%;
+  padding-top: 15px;
+  text-overflow: ellipsis;
+}
+.post-summary * {
+  margin: 0;
+}
+.post-summary > h5 {
+  margin-top: 5px;
+}
+.job-field {
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.1875;
+  /* margin-bottom: 12px; */
+  text-align: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+.details {
+  max-height: 300px;
+}
+.short-detail {
+  text-overflow: ellipsis;
+  text-align: justify;
+  overflow-y: auto;
+  max-height: inherit;
+  margin-bottom: 20px;
+}
+.snippet {
+  max-height: 100px;
+  text-overflow: ellipsis;
+  overflow: clip;
+}
+.read-more {
+  background-color: inherit;
+  color: #367ef1;
+  border: none;
   font-size: medium;
-  font-weight:bold;
+  font-weight: bold;
   cursor: pointer;
+}
+.ellipse {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  line-height: 1.1875;
 }

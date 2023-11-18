@@ -73,48 +73,73 @@ export default function Board() {
                         ></span>
                       )}
                       <hr />
+                      <br />
                       <button className="read-more">Read More</button>
                     </article>
                   );
                 }
+
                 return (
                   <article className="post" key={i}>
                     <h3 className="title"> {p?.jobTitle}</h3>
-                    <br />
-                    <hr />
-                    {p?.jobSpecFields && (
-                      <p
-                        className="job-field"
-                        style="padding:3px;"
-                        title={p["jobSpecFields"]}
-                      >
-                        {p["jobSpecFields"]}
-                      </p>
-                    )}
-
-                    {p.province && (
-                      <span>
-                        <p className="province" style="padding:5px;">
-                          {p.province}
+                    <br /> <hr />
+                    <section className="post-summary">
+                      <img
+                        src={"./assets/" + p.iconLink}
+                        alt="agency icon"
+                        className="icon"
+                        title="agency icon"
+                      />
+                      {p?.jobSpecFields && (
+                        <p className="job-field" title={p["jobSpecFields"]}>
+                          {p["jobSpecFields"]}
                         </p>
-                      </span>
-                    )}
-
-                    {p.location && (
-                      <span>
-                        {(isObject(p.location) && (
-                          <>
-                            <p className="location" style="padding:3px;">
-                              {p.location?.region?.replace(",", "")}
-                            </p>
-                            <p className="location" style="padding:3px;">
-                              {p.location?.city?.replace(",", "")}
-                            </p>
-                          </>
-                        ))}
-                      </span>
-                    )}
-
+                      )}
+                      <br/>
+                      {p?.province && (
+                        <h5 className="province">Province: {p.province}</h5>
+                      )}
+                      {p?.location && isObject(p.location) && (
+                        <span>
+                          <h5 className="location">
+                            Region: {p.location?.region?.replace(",", "")}
+                          </h5>
+                          <h5 className="location">
+                            City: {p.location?.city?.replace(",", "")}
+                          </h5>
+                        </span>
+                      )}
+                      {p?.location && !isObject(p.location) && (
+                        <h5 className="location">Location: {p.location}</h5>
+                      )}
+                      {p?.expiryDate && <h5>{p.expiryDate}</h5>}
+                      {p?.startDate && <h5> Start Date: {p.startDate}</h5>}
+                      {p?.publishedDate && <h5>{p.publishedDate}</h5>}
+                      {p?.vacancyType && (
+                        <h5>Vacancy type : {p.vacancyType}</h5>
+                      )}
+                      <br />
+                      <section className="details">
+                        {
+                        Array.isArray(p.details) &&
+                        (<>
+                         <div className="short-detail"
+                             
+                             dangerouslySetInnerHTML={{ __html: p.details[1] }}
+                           ></div>
+                           <div className="ellipse">...</div></>)}
+                       {/* p.details.replaceAll(/\.(?=[A-Z0-9 ])/g, ".<br/><br/>") */}
+                     {! Array.isArray(p.details) && (
+                      <>
+                      <div className="snippet"
+                      dangerouslySetInnerHTML={{ __html: p.details }}></div>
+                      <div className="ellipse">...</div></>
+                     )}
+                     
+                      </section>
+                     
+                    </section>
+                    <br/>
                     <button className="read-more">Read More</button>
                   </article>
                 );
