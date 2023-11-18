@@ -238,10 +238,60 @@ body {
   min-width:320px;
   height: 230px;
 }
-
 .post{
-  background:brown;
-  margin-top:3px;
+  border-top:5px solid #6ba1f4;
+  border-radius:3px;
+  margin-top:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  /* background-color: #fff; */
+  background:green;
+  background-clip: border-box;
+  color:black;
+  padding:20px;
+}
+.sa-youth{
+  border-top:5px solid #6ba1f4;
+  border-radius:3px;
+  margin-top:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  color:black;
+  padding:20px;
+}
+.sa-youth > span {
+  height:450px;
+  overflow-y: scroll;
+}
+
+.sa-youth > span::-webkit-scrollbar {
+  height: 4px;
+  width: 5px;
+}
+
+.sa-youth > span::-webkit-scrollbar-track {
+  background-color: inherit;
+  border-radius: 5px;
+}
+
+.sa-youth > span::-webkit-scrollbar-thumb {
+  background-color:inherit;
+}
+
+.sa-youth > hr {
+  border:none;
+  border-radius:4px;
+  height:1px;
+  width:80%;
+  background-color:#989998;
 }
 .agency-icon {
   width: 40px;
@@ -250,4 +300,56 @@ body {
   margin-right: 5px;
   margin-top: 8px;
   font-size: 15px;
+}
+/* SA Youth  */
+h2.card-title {
+  font-size: 1.5rem;
+  color: #212529;
+  line-height: 1.1875;
+  margin-bottom: 8px;
+}
+h3.opportunity-company {
+  font-size: 1.25rem;
+  color: #6c757d;
+  line-height: 1.1875;
+  margin-bottom: 12px;
+}
+p.verified-text {
+  display: flex;
+  align-items: center;
+  color: #1b6eef;
+  font-weight: 500;
+  font-size: .75rem;
+  margin-bottom: 0;
+}
+.card-header-item {
+  /* margin-bottom: 12px; */
+  display: flex;
+  align-items: center;
+  height:25px;
+}
+.mb-3, .my-3 {
+  margin-bottom: 24px !important;
+}
+.card-summary p {
+  font-size: 1rem;
+  color: #2b2b2b;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.card-summary  strong{
+  font-weight: normal;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.read-more{
+  background-color:inherit;
+  color:#367ef1;
+  border:none;
+  font-size: medium;
+  font-weight:bold;
+  cursor: pointer;
 }

@@ -7,6 +7,7 @@ export default function Board() {
   const { JOBS, Display } = useContext(NavContext);
   const { PublicJobs, PrivateJobs, OtherPrivateJobs, AgencyIcons } =
     useContext(JobBoardContext);
+
   const Posts = (blogPosts) => {
     return (
       <section className="scroll-posts">
@@ -23,6 +24,7 @@ export default function Board() {
       </section>
     );
   };
+
   return (
     <>
       {JOBS && (
@@ -46,19 +48,75 @@ export default function Board() {
               that famous)
             </h3>
             <section className="icons i">
-              {AgencyIcons.map((icon,i) => {
-                console.log(icon.src)
-                return <img key={i} src={icon.src} title={icon.title} alt={icon.title} className="agency-icon"/>
+              {AgencyIcons.map((icon, i) => {
+                return (
+                  <img
+                    key={i}
+                    src={icon.src}
+                    title={icon.title}
+                    alt={icon.title}
+                    className="agency-icon"
+                  />
+                );
               })}
             </section>
             <h3 />
             <section className="posts">
               {OtherPrivateJobs().map((p, i) => {
+                if (p?.summary) {
+                  return (
+                    <article className="sa-youth" key={i}>
+                      {p?.jobTitle}
+                      {p?.summary && (
+                        <span
+                          dangerouslySetInnerHTML={{ __html: p.summary }}
+                        ></span>
+                      )}
+                      <hr />
+                      <button className="read-more">Read More</button>
+                    </article>
+                  );
+                }
                 return (
                   <article className="post" key={i}>
-                  {p?.jobTitle}
-                  {p?.summary && <span dangerouslySetInnerHTML={{ __html: p.summary }}></span>}
-                </article>
+                    <h3 className="title"> {p?.jobTitle}</h3>
+                    <br />
+                    <hr />
+                    {p?.jobSpecFields && (
+                      <p
+                        className="job-field"
+                        style="padding:3px;"
+                        title={p["jobSpecFields"]}
+                      >
+                        {p["jobSpecFields"]}
+                      </p>
+                    )}
+
+                    {p.province && (
+                      <span>
+                        <p className="province" style="padding:5px;">
+                          {p.province}
+                        </p>
+                      </span>
+                    )}
+
+                    {p.location && (
+                      <span>
+                        {(isObject(p.location) && (
+                          <>
+                            <p className="location" style="padding:3px;">
+                              {p.location?.region?.replace(",", "")}
+                            </p>
+                            <p className="location" style="padding:3px;">
+                              {p.location?.city?.replace(",", "")}
+                            </p>
+                          </>
+                        ))}
+                      </span>
+                    )}
+
+                    <button className="read-more">Read More</button>
+                  </article>
                 );
               })}
             </section>
@@ -78,4 +136,7 @@ export default function Board() {
       )}
     </>
   );
+}
+function isObject(value) {
+  return typeof value === "object" && value !== null;
 }
