@@ -1,16 +1,17 @@
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
-import Main from "./components/Main";
-import Info from "./components/Info";
-import Board from "./components/JobBoard"
+import Home from "./components/Home";
+import Opportunity from "./components/Opportunity";
 function App() {
   return (
-    <>
-      <Main />
-      <Info />
-      <Board/>
+    <BrowserRouter>
       <Nav />
-    </>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/post_information" element={<Opportunity/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

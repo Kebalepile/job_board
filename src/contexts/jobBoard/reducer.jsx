@@ -1,8 +1,9 @@
-import { PUBLIC, PRIVATE, AGENCYICONS } from "../types";
+import { PUBLIC, PRIVATE, AGENCYICONS, POSTINFO } from "../types";
 export default function Reducer(state, action) {
   switch (action.type) {
+    case POSTINFO:
     case AGENCYICONS:
-      return { ...state, AgencyIcons: action.payload };
+      return { ...state, ...action.payload };
     case PRIVATE:
     case PUBLIC:
     default:

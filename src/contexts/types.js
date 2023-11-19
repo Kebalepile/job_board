@@ -5,3 +5,4 @@ export const PRIVATE = "PRIVATE";
 export const PUBLIC = "PUBLIC";
 export const AGENCYICONS = "AGENCYICONS";
 export const HIRING = "HIRING";
+export const POSTINFO = "POSTINFO";

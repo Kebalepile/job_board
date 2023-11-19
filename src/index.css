@@ -134,13 +134,13 @@ body {
   height: 40px;
   cursor: pointer;
 }
-.closeBtn{
+.closeBtn {
   background-color: red;
-  color:wheat;
+  color: wheat;
   cursor: pointer;
-  border:none;
+  border: none;
   border-radius: 4px;
-  width:100px;
+  width: 100px;
   height: 30px;
 }
 #board {
@@ -151,7 +151,7 @@ body {
   background-color: #5e5e5e23;
   max-width: 375px;
   min-width: 320px;
-  position: absolute;
+  /* position: relative; */
   top: 10px;
   /* height: 75dvh; */
   backdrop-filter: blur(5px);
@@ -159,6 +159,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* margin:0; */
 }
 #info {
   border: none;
@@ -168,7 +169,7 @@ body {
   background-color: #5e5e5e23;
   max-width: 375px;
   min-width: 320px;
-  position: absolute;
+  /* position: absolute; */
   top: 10px;
   height: 75dvh;
   backdrop-filter: blur(5px);
@@ -292,7 +293,8 @@ body {
   background-color: inherit;
 }
 
-form > hr,.sa-youth > hr,
+form > hr,
+.sa-youth > hr,
 .post > hr {
   border: none;
   border-radius: 4px;
@@ -393,6 +395,10 @@ p.verified-text {
   text-overflow: ellipsis;
   overflow: clip;
 }
+.snippet > *,
+.short-detail > * {
+  text-align: justify;
+}
 .read-more {
   background-color: inherit;
   color: #367ef1;
@@ -408,4 +414,31 @@ p.verified-text {
   padding: 0;
 
   line-height: 1.1875;
+}
+.info-card {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(177, 173, 173, 0.4);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  position:fixed;
+
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width:100dvw;
+  height: 100dvh;
+ 
+}
+.more-info {
+  color: black;
+ background-color: white;
+  max-width: 320px;
+
+  margin: 0;
+  
+  
+
 }

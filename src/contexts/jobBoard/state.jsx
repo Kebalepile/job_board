@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import JobBoardContext from "./context";
 import PropTypes from "prop-types";
 import Reducer from "./reducer";
-import { AGENCYICONS } from "../types";
+import { AGENCYICONS, POSTINFO } from "../types";
 
 import { data as propersonnelData } from "../../backend/database/private/Pro-Personnel";
 import { data as heithaData } from "../../backend/database/private/heitha-stuffing-group";
@@ -13,6 +13,7 @@ import { data as saYouthData } from "../../backend/database/private/SA-Youth";
 
 export default function JobBoardProvider({ children }) {
   const initialState = {
+    PostInfo: null,
     AgencyIcons: [
       {
         src: `./assets/${saYouthData["iconLink"]}`,
@@ -33,29 +34,31 @@ export default function JobBoardProvider({ children }) {
     ]
   };
   const [state, dispatch] = useReducer(Reducer, initialState);
-  const { AgencyIcons } = state;
+  const { AgencyIcons, PostInfo } = state;
 
   const AddAgencyIcons = () => {
     dispatch({
       type: AGENCYICONS,
-      payload: [
-        {
-          src: `../../backend/database/${minopexData["iconLink"]}`,
-          title: minopexData["title"]
-        },
-        {
-          src: `../../backend/database/${propersonnelData["iconLink"]}`,
-          title: propersonnelData["title"]
-        },
-        {
-          src: `../../backend/database/${heithaData["iconLink"]}`,
-          title: heithaData["title"]
-        },
-        {
-          src: `../../backend/database/${saYouthData["iconLink"]}`,
-          title: saYouthData["title"]
-        }
-      ]
+      payload: {
+        AgencyIcons: [
+          {
+            src: `../../backend/database/${minopexData["iconLink"]}`,
+            title: minopexData["title"]
+          },
+          {
+            src: `../../backend/database/${propersonnelData["iconLink"]}`,
+            title: propersonnelData["title"]
+          },
+          {
+            src: `../../backend/database/${heithaData["iconLink"]}`,
+            title: heithaData["title"]
+          },
+          {
+            src: `../../backend/database/${saYouthData["iconLink"]}`,
+            title: saYouthData["title"]
+          }
+        ]
+      }
     });
   };
 
@@ -93,9 +96,13 @@ export default function JobBoardProvider({ children }) {
       private: OtherPrivateJobs().length || 0
     };
   };
+  const ReadMore = (info) => {
+    dispatch({ type: POSTINFO, payload: { PostInfo: info } });
+  };
   return (
     <JobBoardContext.Provider
       value={{
+        PostInfo,
         AgencyIcons,
         Hiring,
         AddAgencyIcons,
@@ -105,7 +112,8 @@ export default function JobBoardProvider({ children }) {
         MinopexJobs,
         PropersonnelJobs,
         SAYouthJobs,
-        HeithaJobs
+        HeithaJobs,
+        ReadMore
       }}
     >
       {children}

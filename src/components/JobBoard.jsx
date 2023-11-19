@@ -1,11 +1,26 @@
 import { useContext } from "react";
 import NavContext from "../contexts/navigation/context";
 import JobBoardContext from "../contexts/jobBoard/context";
+import { useNavigate } from "react-router-dom";
 
+function useNavigation(){
+  const navigateTo = useNavigate();
+  function navigate(path){
+    navigateTo(path);
+  }
+  return navigate;
+}
 export default function Board() {
   const { JOBS, Display } = useContext(NavContext);
-  const { PublicJobs, PrivateJobs, OtherPrivateJobs, AgencyIcons } =
+  const { PublicJobs, PrivateJobs, OtherPrivateJobs, AgencyIcons, ReadMore } =
     useContext(JobBoardContext);
+/**
+ * @descrption change current path to given path arguement
+ *@param {string} path
+ */
+ 
+
+const Navigate = useNavigation();
 
   const Posts = (blogPosts) => {
     return (
@@ -19,6 +34,7 @@ export default function Board() {
               onClick={(e) => {
                 e.preventDefault();
                 ReadMore(p);
+                Navigate("/post_information");
               }}
             >
               <div className="company-logo">
@@ -30,9 +46,6 @@ export default function Board() {
         })}
       </section>
     );
-  };
-  const ReadMore = (info) => {
-    console.log(info);
   };
 
   return (
@@ -50,7 +63,7 @@ export default function Board() {
             <br />
             <br />
             <hr />
-            <h3 className="i">Private Companies hiring</h3>
+            <h3 className="i">Private Companies Hiring</h3>
             <hr />
             <br />
             {Posts(PrivateJobs().blogPosts)}
@@ -94,6 +107,7 @@ export default function Board() {
                         onClick={(e) => {
                           e.preventDefault();
                           ReadMore(p);
+                          Navigate("/post_information");
                         }}
                       >
                         Read More
@@ -145,32 +159,29 @@ export default function Board() {
                       <br />
                       <section className="details">
                         {Array.isArray(p.details) && (
-                          <>
-                            <div
-                              className="short-detail"
-                              dangerouslySetInnerHTML={{ __html: p.details[1] }}
-                            ></div>
-                            <div className="ellipse">...</div>
-                          </>
+                          <div
+                            className="short-detail"
+                            dangerouslySetInnerHTML={{ __html: p.details[1] }}
+                          ></div>
                         )}
                         {/* p.details.replaceAll(/\.(?=[A-Z0-9 ])/g, ".<br/><br/>") */}
                         {!Array.isArray(p.details) && (
-                          <>
-                            <div
-                              className="snippet"
-                              dangerouslySetInnerHTML={{ __html: p.details }}
-                            ></div>
-                            <div className="ellipse">...</div>
-                          </>
+                          <div
+                            className="snippet"
+                            dangerouslySetInnerHTML={{ __html: p.details }}
+                          ></div>
                         )}
                       </section>
                     </section>
+                    <br />
+                    <hr />
                     <br />
                     <button
                       className="read-more"
                       onClick={(e) => {
                         e.preventDefault();
                         ReadMore(p);
+                        Navigate("/post_information");
                       }}
                     >
                       Read More
