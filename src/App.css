@@ -5,14 +5,14 @@
   background-color: #242424;
 }
 
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* Scrollbar Styles */
 ::-webkit-scrollbar {

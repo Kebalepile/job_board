@@ -2,10 +2,10 @@ import { useContext } from "react";
 import NavContext from "../contexts/navigation/context";
 import JobBoardContext from "../contexts/jobBoard/context";
 import { useNavigate } from "react-router-dom";
-
-function useNavigation(){
+import isObject from "../utils/isObject";
+function useNavigation() {
   const navigateTo = useNavigate();
-  function navigate(path){
+  function navigate(path) {
     navigateTo(path);
   }
   return navigate;
@@ -14,13 +14,12 @@ export default function Board() {
   const { JOBS, Display } = useContext(NavContext);
   const { PublicJobs, PrivateJobs, OtherPrivateJobs, AgencyIcons, ReadMore } =
     useContext(JobBoardContext);
-/**
- * @descrption change current path to given path arguement
- *@param {string} path
- */
- 
+  /**
+   * @descrption change current path to given path arguement
+   *@param {string} path
+   */
 
-const Navigate = useNavigation();
+  const Navigate = useNavigation();
 
   const Posts = (blogPosts) => {
     return (
@@ -208,7 +207,4 @@ const Navigate = useNavigation();
       )}
     </>
   );
-}
-function isObject(value) {
-  return typeof value === "object" && value !== null;
 }

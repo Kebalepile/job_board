@@ -2,17 +2,27 @@ import { useContext } from "react";
 import NavContext from "../contexts/navigation/context";
 import { MdHomeFilled, MdWork } from "react-icons/md";
 import { RiMenu5Line } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 
+function useNavigation() {
+  const navigateTo = useNavigate();
+  function navigate(path) {
+    navigateTo(path);
+  }
+  return navigate;
+}
 export default function Nav() {
+  const Navigate = useNavigation();
   const { Display } = useContext(NavContext);
-  const HandleClickEvent = (type) => {
-    console.log(type);
-  };
+
   return (
     <>
       <nav className="menu">
         <button
-          onClick={() => HandleClickEvent("HOME")}
+          onClick={(e) => {
+            e.preventDefault();
+            Navigate("/");
+          }}
           className="menu-items"
           title="Home"
         >
