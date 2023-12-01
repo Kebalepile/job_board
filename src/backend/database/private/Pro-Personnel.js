@@ -3,6 +3,118 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
+      "jobTitle": "Service Advisor",
+      "startDate": "2023-11-30 - 2023-12-30",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Logistics, Warehouse &amp; Freight",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The candidate must have previous motor industry experience.* Previous Service Advisory experience essential* Booking of job cards and follow up* Pastel, Excel computer literacy essential* Be able to start immediately* Contactable working references",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002161-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "Counter Sales Assistant",
+      "startDate": "2023-11-29 - 2023-12-29",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Retail",
+      "location": {
+        "city": ", Bela Bela",
+        "region": "Limpopo"
+      },
+      "details": "Minimum Qualifications:Must have Grade 12 or equivalent&nbsp;Must be fluent in Afrikaans and English&nbsp;Previous Counter Sales will be an advantage&nbsp;Previous technical / paint counter sales experience will be an added advantage&nbsp;Energetic, hardworking, diligent individual",
+      "contact": "Rene",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002320-R",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "SHEQ Administrator",
+      "startDate": "2023-11-29 - 2023-12-29",
+      "vacancyType": "Contractor",
+      "jobSpecFields": "SHEQ",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Description:The purpose of the position is to implement, maintain and monitor adherence to SHEQ policies and procedures to ensure compliance with site, client and legislative requirements.Qualification Requirements:* Grade 12* SAMTRAC / COMSOC&nbsp;* MHSA &amp; OSHAExperience and Skills Requirements:* Experience in mining industry and SHEQ administration* Time management skills* Computer literacy in MS Office/ExcelDuties:* Comply with site requirements* Enforce compliance to legal requirements* Ensure all legal appointments are valid* Conduct plant and equipment inspections* Manage all safety health and environmental reps* Maintain all SHEQ related information* Compile and submit reports according to internal and external clients* Facilitate and participate in the site audit process* Manage nonconformance and incident reporting and investigation processed* Manage access control",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002321-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "Occupational Hygiene Assistant",
+      "startDate": "2023-11-29 - 2023-12-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "SHEQ",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Main purpose of the job:Assist the Occupational Hygienist in maintaining Occupational Hygiene systems and programmes and provides their immediate supervisor with information and to ensure a safe and healthy work environment.Experience:* Ventilation / Occupational Hygiene experience in a mining EnvironmentComputer knowledge:* MS Office (Word, Excel, Powerpoint, Outlook)Qualifications:* Grade 12 or NQF 4 equivalent* Certificate in COM Elementary (Mine Environment Control)* Certificate in SAIOH (Occupational Hygiene Assistant)* Certificate in Basic Ventilation and Occupational Hygiene* Certificate in Legal KnowledgeCore Work Outputs:* Measures compliance to section 11 &amp; 12 of the mine Health and Safety Act (Occupational Health Risk Assessment and Monitoring)* Measure compliance to the environmental engineering and occupational hygiene regulations of the mine health and safety act pertaining to monitoring and reporting at business area level* Ensure the occupational hygiene programmes are properly administered* Sets daily, weekly and monthly occupational hygiene targets.* Conduct risk assessment, occupational hygiene measurements and participates in audits* Provides information and advice regarding occupational hygiene matters related to a specific workplace or section of the operation",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002322-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "Chief Executive Officer",
+      "startDate": "2023-11-27 - 2023-12-27",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Tourism",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Experience &amp; Skills required&nbsp;Bachelor’s degree in business or related studies, MBA, or MSc in tourism. An understanding of the tourism industry (Government Policy and Private Sector Stakeholder landscape) will be an added advantage. Understanding of the Group reporting processes and financial management regime. Significant experience in the hospitality and safari industry. Knowledge of online booking systems and back-office intranet solutions. Ability to train, develop and manage large operational and executive teams. Executive Presence and ability maintain calm demeanour in high stress environments. At least 10 years proven experience at senior management, including 5 years at executive-level. Private entities experience at senior management level will be an added advantage.",
+      "contact": "Rene",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002318-R",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "Drill Rigs / Roof Bolters",
+      "startDate": "2023-11-24 - 2023-12-15",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Mining",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The ideal candidates need to have the following qualifications and requirements.* TMM experience a must* Mining, Roof Bolt and Drill Rig experience* All necessary certificate and experience essential.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002317-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "Accountant",
+      "startDate": "2023-11-23 - 2023-12-23",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The ideal candidate must have the following:* Must have a Financial Degree with SAIPA articles* At least 3-5 years working experience within a financial institute* Have a valid grade 12 certificateComputer literacy:* Pastel* MS Word &amp; Excel* Draft Worx (would be to your advantage)Duties would be, but not limited to:* Data processing to trial balance* Preparing financial statements* SARS submissions* All related financial duties would be to your advantage",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002315-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
+      "jobTitle": "Buyer",
+      "startDate": "2023-11-23 - 2023-12-23",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Retail",
+      "location": {
+        "city": ", Tshwane (Pretoria)",
+        "region": "Gauteng"
+      },
+      "details": "Minimum Qualifications and Requirements:\n\n&nbsp;Strong administrative skills.\nComputer literate – Basic Windows Applications.\nKnowledge and experience of Pastel Evolution will be an advantage.\nHigh attention to detail and accuracy.Excellent verbal and communication skills with fluency in Afrikaans and English.\nTrustworthy and reliable\n\nJob Description:The Buyer will form an integral part of the Procurement function in the Company.Placing Orders.Manage LevelsPrice negotiations.Sourcing quality suppliers and products.Identifying / sourcing of stock items.Follow-up with suppliers concerning deliveries / special orders.Assist Sales Department with special stock inquiries.Stock TakingFeedback to management.",
+      "contact": "Rene",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002316-R",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
       "jobTitle": "Branch Manager",
       "startDate": "2023-11-20 - 2023-12-22",
       "vacancyType": "Contractor",
@@ -98,90 +210,6 @@ export const data  = {
       "details": "\nMust have Gr12\nMust have relevant qualifications\nMust have Mining Experience\nPeople Management\nWear Protection Background would help but not compulsory\nMust have Drivers License\nNo Criminal Record\nMedically Fit\n\nPlease send CV with all Qualifications to dora@propersonnel.co.za",
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB001863-D",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "External Sales Engineer",
-      "startDate": "2023-10-31 - 2023-11-30",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", All Areas",
-        "region": "All Areas"
-      },
-      "details": "Requirements:\n\nMust be friendly, well spoken, reads &amp; writes English.\nComputer literate\nDriver's license\n\n\nResearch prospective customers within an area, fine contacts details and cold call.\nUpkeep of relationship with customers, make weekly/monthly calls and/or visits if possible.\nPromote all company services.\nEnsure you have the knowledge of new and old products, attend training whether in the office or on-line.\nConduct demos in front of clients with instrumentation customers may be interested in.\nDo site inspections where necessary.\nKeep a detailed call plan of weekly activities.\nKeep a petrol log book.\nPopulate Bluwave, our CRM system, with all contacts made.\nProduce quotes for customers using Bluwave.\nProduce a weekly forecast of expected orders.\nAttend all sales meetings.\nShare knowledge of projects in the market place.\nEnsure all information is obtained of any new customer, to be given to accounts.\nYou will be responsible for the sales of well-known process control instrumentation brands in mainly the Mining Industry in these areas as well as developing the necessary strategies and enhancing and spreading the knowledge of the company brands and services.\n\nSalary ranges from between R40 000 to R60 000 depending on experience.",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002309-D",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Payroll Administrator",
-      "startDate": "2023-10-30 - 2023-11-29",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Requirements:\n\nDegree\nA minimum of 4-5 years of work experience in a similar role\nMeticulous attention to detail\n\nKey Responsibilities: The duties of the Payroll Administrator will include, but are not limited to:\n\nPreparation of employee payroll\nUpdating payroll information for promotions, demotions, transfers, terminations, and engagements\nMaintenance of employee records and payroll transactions\nMonthly and annual reporting of HR &amp; BBEEE statistics\nCoordination with the HR Department to ensure accurate employee data\nProviding administrative assistance to the accounting department\nSubmission of mid-year and year-end PAYE reports\n\nWorking hours 7 am - 3pm",
-      "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002307-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Internal Sales Support",
-      "startDate": "2023-10-30 - 2023-11-29",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", Boksburg",
-        "region": "Gauteng"
-      },
-      "details": "Requirements and Duties:The general duties are as follows but does not include all:\n\nAnswering phones and dealing with customer requests/queries/complaints.\nPhoning/emailing suppliers for prices, both local and overseas.\nWorking out pricing for customers and typing out quotes.\nLiaise with customers for delivery schedules.\nProvide reports when requested/required.\nProcessing customer orders.\nPlacing orders on suppliers both local and international.\nHelping clients with technical queries.\nCompiling data books/documentation and consulting with clients during inspections\n\nOur requirement\n\nMust be well spoken in English. Must be computer literate.\nMust read and write English well as we correspond daily with\nInternational suppliers in European countries, Asia as well a USA.\nMust be presentable as we have clients in the office regularly.\nPreferably living in the East Rand (Boksburg) area as it prevent transport complications.\nMust have Matric, Mats or accounting is a great benefit.\n\nSalary ranges from R15000 - R30000 depending on experience.",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002308-D",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Branch Manager",
-      "startDate": "2023-10-25 - 2023-11-24",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Manufacturing",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Requirements:&nbsp;Minimum MatricPreferred post-matric qualification in Sales, Marketing, or a Technical FieldProven experience in a similar environmentKnowledge of the products sold by the CompanyValid Driver’s license and access to a reliable vehicleProficiency in Microsoft Excel and Microsoft WordWorking knowledge of ERP/CRM systems such as Syspro, Microsoft Navision, or similar",
-      "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002296-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "SAICA/SAIPA Clerk",
-      "startDate": "2023-10-24 - 2023-11-23",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "SAICA or SAIPA clerk who is currently pursuing a BCompt Accounting or BCom Accounting degree, or who has completed their BCompt Accounting degree. The ideal candidate should be computer literate, willing to travel, and must be proficient in Afrikaans (speaking, reading, and writing) – this requirement is non-negotiable.",
-      "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002305-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Call out Inhouse Technician",
-      "startDate": "2023-10-13 - 2023-11-30",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Package:* R15 000* 13th Cheque* Commission* 50% medical aid (Discovery) after 3 Months ProbationThe successful candidate must meet the following requirements:* Retail Experience will be an advantage* 3 - 5 Years Experience* A + &amp; N + Qualification* MCSE or MCP Qualified* Valid Drivers License&nbsp;* Own Vehicle&nbsp;* Must have an outgoing personality",
-      "contact": "Michelle",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002301-Du+To",
       "iconLink": "agency_icons/pro-personnel.jpg"
     },
     {
