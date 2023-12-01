@@ -1,20 +1,34 @@
-import { useContext } from "react";
-import NavContext from "../contexts/navigation/context";
+import React, { Suspense } from "react";
 import { PiTelegramLogoThin } from "react-icons/pi";
 import { MdOutlineMailOutline } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
+
+import MainImage from "../assets/images/4.jpg";
+
+function useNavigation() {
+  const navigateTo = useNavigate();
+  function navigate(path) {
+    navigateTo(path);
+  }
+  return navigate;
+}
 
 export default function Info() {
-  const { MENU, Display } = useContext(NavContext);
+  const Navigate = useNavigation();
 
   return (
     <>
-      {MENU && (
-        <dialog id="info" open>
+      <dialog id="info" open>
+        <Suspense className='loadingDiv'>
           <form>
-            <h2 style={{ textAlign: "center" }}>
-              {" "}
-              Boitekong Community Job Board
-            </h2>
+            <div style={{ width: "100%", display: "flex" }}>
+              <img
+                src={MainImage}
+                alt="banner image"
+                className="board-banner"
+                style={{ margin: "center" }}
+              />
+            </div>
             <hr />
             <p>
               We&apos;re all about connecting you with job opportunities from
@@ -44,8 +58,7 @@ export default function Info() {
                 className="closeBtn"
                 onClick={(e) => {
                   e.preventDefault();
-
-                  Display("MENU");
+                  Navigate("/");
                 }}
               >
                 close
@@ -79,8 +92,8 @@ export default function Info() {
               © 2023 K.T Motshoana
             </h6>
           </form>
-        </dialog>
-      )}
+        </Suspense>
+      </dialog>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import React, { useReducer } from "react";
 import NavContext from "./context";
 import PropTypes from "prop-types";
 import Reducer from "./reducer";

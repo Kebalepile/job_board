@@ -1,7 +1,11 @@
-import { useContext } from "react";
-import JobBoardContext from "../contexts/jobBoard/context";
+import React, { useContext, useEffect } from "react";
+
 import Share from "../utils/share";
 import { useNavigate } from "react-router-dom";
+import { IoIosCloseCircle } from "react-icons/io";
+
+import JobBoardContext from "../contexts/jobBoard/context";
+import isObject from "../utils/isObject";
 
 function useNavigation() {
   const navigateTo = useNavigate();
@@ -13,12 +17,45 @@ function useNavigation() {
 export default function Opportunity() {
   const Navigate = useNavigation();
   const { PostInfo } = useContext(JobBoardContext);
-  console.log(PostInfo);
+
+  useEffect(() => {
+    if (!PostInfo) {
+      Navigate("/job_board");
+    }
+  });
+
+  const line = () => {
+    if (PostInfo?.title || PostInfo?.jobTitle) {
+      return <hr className="line" />;
+    }
+  };
+  const Iframe = () => {
+    if (PostInfo?.iframe?.length) {
+      return (
+        <div className="full-details">
+          <iframe id="documentFrame" src={PostInfo.iframe}>
+            <p>
+              &#128542; sorry Document won&apos;t load, you can access it
+              directly here {PostInfo.href} or click the source button
+            </p>
+          </iframe>
+        </div>
+      );
+    }
+  };
   return (
     <dialog open id="info-card">
       <form method="dialog">
         {PostInfo && (
           <article className="more-info">
+            {PostInfo?.iconLink && (
+              <img
+                src={"./assets/" + PostInfo.iconLink}
+                alt="agency icon"
+                className="icon"
+                title="agency icon"
+              />
+            )}
             {PostInfo?.imgSrc && (
               <img
                 className="logo"
@@ -27,6 +64,7 @@ export default function Opportunity() {
                 loading="lazy"
               />
             )}
+            <h3 className="title"> {PostInfo.jobTitle}</h3>
             <div className="header">
               {PostInfo?.title && (
                 <h3> {PostInfo.title.replaceAll(/is hiring/gi, "")}</h3>
@@ -36,7 +74,11 @@ export default function Opportunity() {
                   e.preventDefault();
                   console.log("share");
                   Share({
-                    title: `${PostInfo.title}, more info @ Boitekong Job Board`,
+                    title: `${
+                      PostInfo?.title ||
+                      PostInfo?.jobTitle ||
+                      "Sa Youth Job Post"
+                    }, more info @ Boitekong Job Board`,
                     text: "available job vacancy, might be suitable for you!",
                     url: location.origin
                   });
@@ -45,15 +87,76 @@ export default function Opportunity() {
                 Share
               </button>
             </div>
-            <hr className="line" />
+
+            {line()}
             <br />
-            {PostInfo?.postedDate && (
-              <h5>Date posted: {PostInfo.postedDate}</h5>
+            {PostInfo.jobSpecFields && (
+              <p className="job-field" title={PostInfo["jobSpecFields"]}>
+                {PostInfo["jobSpecFields"]}
+              </p>
             )}
-            <br />
-            {Array.isArray(PostInfo?.content) && (
+
+            {PostInfo.province && (
+              <h5 className="province">Province: {PostInfo.province}</h5>
+            )}
+            {PostInfo.location && isObject(PostInfo.location) && (
+              <span>
+                <h5 className="location">
+                  Region: {PostInfo.location?.region?.replace(",", "")}
+                </h5>
+                <h5 className="location">
+                  City: {PostInfo.location?.city?.replace(",", "")}
+                </h5>
+              </span>
+            )}
+            {PostInfo.location && !isObject(PostInfo.location) && (
+              <h5 className="location">Location: {PostInfo.location}</h5>
+            )}
+            {PostInfo.expiryDate && <h5>{PostInfo.expiryDate}</h5>}
+            {PostInfo.startDate && <h5> Start Date: {PostInfo.startDate}</h5>}
+            {PostInfo.publishedDate && <h5>{PostInfo.publishedDate}</h5>}
+            {PostInfo.vacancyType && (
+              <h5>Vacancy type : {PostInfo.vacancyType}</h5>
+            )}
+            {PostInfo?.postedDate && (
               <>
-                <hr className="line" />
+                <h5>Date posted: {PostInfo.postedDate}</h5>
+
+                <button className="source">
+                  <a
+                    href={PostInfo?.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "white" }}
+                  >
+                    original source
+                  </a>
+                </button>
+              </>
+            )}
+
+            {PostInfo?.apply && (
+              <a
+                href={PostInfo?.apply}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="source"
+                style={{
+                  backgroundColor: "goldenrod",
+                  width: "100px",
+                  height: "20px",
+                  lineHeight: "20px", // Add this
+                  textAlign: "center",
+                  color: "white"
+                }}
+              >
+                apply
+              </a>
+            )}
+
+            <hr className="line" />
+            {PostInfo?.content?.length && (
+              <>
                 <div
                   className="full-details"
                   dangerouslySetInnerHTML={{
@@ -65,57 +168,50 @@ export default function Opportunity() {
                 <hr className="line" />
               </>
             )}
-            {/*    <h3 className="title"> {p?.jobTitle}</h3>
-                    <br /> <hr />
-                    <section className="post-summary">
-                      <img
-                        src={"./assets/" + p.iconLink}
-                        alt="agency icon"
-                        className="icon"
-                        title="agency icon"
-                      />
-                      <br />
-                  {p?.jobSpecFields && (
-                        <p className="job-field" title={p["jobSpecFields"]}>
-                          {p["jobSpecFields"]}
-                        </p>
-                      )}
-                      <br />
-                      {p?.province && (
-                        <h5 className="province">Province: {p.province}</h5>
-                      )}
-                      {p?.location && isObject(p.location) && (
-                        <span>
-                          <h5 className="location">
-                            Region: {p.location?.region?.replace(",", "")}
-                          </h5>
-                          <h5 className="location">
-                            City: {p.location?.city?.replace(",", "")}
-                          </h5>
-                        </span>
-                      )}
-                      {p?.location && !isObject(p.location) && (
-                        <h5 className="location">Location: {p.location}</h5>
-                      )}
-                      {p?.expiryDate && <h5>{p.expiryDate}</h5>}
-                      {p?.startDate && <h5> Start Date: {p.startDate}</h5>}
-                      {p?.publishedDate && <h5>{p.publishedDate}</h5>}
-                      {p?.vacancyType && (
-                        <h5>Vacancy type : {p.vacancyType}</h5>
-                      )}
-                      <br /> */}
+            {Iframe()}
+            {Array.isArray(PostInfo?.details) && (
+              <div
+                className="full-details"
+                dangerouslySetInnerHTML={{
+                  __html: PostInfo?.details?.map((p) => p)
+                }}
+              ></div>
+            )}
+            {!Array.isArray(PostInfo?.details) && (
+              <>
+                <div
+                  className={
+                    PostInfo?.summary ? "small full-details" : "full-details"
+                  }
+                  dangerouslySetInnerHTML={{
+                    __html: PostInfo?.details?.replaceAll(
+                      /\.(?=[A-Z0-9 ])/g,
+                      ".<br/><br/>"
+                    )
+                  }}
+                ></div>
+
+                {line()}
+              </>
+            )}
           </article>
         )}
         <br />
-        <button
-          className="closeBtn"
-          onClick={(e) => {
-            e.preventDefault();
-            Navigate("/");
-          }}
-        >
-          close
-        </button>
+        <nav className="sm-nav">
+          <IoIosCloseCircle
+            style={{
+              color: "white",
+              width: "40px",
+              height: "40px",
+              cursor: "pointer",
+              margin: "0"
+            }}
+            onClick={(e) => {
+              e.preventDefault();
+              Navigate("/job_board");
+            }}
+          />
+        </nav>
       </form>
     </dialog>
   );

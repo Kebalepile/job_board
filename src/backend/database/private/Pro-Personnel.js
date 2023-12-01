@@ -3,6 +3,20 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
+      "jobTitle": "Branch Manager",
+      "startDate": "2023-11-20 - 2023-12-22",
+      "vacancyType": "Contractor",
+      "jobSpecFields": "Construction",
+      "location": {
+        "city": ", Zambia",
+        "region": "Africa"
+      },
+      "details": "Qualifications Requirements:* Degree in Business Administration or any business-related Program* A minimum of 3 years' experience in Senior management capacity* MBA is a added advantageProficient in SM Office Suite applicationsSkilled Required:* Leadership and management skills* Excellent time management skills* Focus on achieving results and customer focus* High level of integrity* Excellent oral and written communication skills* Good personal organization* Ability to strategize and plan aheadRole Objectives:* To oversee overall and daily operations of the branch.* Manage and monitor the financial performance and overall profitability of the branchDuties:* Ensuring adherence to all company policies and procedures* Develop strategic and tactical plant to grow sales developing new customers and /or broadening product line penetration to existing customers* Manage Human resource activities* Meet and exceed company profit goals* Manage accounting and budget information* Provide feedback to management regarding marketing ideas and sales efforts",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002313-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg"
+    },
+    {
       "jobTitle": "Bookkeeper",
       "startDate": "2023-11-14 - 2023-12-14",
       "vacancyType": "Permanent",
@@ -14,20 +28,6 @@ export const data  = {
       "details": "The candidate must have the following:* Full debtors and creditors function* Computer literacy in Pastel and accounting computer* Be willing to start immediately",
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002314-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Branch Manager",
-      "startDate": "2023-11-13 - 2023-12-13",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "Construction",
-      "location": {
-        "city": ", Zambia",
-        "region": "Africa"
-      },
-      "details": "Qualifications Requirements:* Degree in Business Administration or any business-related ProgramA minimum of 5 years' experience in operations or sales in mining supply company* A minimum of 3 years' experience in Senior management capacity* MBA is a added advantageProficient in SM Office Suite applicationsSkillesd Required:* Leadership and management skills* Excellent time management skills* Focus on achiving results and customer focues* Familitirty with industry rules and regulations* High level of integrity* Excellent oral and written communication skills* Good personal organization* Ability to stratizige abnd plan aheadRole Objectives:* To oversee overall and daily operations of the branch.* Manage and monitor the financial performance and overall profitability of the branchDuties:* Ensuring adherence to all company policies and procedures* Develop strategic and tactical plant to grow sales developing new customers and /or broadinging product line penetration to existing customers* Manage Human resource activites* Meet and exceed company profit goals* Manage accounting and budget information* provide feedback to management regarding marketing ideas and sales afforts",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002313-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg"
     },
     {
@@ -168,62 +168,6 @@ export const data  = {
       "details": "SAICA or SAIPA clerk who is currently pursuing a BCompt Accounting or BCom Accounting degree, or who has completed their BCompt Accounting degree. The ideal candidate should be computer literate, willing to travel, and must be proficient in Afrikaans (speaking, reading, and writing) – this requirement is non-negotiable.",
       "contact": "Rene",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002305-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Accountant",
-      "startDate": "2023-10-20 - 2023-11-20",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "The ideal candidate needs to have the following:* At least 5 - 10 years working experience as an Accountant* Must have a Financial Degree with SAIPA with completed articles.* Specifications:&nbsp;- Data processing up to trial balance- Preparing financial statements- SARS admissions* Computer knowledge in:- Pastel, Excel, Word and Draftworx",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002251-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Sales Rep",
-      "startDate": "2023-10-20 - 2023-11-20",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "The ideal candidate needs to have the following requirements in order to apply for this position:* Valid driver's license* Own reliable transport* Previous sales experience (electrical background/experience advantage)* Grade 12 certificate* Must know the Rustenburg and mining areas very well.",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002276-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Safety Officer",
-      "startDate": "2023-10-20 - 2023-11-20",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "The candidate needs to have the following requirements:* ISO experience ESSENTIAL* Comsoc 1 &amp; 2* Mining &amp; Engineering experience essential* Candidate to start as soon as possible.* Valid driver's license",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002289-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Sales Representative",
-      "startDate": "2023-10-18 - 2023-11-17",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Wholesales",
-      "location": {
-        "city": ", Tshwane (Pretoria)",
-        "region": "Gauteng"
-      },
-      "details": "Job Responsibilities: As a Sales Representative, you'll play a pivotal role in the organization. Your responsibilities will include, but are not limited to:Following up on Quotes and Emails: Promptly respond to customer inquiries, providing the information and support they need to make informed purchasing decisions.Daily Phone Calls: Engage with our existing customers to nurture relationships and ensure their needs are met. Be prepared to make cold calls to potential new customers, introducing them to our products and services.In-Store Assistance: Provide in-store support to walk-in customers, offering product information, assistance, and a memorable shopping experience.Phone Support: Assist customers who call in, addressing their queries, guiding them through the purchasing process, and resolving issues.Computer Literacy: Proficiency in Microsoft Excel, Word, Outlook, and Pastel is a must. You'll use these tools for order processing, customer communications, and reporting.Qualifications and Skills:\n\nValid driver's license.\nSales background is advantageous.\nComputer literacy in Excel, Word, Outlook, and Pastel.\nExceptional communication and interpersonal skills.\nSelf-motivated with a strong work ethic.\nAbility to work independently and as part of a team.\nExcellent time management and organizational skills.\n",
-      "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002303-R",
       "iconLink": "agency_icons/pro-personnel.jpg"
     },
     {

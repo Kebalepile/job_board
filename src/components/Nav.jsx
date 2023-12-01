@@ -1,8 +1,10 @@
-import { useContext } from "react";
-import NavContext from "../contexts/navigation/context";
-import { MdHomeFilled, MdWork } from "react-icons/md";
-import { RiMenu5Line } from "react-icons/ri";
-import { useNavigate } from "react-router-dom";
+
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import  {MdHomeFilled} from 'react-icons/md'
+import { MdWork} from 'react-icons/md'
+import { RiMenu5Line} from 'react-icons/ri'
 
 function useNavigation() {
   const navigateTo = useNavigate();
@@ -11,12 +13,12 @@ function useNavigation() {
   }
   return navigate;
 }
+
 export default function Nav() {
   const Navigate = useNavigation();
-  const { Display } = useContext(NavContext);
 
   return (
-    <>
+   
       <nav className="menu">
         <button
           onClick={(e) => {
@@ -29,20 +31,22 @@ export default function Nav() {
           <MdHomeFilled />
         </button>
         <button
-          onClick={() => Display("MENU")}
+          onClick={() => Navigate("/about_site")}
           className="menu-items"
           title="Menu"
         >
           <RiMenu5Line />
         </button>
         <button
-          onClick={() => Display("JOBS")}
+          onClick={() => {
+            Navigate("/job_board");
+          }}
           className="menu-items"
           title="Jobs"
         >
           <MdWork />
         </button>
       </nav>
-    </>
+   
   );
 }
