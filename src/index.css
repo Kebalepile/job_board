@@ -495,7 +495,7 @@ p.verified-text {
   cursor: pointer;
 }
 
-#documentFrame {
+.documentFrame {
   min-height: 700px;
   border: none;
   background-color: inherit;

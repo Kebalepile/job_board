@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React,{ useReducer } from "react";
 import JobBoardContext from "./context";
 import PropTypes from "prop-types";
 import Reducer from "./reducer";
@@ -17,21 +17,21 @@ export default function JobBoardProvider({ children }) {
     AgencyIcons: [
       {
         src: `./assets/${saYouthData["iconLink"]}`,
-        title: saYouthData["title"],
+        title: saYouthData["title"]
       },
       {
         src: `./assets/${minopexData["iconLink"]}`,
-        title: minopexData["title"],
+        title: minopexData["title"]
       },
       {
         src: `./assets/${propersonnelData["iconLink"]}`,
-        title: propersonnelData["title"],
+        title: propersonnelData["title"]
       },
       {
         src: `./assets/${heithaData["iconLink"]}`,
-        title: heithaData["title"],
-      },
-    ],
+        title: heithaData["title"]
+      }
+    ]
   };
   const [state, dispatch] = useReducer(Reducer, initialState);
   const { AgencyIcons, PostInfo } = state;
@@ -43,22 +43,22 @@ export default function JobBoardProvider({ children }) {
         AgencyIcons: [
           {
             src: `../../backend/database/${minopexData["iconLink"]}`,
-            title: minopexData["title"],
+            title: minopexData["title"]
           },
           {
             src: `../../backend/database/${propersonnelData["iconLink"]}`,
-            title: propersonnelData["title"],
+            title: propersonnelData["title"]
           },
           {
             src: `../../backend/database/${heithaData["iconLink"]}`,
-            title: heithaData["title"],
+            title: heithaData["title"]
           },
           {
             src: `../../backend/database/${saYouthData["iconLink"]}`,
-            title: saYouthData["title"],
-          },
-        ],
-      },
+            title: saYouthData["title"]
+          }
+        ]
+      }
     });
   };
 
@@ -75,7 +75,7 @@ export default function JobBoardProvider({ children }) {
       ...saYouthData.blogPosts,
       ...minopexData.blogPosts,
       ...propersonnelData.blogPosts,
-      ...heithaData.blogPosts,
+      ...heithaData.blogPosts
     ];
   };
   const PropersonnelJobs = () => {
@@ -93,8 +93,7 @@ export default function JobBoardProvider({ children }) {
   const Hiring = () => {
     return {
       public: PublicJobs().blogPosts.length || 0,
-      private: PrivateJobs().blogPosts.length || 0,
-      agencyJobs: OtherPrivateJobs().length || 0,
+      private: OtherPrivateJobs().length || 0
     };
   };
   const ReadMore = (info) => {
@@ -114,7 +113,7 @@ export default function JobBoardProvider({ children }) {
         PropersonnelJobs,
         SAYouthJobs,
         HeithaJobs,
-        ReadMore,
+        ReadMore
       }}
     >
       {children}
@@ -123,5 +122,5 @@ export default function JobBoardProvider({ children }) {
 }
 
 JobBoardProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };

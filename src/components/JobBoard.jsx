@@ -14,14 +14,8 @@ function useNavigation() {
   return navigate;
 }
 export default function Board() {
-  const {
-    PublicJobs,
-    PrivateJobs,
-    OtherPrivateJobs,
-    AgencyIcons,
-    ReadMore,
-    Hiring,
-  } = useContext(JobBoardContext);
+  const { PublicJobs, PrivateJobs, OtherPrivateJobs, AgencyIcons, ReadMore } =
+    useContext(JobBoardContext);
   /**
    * @descrption change current path to given path arguement
    *@param {string} path
@@ -58,163 +52,147 @@ export default function Board() {
   return (
     <dialog open id="board">
       <form>
-        {Hiring().public > 0 && (
-          <>
-            <hr />
-            <h3 className="i">
-              Government Departments / Entites with Vacancies
-            </h3>
-            <hr />
-            <br />
-            {Posts(PublicJobs().blogPosts)}
-            <br />
-            <br />
-          </>
-        )}
-        {Hiring().private > 0 && (
-          <>
-            <hr />
-            <h3 className="i">Private Companies Hiring</h3>
-            <hr />
-            <br />
-            {Posts(PrivateJobs().blogPosts)}
-            <br />
-          </>
-        )}
-        {Hiring().agencyJobs > 0 && (
-          <>
-            <hr />
-            <h3 className="i">
-              Private Jobs from other companies (which may be smaller or not
-              that famous)
-            </h3>
-            <hr />
-            <section className="icons i">
-              {AgencyIcons.map((icon, i) => {
-                return (
+        <hr />
+        <h3 className="i">Government Departments / Entites with Vacancies</h3>
+        <hr />
+        <br />
+        {Posts(PublicJobs().blogPosts)}
+        <br />
+        <br />
+        <hr />
+        <h3 className="i">Private Companies Hiring</h3>
+        <hr />
+        <br />
+        {Posts(PrivateJobs().blogPosts)}
+        <br />
+        <hr />
+        <h3 className="i">
+          Private Jobs from other companies (which may be smaller or not that
+          famous)
+        </h3>
+        <hr />
+        <section className="icons i">
+          {AgencyIcons.map((icon, i) => {
+            return (
+              <img
+                key={i}
+                src={icon.src}
+                title={icon.title}
+                alt={icon.title}
+                className="agency-icon"
+              />
+            );
+          })}
+        </section>
+        <h3 />
+        <hr />
+        <section className="posts">
+          {OtherPrivateJobs().map((p, i) => {
+            if (p?.summary) {
+              return (
+                <article className="sa-youth" key={i}>
+                  {p?.jobTitle}
                   <img
-                    key={i}
-                    src={icon.src}
-                    title={icon.title}
-                    alt={icon.title}
-                    className="agency-icon"
+                    src={"./assets/" + p.iconLink}
+                    alt="agency icon"
+                    className="icon"
+                    title="agency icon"
+                    style={{ boarderRadius: "4px" }}
                   />
-                );
-              })}
-            </section>
-            <h3 />
-            <hr />
-            <section className="posts">
-              {OtherPrivateJobs().map((p, i) => {
-                if (p?.summary) {
-                  return (
-                    <article className="sa-youth" key={i}>
-                      {p?.jobTitle}
-                      <img
-                        src={"./assets/" + p.iconLink}
-                        alt="agency icon"
-                        className="icon"
-                        title="agency icon"
-                        style={{ boarderRadius: "4px" }}
-                      />
-                      {p?.summary && (
-                        <span
-                          dangerouslySetInnerHTML={{ __html: p.summary }}
-                        ></span>
-                      )}
-                      <hr />
-                      <br />
-                      <button
-                        className="read-more"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          ReadMore(p);
-                          Navigate("/post_information");
-                        }}
-                      >
-                        Read More
-                      </button>
-                    </article>
-                  );
-                }
+                  {p?.summary && (
+                    <span
+                      dangerouslySetInnerHTML={{ __html: p.summary }}
+                    ></span>
+                  )}
+                  <hr />
+                  <br />
+                  <button
+                    className="read-more"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      ReadMore(p);
+                      Navigate("/post_information");
+                    }}
+                  >
+                    Read More
+                  </button>
+                </article>
+              );
+            }
 
-                return (
-                  <article className="post" key={i}>
-                    <h3 className="title"> {p?.jobTitle}</h3>
-                    <br /> <hr />
-                    <section className="post-summary">
-                      <img
-                        src={"./assets/" + p.iconLink}
-                        alt="agency icon"
-                        className="icon"
-                        title="agency icon"
-                      />
-                      <br />
-                      {p?.jobSpecFields && (
-                        <p className="job-field" title={p["jobSpecFields"]}>
-                          {p["jobSpecFields"]}
-                        </p>
-                      )}
-                      <br />
-                      {p?.province && (
-                        <h5 className="province">Province: {p.province}</h5>
-                      )}
-                      {p?.location && isObject(p.location) && (
-                        <span>
-                          <h5 className="location">
-                            Region: {p.location?.region?.replace(",", "")}
-                          </h5>
-                          <h5 className="location">
-                            City: {p.location?.city?.replace(",", "")}
-                          </h5>
-                        </span>
-                      )}
-                      {p?.location && !isObject(p.location) && (
-                        <h5 className="location">Location: {p.location}</h5>
-                      )}
-                      {p?.expiryDate && <h5>{p.expiryDate}</h5>}
-                      {p?.startDate && <h5> Start Date: {p.startDate}</h5>}
-                      {p?.publishedDate && <h5>{p.publishedDate}</h5>}
-                      {p?.vacancyType && (
-                        <h5>Vacancy type : {p.vacancyType}</h5>
-                      )}
-                      <br />
-                      <section className="details">
-                        {Array.isArray(p.details) && (
-                          <div
-                            className="short-detail"
-                            dangerouslySetInnerHTML={{ __html: p.details[1] }}
-                          ></div>
-                        )}
-                        {/* p.details.replaceAll(/\.(?=[A-Z0-9 ])/g, ".<br/><br/>") */}
-                        {!Array.isArray(p.details) && (
-                          <div
-                            className="snippet"
-                            dangerouslySetInnerHTML={{ __html: p.details }}
-                          ></div>
-                        )}
-                      </section>
-                    </section>
-                    <br />
-                    <hr />
-                    <br />
-                    <button
-                      className="read-more"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        ReadMore(p);
-                        Navigate("/post_information");
-                      }}
-                    >
-                      Read More
-                    </button>
-                  </article>
-                );
-              })}
-            </section>
-            <br />
-          </>
-        )}
+            return (
+              <article className="post" key={i}>
+                <h3 className="title"> {p?.jobTitle}</h3>
+                <br /> <hr />
+                <section className="post-summary">
+                  <img
+                    src={"./assets/" + p.iconLink}
+                    alt="agency icon"
+                    className="icon"
+                    title="agency icon"
+                  />
+                  <br />
+                  {p?.jobSpecFields && (
+                    <p className="job-field" title={p["jobSpecFields"]}>
+                      {p["jobSpecFields"]}
+                    </p>
+                  )}
+                  <br />
+                  {p?.province && (
+                    <h5 className="province">Province: {p.province}</h5>
+                  )}
+                  {p?.location && isObject(p.location) && (
+                    <span>
+                      <h5 className="location">
+                        Region: {p.location?.region?.replace(",", "")}
+                      </h5>
+                      <h5 className="location">
+                        City: {p.location?.city?.replace(",", "")}
+                      </h5>
+                    </span>
+                  )}
+                  {p?.location && !isObject(p.location) && (
+                    <h5 className="location">Location: {p.location}</h5>
+                  )}
+                  {p?.expiryDate && <h5>{p.expiryDate}</h5>}
+                  {p?.startDate && <h5> Start Date: {p.startDate}</h5>}
+                  {p?.publishedDate && <h5>{p.publishedDate}</h5>}
+                  {p?.vacancyType && <h5>Vacancy type : {p.vacancyType}</h5>}
+                  <br />
+                  <section className="details">
+                    {Array.isArray(p.details) && (
+                      <div
+                        className="short-detail"
+                        dangerouslySetInnerHTML={{ __html: p.details[1] }}
+                      ></div>
+                    )}
+                    {/* p.details.replaceAll(/\.(?=[A-Z0-9 ])/g, ".<br/><br/>") */}
+                    {!Array.isArray(p.details) && (
+                      <div
+                        className="snippet"
+                        dangerouslySetInnerHTML={{ __html: p.details }}
+                      ></div>
+                    )}
+                  </section>
+                </section>
+                <br />
+                <hr />
+                <br />
+                <button
+                  className="read-more"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    ReadMore(p);
+                    Navigate("/post_information");
+                  }}
+                >
+                  Read More
+                </button>
+              </article>
+            );
+          })}
+        </section>
+        <br />
 
         <nav className="sm-nav">
           <IoIosCloseCircle
@@ -222,7 +200,7 @@ export default function Board() {
               color: "white",
               width: "40px",
               height: "40px",
-              cursor: "pointer",
+              cursor: "pointer"
             }}
             onClick={(e) => {
               e.preventDefault();

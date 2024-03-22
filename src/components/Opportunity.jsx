@@ -30,19 +30,63 @@ export default function Opportunity() {
     }
   };
   const Iframe = () => {
-    if (PostInfo?.iframe?.length) {
+    const renderIframe = (src) => (
+      <iframe className="documentFrame" src={src}>
+        <p>
+          😞 sorry Document won't load, you can access it
+          directly here {PostInfo.href} or click the source button
+        </p>
+      </iframe>
+    );
+  
+    if (Array.isArray(PostInfo?.iframe) && PostInfo?.iframe?.length) {
       return (
         <div className="full-details">
-          <iframe id="documentFrame" src={PostInfo.iframe}>
-            <p>
-              &#128542; sorry Document won&apos;t load, you can access it
-              directly here {PostInfo.href} or click the source button
-            </p>
-          </iframe>
+          {PostInfo?.iframe.map((src, index) => (
+            <div key={index}>{renderIframe(src)}</div>
+          ))}
+        </div>
+      );
+    } else if (PostInfo?.iframe?.length) {
+      return (
+        <div className="full-details">
+          {renderIframe(PostInfo.iframe)}
         </div>
       );
     }
   };
+  
+  // const Iframe = () => {
+
+  //   if (Array.isArray(PostInfo?.iframe)) {
+  //     return (
+  //       <div className="full-details">
+  //         {PostInfo?.iframe.map((src, index) => {
+  //           return (
+  //             <iframe className="documentFrame" key={index} src={src}>
+  //               <p>
+  //                 &#128542; sorry Document won&apos;t load, you can access it
+  //                 directly here {PostInfo.href} or click the source button
+  //               </p>
+  //             </iframe>
+  //           );
+  //         })}
+  //       </div>
+  //     );
+  //   } else if (PostInfo?.iframe?.length) {
+  //     return (
+  //       <div className="full-details">
+  //         <iframe className="documentFrame" src={PostInfo.iframe}>
+  //           <p>
+  //             &#128542; sorry Document won&apos;t load, you can access it
+  //             directly here {PostInfo.href} or click the source button
+  //           </p>
+  //         </iframe>
+  //       </div>
+  //     );
+  //   }
+  // };
+
   return (
     <dialog open id="info-card">
       <form method="dialog">
@@ -155,7 +199,7 @@ export default function Opportunity() {
             )}
 
             <hr className="line" />
-            {PostInfo?.content?.length && (
+            {PostInfo?.content?.length > 0 && (
               <>
                 <div
                   className="full-details"

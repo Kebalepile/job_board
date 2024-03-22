@@ -29,8 +29,8 @@ export default function Main() {
 
           <ol id="headline-job-info">
             <li> {Hiring().public} Government Departments</li>
-            <li>{Hiring().private} Private Sector Entities/Companies </li>
-            <li> +{Hiring().agencyJobs} Private Sector</li>
+            <li>25 Private Sector Entities/Companies </li>
+            <li> +{Hiring().private} Private Sector</li>
             <br />
             <p className="i">Openings</p>
           </ol>
