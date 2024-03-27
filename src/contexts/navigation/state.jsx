@@ -6,10 +6,12 @@ import Reducer from "./reducer";
 export default function NavProvider({ children }) {
   const initialState = {
     MENU: false,
-    JOBS: false
+    JOBS: false,
+    ABOUTPLATFORM:false,
+    OPPORTUNITY:false
   };
   const [state, dispatch] = useReducer(Reducer, initialState);
-  const { MENU, JOBS } = state;
+  const { MENU, JOBS, ABOUTPLATFORM, OPPORTUNITY } = state;
   const Display = (type) => {
     dispatch({
       type,
@@ -21,7 +23,9 @@ export default function NavProvider({ children }) {
       value={{
         Display,
         JOBS,
-        MENU
+        MENU,
+        ABOUTPLATFORM,
+        OPPORTUNITY
       }}
     >
       {children}

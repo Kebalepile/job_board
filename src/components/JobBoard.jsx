@@ -6,6 +6,8 @@ import { IoIosCloseCircle } from "react-icons/io";
 
 import JobBoardContext from "../contexts/jobBoard/context";
 
+
+
 function useNavigation() {
   const navigateTo = useNavigate();
   function navigate(path) {
@@ -13,7 +15,7 @@ function useNavigation() {
   }
   return navigate;
 }
-export default function Board() {
+export default function JobBoard() {
   const { PublicJobs, PrivateJobs, OtherPrivateJobs, AgencyIcons, ReadMore } =
     useContext(JobBoardContext);
   /**
@@ -23,19 +25,25 @@ export default function Board() {
 
   const Navigate = useNavigation();
 
+  const HandleClick = (event, data) => {
+    event.preventDefault();
+    ReadMore(data);
+    Navigate("/post_information");
+  };
+
   const Posts = (blogPosts) => {
     return (
       <section className="scroll-posts">
         {blogPosts.map((p, i) => {
+       
           return (
             <article
               className="job-post"
+              id={p?.uuid}
               key={i}
               title={p.title}
               onClick={(e) => {
-                e.preventDefault();
-                ReadMore(p);
-                Navigate("/post_information");
+                HandleClick(e, p);
               }}
             >
               <div className="company-logo">
@@ -88,9 +96,10 @@ export default function Board() {
         <hr />
         <section className="posts">
           {OtherPrivateJobs().map((p, i) => {
+           
             if (p?.summary) {
               return (
-                <article className="sa-youth" key={i}>
+                <article id={p?.uuid}className="sa-youth" key={i} >
                   {p?.jobTitle}
                   <img
                     src={"./assets/" + p.iconLink}
@@ -109,9 +118,7 @@ export default function Board() {
                   <button
                     className="read-more"
                     onClick={(e) => {
-                      e.preventDefault();
-                      ReadMore(p);
-                      Navigate("/post_information");
+                      HandleClick(e, p);
                     }}
                   >
                     Read More
@@ -122,7 +129,10 @@ export default function Board() {
 
             return (
               <article className="post" key={i}>
-                <h3 className="title"> {p?.jobTitle}</h3>
+                <h3 className="title" >
+                  {" "}
+                  {p?.jobTitle}
+                </h3>
                 <br /> <hr />
                 <section className="post-summary">
                   <img
@@ -181,9 +191,7 @@ export default function Board() {
                 <button
                   className="read-more"
                   onClick={(e) => {
-                    e.preventDefault();
-                    ReadMore(p);
-                    Navigate("/post_information");
+                    HandleClick(e, p);
                   }}
                 >
                   Read More

@@ -3,130 +3,289 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
-      "jobTitle": "Foreman (Technical/Safety)",
-      "startDate": "2023-12-14 - 2024-01-20",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "Engineering &amp; Technical",
-      "location": {
-        "city": ", Springbok",
-        "region": "Northern Cape"
-      },
-      "details": "Description:* The purpose of this position is to assist management in direct oversight of the department's daily operation.Qualification Requirements:* Grade 12 or equivalent qualification* Valid section 13 trade test / section 26(D) in a Fitter or Boilermaker certificate required* Samtrac / COMSOC certification* Valid driver's license code B, EB or C1Experience and Skills Requirements:* Minimum of 7 years' experience in maintenance withing the mining industry, with at least 3 years supervisory experience required.* Time management skills* Supervisory management* Finance to non-financial managers experience is an advantage* Computer Literacy in MS OfficeDuties &amp; Responsibilities would be the following but not limited to:* Investigate and diagnose problems and breakdowns* Perform inspections in accordance with the Mine Health &amp; safety Act regulations* Attend to breakdowns immediately to minimize downtime.* Determine work schedules in conjunction with other engineering / process teams to ensure availability* Enforce compliance with legal requirements, i.e. right to stop dangerous work* Train site employees on safety topics, information",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002326-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "SHEQ Coordinator",
-      "startDate": "2023-12-14 - 2024-01-20",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Description:* To implement, maintain and monitor adherences to SHEQ policies and procedures to ensure compliance with site, client specific and legislative requirementsQualification Requirements:* SAMTRAC / COMSOC certification* SHEQ Auditors certificate* Valid driver's licenseExperience and Skills Requirements:* Experience in mining&nbsp;* Computer literacy in MS Office* Presentations and report writing skills* Legal Liability Training* ISO 9001 quality management* ISO 14001 Enviromental Management* OHSAS 18001Duties &amp; Responsibilities would be but not limited to:* Health, Safety and Legal Responsibilities:- Ensure that the safety risk management system is implemented and maintained on site- Ensure that all requirements are complied* Functional Roles:- Enforce compliance with legal requirements i.e. right to stop dangerous work- Ensure all legal appointments are valid according to legislative requirements- Conduct inspections, reports the findings to management, and follow up on reports as required by legislation- Maintain all SHEQ related information are up to date- Manage all injuries and ill health incidents on site- Compile and submit reports according to internal and external client requirements* Training Responsibility:- Train site employees on safety topics, information- Advise employees on legal requirements- On the job training and coaching to be done with employees",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002327-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Service Advisor",
-      "startDate": "2023-11-30 - 2023-12-30",
+      "jobTitle": "Business Development Manager",
+      "startDate": "2024-03-27 - 2024-05-25",
       "vacancyType": "Permanent",
-      "jobSpecFields": "Logistics, Warehouse &amp; Freight",
+      "jobSpecFields": "Business",
       "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
+        "city": ", Ivory Coast, Burkina Faso, Senegal",
+        "region": "West Africa"
       },
-      "details": "The candidate must have previous motor industry experience.* Previous Service Advisory experience essential* Booking of job cards and follow up* Pastel, Excel computer literacy essential* Be able to start immediately* Contactable working references",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002161-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Counter Sales Assistant",
-      "startDate": "2023-11-29 - 2023-12-29",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Retail",
-      "location": {
-        "city": ", Bela Bela",
-        "region": "Limpopo"
-      },
-      "details": "Minimum Qualifications:Must have Grade 12 or equivalent&nbsp;Must be fluent in Afrikaans and English&nbsp;Previous Counter Sales will be an advantage&nbsp;Previous technical / paint counter sales experience will be an added advantage&nbsp;Energetic, hardworking, diligent individual",
+      "details": "Duties:&nbsp;Drive business development against set standards/targetOffer quality solutions to meet customer needs by conducting proper research and addressing the customer's&nbsp;pain points&nbsp;Identify and manage sales channels and partnerships, ensuring effective collaboration and optimal resultsDevelop methods for growth and maintenance of customer base through actively identifying new sakes and&nbsp;market opportunities within allocated region/s as well as keeping in contact with loyal/repeating customers&nbsp;Ensure continuous development and maintenance of own product knowledge for customer excellence&nbsp;Develop and maintain strong relationships with existing and potential clients in the mining industryQualifications:&nbsp;Degree or diploma in Surveying or equivalentMinimum of 3 years’ experience and credibility in the Mining Industry&nbsp;Skills/Knowledge:&nbsp;Must be fluent in French, both written and spoken, to effectively communicate with local clientsMust be proficient in English to engage with international partners and stakeholders&nbsp;Self-motivated with a results-oriented mindset and the ability to work independently&nbsp;Advanced knowledge of related products and services&nbsp;Excellent presentation and communication skills (verbal &amp; non-verbal)&nbsp;Understanding of industry/application/solutions/ customer requirementsUnderstanding of sales best practices&nbsp;IT proficiency (Knowledge of CRM software &amp; Microsoft Office)&nbsp;Conceptual ability to analyse, interpret &amp; offer customised solutions&nbsp;Problem-solving ability&nbsp;Attitude/Approach:&nbsp;Accountability/ Integrity in business development, expense &amp; delegation issues&nbsp;Reliability regarding services offered/ promised to customers&nbsp;Valid unendorsed driver’s license and own transport&nbsp;Valid work permit or citizenship in the country&nbsp;&nbsp;Behavioural Competencies:&nbsp;Respect – have due regard for others &amp; acknowledge our diversity&nbsp;Integrity – doing the right thing, even when no one is watching&nbsp;Trust – have a firm belief in the reliability, truth, and ability of others&nbsp;Ownership – be accountable for our decisions and actions&nbsp;Excellence – proud committed to quality &amp; success&nbsp;Balance – work hard, play hard",
       "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002320-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "SHEQ Administrator",
-      "startDate": "2023-11-29 - 2023-12-29",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Description:The purpose of the position is to implement, maintain and monitor adherence to SHEQ policies and procedures to ensure compliance with site, client and legislative requirements.Qualification Requirements:* Grade 12* SAMTRAC / COMSOC&nbsp;* MHSA &amp; OSHAExperience and Skills Requirements:* Experience in mining industry and SHEQ administration* Time management skills* Computer literacy in MS Office/ExcelDuties:* Comply with site requirements* Enforce compliance to legal requirements* Ensure all legal appointments are valid* Conduct plant and equipment inspections* Manage all safety health and environmental reps* Maintain all SHEQ related information* Compile and submit reports according to internal and external clients* Facilitate and participate in the site audit process* Manage nonconformance and incident reporting and investigation processed* Manage access control",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002321-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
-    },
-    {
-      "jobTitle": "Chief Executive Officer",
-      "startDate": "2023-11-27 - 2023-12-27",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Tourism",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Experience &amp; Skills required&nbsp;Bachelor’s degree in business or related studies, MBA, or MSc in tourism. An understanding of the tourism industry (Government Policy and Private Sector Stakeholder landscape) will be an added advantage. Understanding of the Group reporting processes and financial management regime. Significant experience in the hospitality and safari industry. Knowledge of online booking systems and back-office intranet solutions. Ability to train, develop and manage large operational and executive teams. Executive Presence and ability maintain calm demeanour in high stress environments. At least 10 years proven experience at senior management, including 5 years at executive-level. Private entities experience at senior management level will be an added advantage.",
-      "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002318-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002340-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "9e03390b-143b-4f48-90f4-ee76cc3f4251"
     },
     {
       "jobTitle": "Accountant",
-      "startDate": "2023-11-23 - 2023-12-23",
+      "startDate": "2024-03-27 - 2024-04-26",
       "vacancyType": "Permanent",
       "jobSpecFields": "Finance",
       "location": {
         "city": ", Rustenburg",
         "region": "North West"
       },
-      "details": "The ideal candidate must have the following:* Must have a Financial Degree with SAIPA articles* At least 3-5 years working experience within a financial institute* Have a valid grade 12 certificateComputer literacy:* Pastel* MS Word &amp; Excel* Draft Worx (would be to your advantage)Duties would be, but not limited to:* Data processing to trial balance* Preparing financial statements* SARS submissions* All related financial duties would be to your advantage",
+      "details": "Requirements:\n\nMatric\nRelevant Accounting qualifications\n\nResponsibilities:\n\nMust be able to do up to trial balance / Financial statements Completed 3rd year articles.\nProgram: Caseware an added advantage\n\nSalary up to R20000",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002385-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "dbb49476-fde4-4ae7-a168-235f5fce78ed"
+    },
+    {
+      "jobTitle": "Business Development Manager",
+      "startDate": "2024-03-27 - 2024-05-25",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Mining",
+      "location": {
+        "city": ", Senegal",
+        "region": "West Africa"
+      },
+      "details": "Qualifications Required:* Degree or diploma in Surveying or equivalent.* Minimum of 3 years' experience and credibility within the mining sector essential.Skills &amp; Knowledge:* Must be fluent in French, both written and spoken, to effectively communicate with local clients* Must be proficient in English to engage with international partners and stakeholders* Self-motivated with results-orientated mindset and the ability to work independently.*Advanced knowledge of related products and services* Excellent presentation and communication skills (verbal &amp; nonverbal)* Understanding of industry/application/ solutions/customer requirements*Understanding of sales best practices* IT proficiency (Knowledge of CRM software and MS Office)* Conceptual ability to analyze &amp; offer customized solutions* Problem solving abilityDuties would be but not limited to:* Drive business development against set standards/targets* Offer quality solutions to meet customer needs by conducting proper research and addressing the customers pain points* Identify and manage sales channels and partnership, ensuring effective collaboration and optimal results* Develop methods for growth and maintenance of customer base through actively identifying new sakes and market opportunities within allocated regions as well as keeping in contact with loyal/repeating customers* Ensure continuous development and maintenance of own product knowledge for customer excellence* Develop and maintain strong relationship with existing and potential clients in the mining industry",
       "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002315-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg"
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002384-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "574398d4-a498-444f-8fdc-893e40fa4059"
+    },
+    {
+      "jobTitle": "Laundry Technicians",
+      "startDate": "2024-03-26 - 2024-04-26",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Hospitality",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The ideal candidates must have the following in order to apply for this position:* High School diploma (grade 12)* 2 Years maintenance / mechanical working experience on industrial laundry machines.* Must have a VALID driver's license* Be able work with others in a team, with little or no supervision* Mut be able to work long hours under emergency situations* Ability to communicate with other members of the team* Physically able to stand, bend lift and move frequently throughout the day* Be able to push, pull or move heavy carts* Must be competent with computers, including EXCEL spreadsheets and the exhibit the ability to interpret data presented by machinery software* Motor coordination and manual dexterity are necessary* Ability to lift and or move machinery covers when needed* Require working at heights when required* Be able to operate hand tools, volt meters, amp probes and other tools* Able to read, understand and interpret technical manuals, schematics and wiring diagrams* Sound knowledge of the following industrial laundry machines: Speed Queens, Girbau, Primus and ADC.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002365-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "1ad67703-e78f-4ed1-91e4-df9a7b760fa1"
+    },
+    {
+      "jobTitle": "Service Advisor",
+      "startDate": "2024-03-25 - 2024-04-25",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Logistics, Warehouse &amp; Freight",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The ideal candidate must have the following requirements:* Must have at least 3 years' service advisor experience* Be able to do job cards, follow ups, have excellent customer service* Must have a valid driver's license* Be able to start immediately* Working hours will be Mon - Thursday 07h00 - 17h00Friday 07h00 - 16h00",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002348-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "87ade88f-8fd1-4fa2-9d58-10483d1c514f"
     },
     {
       "jobTitle": "Buyer",
-      "startDate": "2023-11-23 - 2023-12-23",
+      "startDate": "2024-03-19 - 2024-04-19",
       "vacancyType": "Permanent",
-      "jobSpecFields": "Retail",
+      "jobSpecFields": "Construction",
       "location": {
-        "city": ", Tshwane (Pretoria)",
-        "region": "Gauteng"
+        "city": ", Rustenburg",
+        "region": "North West"
       },
-      "details": "Minimum Qualifications and Requirements:\n\n&nbsp;Strong administrative skills.\nComputer literate – Basic Windows Applications.\nKnowledge and experience of Pastel Evolution will be an advantage.\nHigh attention to detail and accuracy.Excellent verbal and communication skills with fluency in Afrikaans and English.\nTrustworthy and reliable\n\nJob Description:The Buyer will form an integral part of the Procurement function in the Company.Placing Orders.Manage LevelsPrice negotiations.Sourcing quality suppliers and products.Identifying / sourcing of stock items.Follow-up with suppliers concerning deliveries / special orders.Assist Sales Department with special stock inquiries.Stock TakingFeedback to management.",
-      "contact": "Rene",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002316-R",
-      "iconLink": "agency_icons/pro-personnel.jpg"
+      "details": "The following job description is required in order to apply for this position, with previous working experience, with the below specs.Suppliers / Subcontractors Liaison:* To liaise regularly with Senior Buyer* To phone chosen suppliers/sub-contractors within 5 days of receipt of tender documents* Where innovative approaches are considered the Estimator, Buer and the supplier/sub-contractor meet face to face to go through all the detail when requiredPrices are submitted:* Buyer to follow up and ensure that due date for submissions is met* Negotiate prices as to contain increases according to inflation* Maximize trade and settlement discounts* To ensure the products ordered by sites are delivered on time and in full*To understand the unique site requirements and location by conduction a site visits as or when requiredAdmin Procedures:* Typing of requisitions to be in format/details understood by supplier* Filing to be done and under correct order* Ensure daily basis that the orders have gone throughConfidentiality:* Information with respect to any confidential material must not be disclosed until proper authorization from Senior BuyerSignatures:* Ensure approved signatures are obtained on the relevant documentation according to the delegation of authority* Ensure that baying is conducted on a code of ethics* Honestly* IntegrityStandard Terms &amp; Conditions of Purchase are Adhered to* Ensure that the standard terms &amp; Conditions of purchase are adhered to* Any documentation to be agreed with Senior Buyer",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002363-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "5158b5cd-3b2a-498b-8d57-c140fc4eccc3"
     },
     {
-      "jobTitle": "Internal Sales",
-      "startDate": "2023-10-01 - 2024-01-31",
+      "jobTitle": "Sales Rep",
+      "startDate": "2024-03-19 - 2024-04-19",
       "vacancyType": "Permanent",
       "jobSpecFields": "Sales",
       "location": {
         "city": ", Rustenburg",
         "region": "North West"
       },
-      "details": "The successful candidate will have to meet the following minimum requirements:\n&nbsp;\nMinimum Qualifications\n\nGrade 12\nCandidates with subjects related to Arts will be an added advantage\n\nMinimum Experience of the Job\n\nCandidate with sales and customer satisfaction experience will be an added advantage\n\nRelevant Training Required\n\nCandidates must be computer literate in at least MS Word, Excel and Email\nExperience in programs such as Kerridge and Ulti Sales will be an added advantage&nbsp;\n\nWorking hours:\nMonday to Friday 07:45 - 17:00\nSaturdays: 07:45 - 13:00\nOne Saturday per month off&nbsp;\n&nbsp;",
-      "contact": "Welma Helberg Nel",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB000344-WHN",
-      "iconLink": "agency_icons/pro-personnel.jpg"
+      "details": "Please note in order to apply for this position must have the following:* Must be in possession of OWN vehicle* Must have a valid drivers license* Previous mining house sales experience* Previous conveyor belt knowledge experienceCompany will provide laptop, travel cost, cellphone and car allowance.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002383-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "5cbdb261-987c-4310-805f-1f77bb0bf50f"
+    },
+    {
+      "jobTitle": "Credit Manager",
+      "startDate": "2024-03-18 - 2024-04-18",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", All Areas",
+        "region": "All Areas"
+      },
+      "details": "Occupational Experience &amp; Education Requirements:* Bachelor's degree or diploma in business or related field* Minimum 10 years SME lending experience is required* Additional SME support services experience is considered advantageousKey Accountabilities &amp; Duties required but not limited to:* Loan origination's processing* Monitoring and collections* Reporting* Organization development* Financial statements analysis experience* Proficiency with MS Office Suite of products* Experience working with a lending software",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002382-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "1f47efcf-de55-492d-98f1-381753d17f32"
+    },
+    {
+      "jobTitle": "Credit Manager",
+      "startDate": "2024-03-18 - 2024-04-17",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", All Areas",
+        "region": "All Areas"
+      },
+      "details": "Job Purpose &amp; SummaryReporting to the Managing Director, the Credit Manager will be accountable for recommending loans through sound credit granting principles. Credit decisions will be kept within the parameters of the company’s risk appetite and tolerances, and comply with the company’s policies, procedures, and guidelines.&nbsp;By developing strong relationships with both the internal team and external partners, the Credit Manager will ensure client satisfaction and support the healthy and sustainable growth of the company’s loan portfolio.&nbsp;As a senior credit professional, the Credit Manager will also be involved in monitoring market conditions and any regulatory changes that would require changes to credit policies, procedures, and guidelines related to SME lending.Key Accountabilities &amp; DutiesLoan origination and processing\n\nImplement loan origination strategies with lending team\nReview and recommend credit applications and transactions within assigned credit limits in a timely manner\nProvide independent, objective reviews and recommendation to credit applications and other matters which have been agreed to and/or recommended by the Loan Officers\nReview all loan applications and sign off prior to submission to senior management, to ensure the completion of due diligence and adherence to the company’s policies and guidelines\nProvide motivation for recommendations on credit transactions/applications and communicate effectively with Loan Officers to ensure rationale and decision is clearly understood\nWrite succinct credit memos or credit announcements to communicate credit perspective and rationale for new credits and credit extensions\nCommunicate with Loan Officers about specific credit applications and transactions to seek further information and modifications, if needed. Discuss appropriate structuring for the deal and criteria required for approval. Ensure that all information is credible, accurate, and relevant, including analysis and evaluation of the technical aspects (e.g., financial analysis, credit terms, structure, and collateral)\nReview approval letters and loan agreements to ensure credit terms and conditions are recorded\nReview and recommend disbursements according to policies and guidelines to ensure lending conditions are met\nSupport the healthy and sustainable growth of a profitable loan portfolio by ensuring the credit granting and implementation is within the company’s prescribed asset quality standards\nMaintain records of loan applications\n\nMonitoring and Collections\n\nActively monitor loans after disbursement according to guidelines and policies\nOversee collections and implement collection activities timeously\nMinimise bad debts\n\nReporting\n\nWeekly, monthly, quarterly, semi-annually and annual reporting to senior management on lending activities\n Prepare reports for Board and external stakeholders\n\nOrganisation Development\n\nSupport Loan Officers to ensure client and other stakeholder satisfaction\nRespond to and resolve escalated issues raised by the Loan Officers\nContribute to the development and implementation of sound SME lending guidelines and policies\nMonitor market conditions and make recommendations for enhancements to existing policies, procedures and guidelines\nAssess the impact of regulatory changes to existing policies, procedures and guidelines\nProvide support in strategic projects, policy and process improvements initiatives related to the business\n\n&nbsp;Occupational Experience &amp; Education Requirements\n\nBachelor’s Degree or diploma in business or a related field\nMinimum 10 years SME lending experience is required\nAdditional SME support services experience is considered advantageous\n\nKnowledge, Skills &amp; Attributes\n\nSound credit judgement. Ability to understand the risk return trade-off and come up with well thought-out solutions to mitigate credit risk\nAbility to articulate complex credit applications into succinct and balanced recommendations\nUnderstanding of commitment letters and other legal documents from a credit perspective\nFinancial Statement analysis experience\nUnderstanding of SME lending practices and end-to-end credit process\nAnalytical skills and attention to details\nProblem-solving capabilities and excellent organizational and time management skills\nProficiency with MS Office Suite of products\n\nExperience working with a lending softwareSalary - R400 000 p/a",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002381-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "36484a13-e587-4e30-af7b-763215fdc040"
+    },
+    {
+      "jobTitle": "Maintenance Manager (Engineering Department)",
+      "startDate": "2024-03-12 - 2024-04-12",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Witbank",
+        "region": "Mpumalanga"
+      },
+      "details": "The following requirements or other relevant qualifications / experience is required.* BSc, BEng, BTech, national Diploma or equivalent, electrical / mechanical engineering.* Government Certificate of Comptency (GCC) - factories* ± 5 Years middle / departmental management experience in asset/maintenance management in heavy industry* Prior GMR 2.1/2.7 legal appointment, demonstrating good understanding of the OHS Act and its regulations, with 5+ years' experience holding such an appointment* Valid driver's license and own transport* Computer literate (MS Office suite)* Outstanding organizational and Leadership abilities* Competent in problem solving, team building planning and decision making* Experience in asset maintenance systems and strategies* Good knowledge of maintenance principles and practices and experience in implementing systems and strategies for asset maintenance and planning* Good knowledge and experience in electrical and mechanical systems and root cause analysis* Demonstrate decisiveness in resolving problems and making decisions.Desirable:* Post graduate management qualification* 10 years' experience in the maintenance filed in heavy industry* Practical experience in both the electrical and mechanical disciplines* Project management experience* Experience in WCM* Proficiency in CMMS&nbsp;Tasks and Outputs &amp; duties but not limited to:* Maintain an efficient and safe working environment for all employees* Ensure compliance with organizational and legislative safety requirements by maintaining appropriate practices, standards and procedure* Ensure that all procured and installed equipment and machinery complies with OHS act, regulations and applicable standards.* Oversee maintenance activities to ensure safety, efficiency, quality control, budgetary control, service and cost-effective management of resources* Initiate plans and processes to minimize maintenance costs through effective utilization of human resource, equipment, facilities, materials and capital* Provide technical assistance to staff in plant maintenance and repairs* Prepare reports, analyze data and make recommendations for improving plant and facilities* Drive breakdowns investigation through the application of root cause analysis and other techniques* Monitor and report on plant availability, utilization and other KPI's, (MTBF, MTTR etc.), business and group",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002379-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "642a8cba-6550-4d0c-a56e-589468f3eda7"
+    },
+    {
+      "jobTitle": "Sales Person",
+      "startDate": "2024-03-11 - 2024-04-10",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", George",
+        "region": "Western Cape"
+      },
+      "details": "Requirements:\n\nValid Drivers License\nMust have Grade 12\nKnowledge of paint or construction.\n\nDuties:\n\nAssisting customers and providing advice (including over the phone) &amp; handling invoicing (later quotations as well)\nProcessing supplier orders, inquiries, and verifying them in our system\nAssisting with inventory when necessary\n\nSalary: Approximately R8000-R9000 (depending on experience)",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002378-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "4a6d62e7-d209-4852-b3cd-afed683639e5"
+    },
+    {
+      "jobTitle": "Internal Sales / Customer Service",
+      "startDate": "2024-03-08 - 2024-04-08",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "Responsibilities:* Managing and handling telephonic enquiries.* Providing product information to existing and potential customers* Providing verbal and typed quotations to customers* Following up on quotations* Providing guidance to customers in the use /application of products* Entering of sales order on our operating system.* Compiling of documentation required for projects and tenders* Arranging and attending of sales events* Updating quote schedule on daily basis* Forwarding order knowledge to customer and sales reps* Follow up on all weekly back orders* Focused on reducing the slow moving i the branchCustomer Involvement &amp; After Sales Service* The position has direct contact with customers and internal departments and will be required to assist and take ownership of customer and sales reps commercial and related queries when requested* The success is based on the positions effective handling of internal and external customer needs.Costing:* Responsible to do all calculations of instructions received from operations* Sending the quotes as per structureKey Supply Chain:* Co-ordinate buy outs and purchasing of consumables for the repair facilitate withing the supply chain* Compile a list of preferred suppliers to ensure service level agreements, supplier BBBEE certificates and quality standards* Identify and source supplier quotes* Ordering of goods form supplier&nbsp;* Processing of order confirmations from supplier quickly, liaising with order departments and branches&nbsp;* Chasing suppliers* Placing purchase orders&nbsp;* Follow up and monitoring of all purchase order until goods are deliveredAdministration:* Responsible for all general admin, processing of delivery notes and invoicing.* Control and follow up of outstanding Purchase Orders* Handling of credits and warranty claimsDaily &amp; monthly reporting structures\\Inventory:* Assist with physical inventory, communicate with relevant managers, following up on negative stockWarranty Claims:* Keep an update schedule of all warranty claims.Debtors:* Assisting with debtor queries",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002377-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "519b0d71-524f-4241-be2d-c8a17d0bbc9f"
+    },
+    {
+      "jobTitle": "IT Technician",
+      "startDate": "2024-03-05 - 2024-04-05",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Information Technology",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The suitable candidate must have the following requirements:* A+ &amp; N+ certificate* MCSE certificate to your advantage* Previous IT working experience* Must be in possession of a valid driver's license* Be able to work retail hours* Must be a hard worker, and a go-getter* Kindly send CV with all relevant certificates, driver's license and ID in order to apply for this position.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002374-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "93c4f9cb-1e7f-4e6a-b9fb-6077b334e37b"
+    },
+    {
+      "jobTitle": "Draughtsman",
+      "startDate": "2024-03-05 - 2024-04-04",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Construction",
+      "location": {
+        "city": ", Brits",
+        "region": "North West"
+      },
+      "details": "The ideal candidate should have experience and proficiency in the following:&nbsp;Project ManagementAutoCADInventorFabrication and ModificationAlterations to Existing StructuresEngineering",
+      "contact": "Rene",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002375-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "18fd3644-4bd5-4ca2-96fa-cd7908e5a537"
+    },
+    {
+      "jobTitle": "Hairdresser Assistant",
+      "startDate": "2024-03-04 - 2024-04-03",
+      "vacancyType": "Temp",
+      "jobSpecFields": "Other",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Position: Salon AssistantSalary: R250 - R280 per dayWorking Hours:Mondays: OFFTuesdays: 08:00 - 18:30Wednesdays: 08:00 - 13:00Thursdays: 08:00 - 17:00Fridays: 08:00 - 17:00Every Second Saturday: 08:00 - 13:00Job Responsibilities:Washing hairAssisting talented hairdressersKeeping the salon sparkling cleanMaking delicious coffee for our clientsCreating a welcoming and positive atmosphereRequirements:Passion for the beauty and salon industryFriendly and positive attitudeAbility to work in a fast-paced environment.Excellent communication skillsPrevious salon or customer service experience is a plus!How to Apply:If you have a passion for beauty and want to be a part of an amazing team, we'd love to hear from you! Send your CV, photo and a brief introduction to Michelle at 081 611 2034 on WhatsApp. Don't miss out on this fantastic opportunity to kickstart your career in the beauty industry!",
+      "contact": "Michelle Du Toit",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002372-MDT",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "6c10c6f6-5410-49da-895d-333506e9749b"
+    },
+    {
+      "jobTitle": "Financial Accountant / Financial Manager",
+      "startDate": "2024-02-28 - 2024-03-28",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The suitable candidate must have the following requirements:Qualifications &amp; Computer literacy* Financial qualification* MS Word &amp; MS Excel (advance to intermediate)* Pastel* Previous cleaning or chemical experience would be to your advantageAccounting Operations:* Managing accounting operations (including billings, accounts receivable, general ledger, accounts payable etc.)* Ensure correct allocation of bank statement transactions* Preparation and submission of daily commission calculations* Ensure that all financial transactions are accurately recorded and maintained on the internal database* Provide operational support with regards to chemical orders placed and delivery schedules* Prepare payments for approval by the Financial Manager and CEO* Adherence to all quality standards and processes within the budget and finance area* Assist with the processing and reconciliations",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002370-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "18ca6e06-d9ec-44ff-a2c5-a924e8f67be4"
+    },
+    {
+      "jobTitle": "Sales Rep",
+      "startDate": "2024-02-26 - 2024-03-28",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The candidate must have the following:* Valid driver's license* Own transport* Clear criminal record* Must be medically fit* Must be able to work on multiple sites around Rustenburg* Knowledge of the mining, corrosion and wear protection industry essential* Previous sales rep experience essential",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002366-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "c8c29d1d-8905-4026-adde-1c4bd88f9a73"
+    },
+    {
+      "jobTitle": "Project Manager",
+      "startDate": "2024-02-01 - 2024-04-30",
+      "vacancyType": "Contractor",
+      "jobSpecFields": "Mining",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Key Requirements:&nbsp;\n\nMine Overseer Certificate of Competence (Required):\nDemonstrated expertise in overseeing mining operations, ensuring compliance with safety regulations, and optimizing production efficiency.\nMine Manager Certificate (Advantageous): Possession of a Mine Manager Certificate will be considered a significant asset.\nProject Management Certificate/Qualification (Required): Essential for effective planning, execution, and control of mining projects.\nMinimum 10 Years Underground Production Experience: Proven track record in underground mining with a focus on safety, productivity, and operational excellence.\nPreferably as a Mining Contractor: Experience in managing projects as a Mining Contractor will be highly valued.\nAbility to Carry a Legal Appointment: Demonstrated capability to hold a legal appointment in accordance with industry standards.\n\nResponsibilities:&nbsp;\n\nOversee and manage underground mining projects from inception to completion.\nEnsure compliance with safety regulations and company policies.\nOptimize production processes to achieve efficiency and meet project timelines.\nCollaborate with cross-functional teams to deliver successful outcomes.\nProvide leadership and guidance to the project team.\n\nQualifications and Skills:&nbsp;\n\nStrong leadership and project management skills.\nAbility to carry a legal appointment in the mining sector.\nExcellent communication and interpersonal abilities.\nAbility to negotiate and make decisions based on experience.\n\nContract Details:&nbsp;This position is contract-based.Salary will be negotiated based on the candidate's experience and qualifications.Please email CV to michelle@propersonnel.co.za",
+      "contact": "Michelle Du Toit",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002356-MDT",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "83d22502-543f-44e1-91c2-a9bf396ae70e"
+    },
+    {
+      "jobTitle": "Field Service Technician",
+      "startDate": "2023-12-07 - 2024-03-31",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Main Responsibilities:&nbsp;",
+      "contact": "Michelle Du Toit",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002324-MDT",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "8bd3f6de-13ce-4ea9-beb0-1439cb2f656e"
     }
   ]
 }

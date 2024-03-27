@@ -20,7 +20,7 @@ export default function Opportunity() {
 
   useEffect(() => {
     if (!PostInfo) {
-      Navigate("/job_board");
+      Navigate("/");
     }
   });
 
@@ -33,59 +33,25 @@ export default function Opportunity() {
     const renderIframe = (src) => (
       <iframe className="documentFrame" src={src}>
         <p>
-          😞 sorry Document won't load, you can access it
-          directly here {PostInfo.href} or click the source button
+          😞 sorry Document won't load, you can access it directly here{" "}
+          {PostInfo.href} or click the source button
         </p>
       </iframe>
     );
-  
+    const renderElement = (content) => (
+      <div className="full-details">{content}</div>
+    );
+
     if (Array.isArray(PostInfo?.iframe) && PostInfo?.iframe?.length) {
-      return (
-        <div className="full-details">
-          {PostInfo?.iframe.map((src, index) => (
-            <div key={index}>{renderIframe(src)}</div>
-          ))}
-        </div>
+      return renderElement(
+        PostInfo?.iframe.map((src, index) => (
+          <div key={index}>{renderIframe(src)}</div>
+        ))
       );
     } else if (PostInfo?.iframe?.length) {
-      return (
-        <div className="full-details">
-          {renderIframe(PostInfo.iframe)}
-        </div>
-      );
+      return renderElement(renderIframe(PostInfo.iframe));
     }
   };
-  
-  // const Iframe = () => {
-
-  //   if (Array.isArray(PostInfo?.iframe)) {
-  //     return (
-  //       <div className="full-details">
-  //         {PostInfo?.iframe.map((src, index) => {
-  //           return (
-  //             <iframe className="documentFrame" key={index} src={src}>
-  //               <p>
-  //                 &#128542; sorry Document won&apos;t load, you can access it
-  //                 directly here {PostInfo.href} or click the source button
-  //               </p>
-  //             </iframe>
-  //           );
-  //         })}
-  //       </div>
-  //     );
-  //   } else if (PostInfo?.iframe?.length) {
-  //     return (
-  //       <div className="full-details">
-  //         <iframe className="documentFrame" src={PostInfo.iframe}>
-  //           <p>
-  //             &#128542; sorry Document won&apos;t load, you can access it
-  //             directly here {PostInfo.href} or click the source button
-  //           </p>
-  //         </iframe>
-  //       </div>
-  //     );
-  //   }
-  // };
 
   return (
     <dialog open id="info-card">
@@ -116,7 +82,7 @@ export default function Opportunity() {
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  console.log("share");
+                  // console.log("share");
                   Share({
                     title: `${
                       PostInfo?.title ||
@@ -124,7 +90,7 @@ export default function Opportunity() {
                       "Sa Youth Job Post"
                     }, more info @ Boitekong Job Board`,
                     text: "available job vacancy, might be suitable for you!",
-                    url: location.origin
+                    url: `${location.origin}/${PostInfo.uuid}`
                   });
                 }}
               >
@@ -252,7 +218,7 @@ export default function Opportunity() {
             }}
             onClick={(e) => {
               e.preventDefault();
-              Navigate("/job_board");
+              Navigate(`/#${PostInfo?.uuid}`);
             }}
           />
         </nav>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import NavProvider from "./contexts/navigation/state.jsx";
 import JobBoardProvider from "./contexts/jobBoard/state.jsx";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
@@ -20,7 +20,9 @@ if ("serviceWorker" in navigator) {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <JobBoardProvider>
-      <App />
+      <NavProvider>
+        <App />
+      </NavProvider>
     </JobBoardProvider>
   </React.StrictMode>
 );
