@@ -1,0 +1,32 @@
+#root {
+  background-color: #242424;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #2c2b2b;
+  width: 100vw;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #6b6969;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(39, 39, 41);
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(248, 247, 247);
+  border-radius: 10px;
+}
