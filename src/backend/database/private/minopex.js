@@ -14,7 +14,7 @@ export const data  = {
       ],
       "apply": "https://minopex.simplify.hr/Vacancy/Apply/ii6t09",
       "iconLink": "agency_icons/minopex.png",
-      "uuid": "p75495810-9ead-4ac4-8a9f-f2f142d52ce5"
+      "uuid": "pd389b7b5-5f97-4dc7-9bf4-11b6844f8ad0"
     },
     {
       "jobTitle": "Engineering Artisan – Millwright",
@@ -28,7 +28,7 @@ export const data  = {
       ],
       "apply": "https://minopex.simplify.hr/Vacancy/Apply/oqxlsf",
       "iconLink": "agency_icons/minopex.png",
-      "uuid": "pba8baf56-bd33-4856-b5b2-a9f0b0163c19"
+      "uuid": "p52111334-4b22-4af0-98ca-e66143ff22a8"
     },
     {
       "jobTitle": "Materials Controller",
@@ -42,7 +42,7 @@ export const data  = {
       ],
       "apply": "https://westcoastplantoperationsptyltd.simplify.hr/Vacancy/Apply/o6pv8e",
       "iconLink": "agency_icons/minopex.png",
-      "uuid": "p670a48b4-b5c8-4bd4-b383-fef2e535b311"
+      "uuid": "pf4cdd5ca-9af4-4a3d-a9db-5b8b4ad2a7f5"
     }
   ]
 }
