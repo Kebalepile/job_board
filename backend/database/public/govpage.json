@@ -1,5 +1,5 @@
-
-   export const data=  {
+[
+    {
         "title": "govpage-public-sector",
         "blogPosts": [
             {
@@ -3474,3 +3474,4 @@
             "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
         }
     }
+]

@@ -3,19 +3,154 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
-      "jobTitle": "Portfolio Officer Body Corp &amp; HOA",
-      "startDate": "2024-06-14 - 2024-07-14",
+      "jobTitle": "Electrical Engineer/Project Maanger",
+      "startDate": "2024-06-27 - 2024-07-27",
       "vacancyType": "Permanent",
-      "jobSpecFields": "Property &amp; Estates",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Required Qualifications:Relevant degree/diploma in Electrical Engineering/Technical/Construction discipline or equivalentProject Management Qualification (i.e. PMP, MBA or similar)&nbsp;Experience and Knowledge:15+ years’ experience in related field8+ years’ experience in a Project Management RoleMinimum 3 years of experience in the following: Engineering / Production / Construction / Quantity Surveyor / Project Management environment, Construction Management, Contractor Management, Mining and Process Plant and related operations environmentProject ManagementMining, Process Plant, Logistics, Infrastructure, Quantity Surveyor , Enterprise Project Management Systems, e.g. MS-Projects, Primavera P6, Prism, SAPCommunicate Effectively: Speak, listen and write in a clear, thorough and timely manner using appropriate and effective communication tools and techniquesCreativity/Innovation: Develop new and unique ways to improve operations of the organization and to create new opportunitiesFoster Teamwork: Work cooperatively and effectively with others to set goals, resolve problem, and make decisions that enhance organizational effectiveness&nbsp;Key Responsibilities:The Project Manager performs a wide range of duties including some or all of the following:·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plan the project·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Staff the project·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implement the project·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control the project·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Evaluate the projectPlan the ProjectDefine the scope of the project in collaboration with senior managementCreate a detailed work plan which identifies and sequences the activities needed to successfully complete the projectDetermine the resources (time, money, equipment, etc) required to complete the projectDevelop a schedule for project completion that effectively allocates the resources to the activitiesReview the project schedule with senior management and all other staff that will be affected by the project activities; revise the schedule as requiredDetermine the objectives and measures upon which the project will be evaluated at its completionResource the ProjectIn consultation with the appropriate manager, recruit, interview and select project resources with appropriate skills for the project activitiesEnsure that all project personnel receive an appropriate orientation to the organization and the projectManage project resources to deliver on agreed deliverablesContract qualified consultants to work on the project as appropriateImplement the ProjectExecute the project according to the project planMonitor the progress of the project and make adjustments as necessary to ensure the successful completion of the projectEstablish a communication schedule to update stakeholders including appropriate staff in the organization on the progress of the projectReview the quality of the work completed with the project team on a regular basis to ensure that it meets the project standardsControl the ProjectCompile project reportsMonitor and approve as per delegation of authority, all budgeted project expenditureMonitor cash flow projections and report actual cash flow and variance on a regular basisManage all project funds according to the Client's policy, procedure and governanceEnsure that all financial records for the project are up to dateEvaluate the ProjectEnsure that the project deliverables are on time, within budget and at the required level of qualityEvaluate the outcomes of the project as established during the planning phase&nbsp;Competencies:&nbsp;Critical Thinking: Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problemsActive Learning: Understanding the implications of new information for both current and future problem-solving and decision-makingBusiness knowledge: Good understanding of the organization and the business domain or sector within which it operatesSystems Analysis: Understanding how a system should work and how changes in conditions, operations, and the environment will affect outcomesComplex Problem Solving: Identifying complex problems and reviewing related information to develop and evaluate options and implement solutionsDeductive Reasoning: The ability to apply general rules to specific problems to produce answers that make senseInductive Reasoning: The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)Excellent communication skills: Ability to engage with high-level stakeholders, both verbal and non-verbalFlexibility and adaptability (crucial to consulting environment)Organizational and leadership abilitiesInfluencing and motivatingDecision makingBuilding trust and long-term relationships with stakeholders",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002469-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p5d8962b7-4446-40cc-a84b-8fb1d375e56f"
+    },
+    {
+      "jobTitle": "Office Administrator",
+      "startDate": "2024-06-24 - 2024-07-24",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "The client needs the following requirements:* Have a valid driver's license* Valid grade 12 certificate* Previous working experience in office administration:- MS Excel essential- Previous stock take experience- Excellent communication skills and customer service- Be willing to assist where needed- Some HR knowledge and experience to your advantage.- Must be willing to start immediately",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002467-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p180c7b5d-bb15-43ed-b26d-559250980fb1"
+    },
+    {
+      "jobTitle": "General Office Admin Lady",
+      "startDate": "2024-06-24 - 2024-07-24",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
+      "location": {
+        "city": ", Olifantsfontein",
+        "region": "Gauteng"
+      },
+      "details": "The ideal candidate must have previous working experience at least 3-5 years and would be required to assist where possible.Duties would be but not limited to:* Answering phone* Any reception duties that will be required* Assist with invoices* Must be punctual and have excellent communication skills and be well organized* Computer literacy essential",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002468-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p57f85e68-da00-41ca-88e6-08da9ac8edcd"
+    },
+    {
+      "jobTitle": "Sales Manager",
+      "startDate": "2024-06-20 - 2024-07-20",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Our client has a position available with the following requirements:* Min of 3 years post matric experience in sales* Valid grade 12 certificate* Must have experience in marketing, sales and have excellent communication skills* Previous experience in project management will be a advantage* Must have a valid driver's license with own transport",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002464-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pba665df7-7e1c-4ed2-aefd-25c0a752868b"
+    },
+    {
+      "jobTitle": "Sales Manager",
+      "startDate": "2024-06-20 - 2024-07-20",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Requirements:\n\nMust have Matric\nMust have relevant qualifications\nMinimum 3 years experience in Sales\nMust have experience in Marketing&nbsp;\nGreat communication skills\nPrevious experience in Project Management advantageous\nMust have a valid Driver’s license\nMust be able to start ASAP\n\nSalary - R15 000 basic plus commission",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002465-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p02db714f-4a0a-4b3d-9ce6-50a07135e127"
+    },
+    {
+      "jobTitle": "Occupational Therapist",
+      "startDate": "2024-06-20 - 2024-07-20",
+      "vacancyType": "Temp",
+      "jobSpecFields": "Medical",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Minimum Requirements&nbsp;Required Qualifications and experience \n\nOccupational Therapist with (Bachelor’s degree in Occupational Therapy)\nMinimum of 3 to 5 years’ experience post qualification in Mining\nGood understanding of Functional Capacity Evaluation in Job Fit System\nUnderstanding of relevant Labor Law legislation as well as the MHSA\nRegistration with the Interim Medical and Dental Council of South Africa and the Occupational Therapy Association of South Africa must have BOTH Essential\n\nAs an Occupational Therapist, you will be responsible for the following:\n\nHaving&nbsp;a clear understanding of safety risk management practices and requirements and ensures that the risk profile in his/her area(s) of responsibility when individual therapeutic treatment plans are recommended\nAssessing, planning and implementing treatment plans and interventions aimed at facilitating the integration of the employee with their workspace\nImplementing the OREP process with the use of standard templates, designation for all occupations on the mine as well as outlining the implementation process and ensuring the implementation of a Functionality Ability Assessment programme in conjunction with the OREP\nWorking out complete rehabilitation programmes and intervention activities for employees identified High Risk in line with minimum criteria for the Underground work environment as well as Injuries on Duty\n",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002463-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pd04fe1e2-a1f0-44bc-9080-798abca00abb"
+    },
+    {
+      "jobTitle": "Training Officer",
+      "startDate": "2024-06-20 - 2024-07-20",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Mining",
+      "location": {
+        "city": ", Klerksdorp",
+        "region": "North West"
+      },
+      "details": "Education &amp; Experience:* Matric, NQF Skills Development Facilitation / Assessor / Moderator qualification* Must be computer literate* Valid drivers license is required* Own reliable transport&nbsp;* Minimum of 3 years' experience as a Training Officer or Equivalent position within the mining or engineering industrySkills and Competencies:* Knowledge and understanding of Safety practices, skills development acts and related legislations* Excellent communication and interpersonal skills to effectively interact with management, clients, customers and employees* Good analytical and problem-solving skills* Above average computer skills MS Office, Word, Excel and Powerpoint presentations* Ability to gather, compile, analyze and report on statistical data* Service orientated and team playerKey Responibilities:* To liaise with management and clients regarding legal compliance training* Gather information, analyze current skills, conduct a gap analyzis, identify training needs in accordance with training expiry dates and job requirements* Compile and present the training plan and schedules in accordance with needs identifies, to senior management and site management for consideration and apporval* Liaise with training service providers obtain quotes for planned and approved training, facilitate purchase orders in accordance with the procurement procedures* Arrange and facilitate in house induction and training at various business units/sites.* Recordkeeping training, expenses, invoices, certificates, minutes of meetings etc.* Upload training certificates on the SHE folder in one drive as and when training is conducted* These are just some of the duties, but not limited to additional requirements.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002466-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pa0334cd2-7cf1-4fd7-8eec-ad2f4cf3e23b"
+    },
+    {
+      "jobTitle": "Stock Controller",
+      "startDate": "2024-06-18 - 2024-07-18",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Hospitality",
+      "location": {
+        "city": ", Boshoek",
+        "region": "North West"
+      },
+      "details": "Key Requirements:\n\nAbility to work under pressure.\nStrong communication skills.\nProblem-solving abilities.\nCapability to handle multiple tasks.\n\nPreferred Experience:\n\nPrevious experience in a Hotel or Lodge environment.\nProficiency in both Afrikaans and English.\n\nTechnical Skills:\n\nComputer literacy: Microsoft Word, Excel, PowerPoint, Microsoft Outlook, and Pastel.\n\nOther Requirements:\n\nMatric Certificate.\nDriver's License and own transportation.\nOwn accommodation.\n",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002460-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p845254e8-a115-42dd-a273-b0734f4b3000"
+    },
+    {
+      "jobTitle": "Portfolio Officer",
+      "startDate": "2024-06-18 - 2024-07-18",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
       "location": {
         "city": ", East London",
         "region": "Eastern Cape"
       },
-      "details": "Main purpose of the position for the Portfolio Officer to be the face of the company and to focus on the growth of the third-party portfolio, achieving revenue targets and maintaining current relationships with the third part properties.Suitable candidate must have the following:* Valid driver's license* Own reliable transportEducational Requirements:* Diploma or degree in management* Paddocks UCT Sectional Title / HOA Management Course qualification advantage* Registered with the PPRA holding a valid FFC advantage.Working Experience:* 3 Years experience in managing sectional title schemes / HOA's as well as complex management* Experience in overseeing and managing of staffSkills &amp; Attributes:* Planning skills* Problem solving and analytical skills* Accuracy &amp; strategy planning* Excellent eye to detail* Logical thinking &amp; information seeking* Self-development orientation* Cultural sensitivity* Service orientation* Excellent people skills* Computer literacy in MS Office Suite",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002458-YDG",
+      "details": "Educational Requirements:\n\nDiploma or Degree in Management\nPaddocks UCT Sectional Title / HOA Management Course qualification (advantageous)\nRegistered with the PPRA holding a valid FFC (advantageous)\n\nWork Experience:\n\nMinimum of three years' experience in managing Sectional Title Schemes / HOAs and complex management\nExperience in overseeing and managing staff\n\nSkills &amp; Attributes:\n\nExcellent planning skills\nStrong problem-solving and analytical skills\nHigh accuracy and strategic planning capabilities\nOutstanding communication skills\nKeen eye for detail\nLogical thinking and information-seeking behavior\nOrientation towards self-development\nCultural sensitivity and adaptability\nService-oriented mindset\nExceptional people skills\nProficiency in MS Office Suite\n\nResponsibilities:\n\nRepresent The Client as the face of the company in dealings with third-party BC/HOA properties\nFocus on growing the third-party BC/HOA portfolio and achieving revenue targets\nMaintain and strengthen current relationships with third-party BC/HOA properties\nOversee the management of Sectional Title Schemes and HOAs\nEnsure effective planning and strategy implementation\nSolve problems and analyze issues to provide effective solutions\nCommunicate effectively with residents, staff, and stakeholders\nMaintain accurate records and documentation\nDevelop and implement policies and procedures\nFoster a service-oriented environment and ensure high levels of resident satisfaction\n\nBenefits:\n\nCompetitive salary\nProfessional development opportunities\nPositive and supportive work environment\n\nIf you meet the above requirements and are passionate about property management, we would love to hear from you.",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002461-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5c6dcaeb-ff80-4642-bc7a-e114b4b3ac88"
+      "uuid": "p9ec1fa36-a7dc-404b-be07-4ab7bbfa380a"
+    },
+    {
+      "jobTitle": "Debtors/Creditors Clerk",
+      "startDate": "2024-06-18 - 2024-07-18",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
+      "location": {
+        "city": ", Brits",
+        "region": "North West"
+      },
+      "details": "Key Responsibilities:\n\nCOUPA Portal System: Manage orders, tenders, quotations, invoices, and payments through the COUPA system. Previous experience with COUPA is preferred.\nDebtors and Creditors Management: Utilize Pastel Accounting System for invoicing and data capture.\nMicrosoft Office: Excellent proficiency in Microsoft Office Suite.\nPetty Cash Management: Handle and oversee petty cash transactions.\nOffice Administration: Perform various office administrative tasks to support daily operations.\n\nCandidate Requirements:\n\nEducation: Minimum Matric pass with Mathematics.\nExperience: Extensive knowledge in COUPA, Pastel Accounting, and Microsoft Office. Previous office administration experience is essential.\nSkills: Highly accurate and precise, with strong time-management abilities.\nPersonal Attributes:\n\nPrefer working independently.\nTrustworthy and honest, with the ability to handle sensitive information.\n\n\nAdditional Requirements:\n\nValid driver’s license.\nReside close to Brits or Hartbeespoort.\nAge: Preferably between 35 and 50 years old.\n\n\n\nThis role demands a person who is meticulous, trustworthy, and capable of working predominantly on the computer with minimal supervision. The position involves limited communication but requires exceptional concentration and attention to detail.",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002462-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p86580aa5-5e20-4e15-9b0a-c118ef901ea3"
     },
     {
       "jobTitle": "Portfolio Officer",
@@ -30,7 +165,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002459-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p425f6d4f-dce6-48ed-abf6-5951d26708de"
+      "uuid": "p6472113c-c861-49b7-bd92-d445ab0608b3"
     },
     {
       "jobTitle": "Financial Manager",
@@ -45,22 +180,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002449-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p7f2d98b5-0c5b-4fef-bae9-f25f89177066"
-    },
-    {
-      "jobTitle": "Web Analyst",
-      "startDate": "2024-06-11 - 2024-07-11",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Required Skills and Qualifications:* Bachelors degree in Web developmenty, graphic design or related field* Proficiency in HTML, CSS, JavaScript, PHP, JSE, Jason, WordPress and SEO* Design/creative experience beneficial* Basic understanding of Adobe creative suite (Photoshop, illustrator, InDesign)* Ability to create wireframes, mockups and prototypes* Basic understanding of UX/UI principals and best practices* Strong analytical and problem-solving skills* Excellent communication and team work abilities* Detail orientated with strong focus on quality and accuracy* Ability to manage multiple projects and meet deadlines in a fast-paced environmentGeneral Duties and Responsibilities:* Design, develop and maintain websites.* Ensure websites are optimized for speed, scalability and user experience* As a web analyst you would collaborate with the data analyst to analyze website performances metrics and user behavior, monitor websites traffic, track SEO performances and identify opportunities for improvement* Troubleshoot and resolve website issues in a timely manner* Work with marketing, designing and analytical team to design and implement landing pages* To ensure all designs are in line with brand guidelines and maintain a constant look and feel across all platforms* Responsible for project management related duties to ensure projects are delivered on time",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002454-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p916bcf4d-9010-4d3c-9101-8b50dd69dcea"
+      "uuid": "pc74d62f4-c144-4cdb-91d8-6907e6eb56b3"
     },
     {
       "jobTitle": "Copywriter",
@@ -75,7 +195,22 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002456-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p727b3e98-fef9-4340-9813-7b8be2fb7320"
+      "uuid": "pa87439af-7396-4e28-83dd-4f49de4dda45"
+    },
+    {
+      "jobTitle": "Web Analyst",
+      "startDate": "2024-06-11 - 2024-07-11",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Information Technology",
+      "location": {
+        "city": ", Sandton",
+        "region": "Gauteng"
+      },
+      "details": "Required Skills and Qualifications:* Bachelors degree in Web developmenty, graphic design or related field* Proficiency in HTML, CSS, JavaScript, PHP, JSE, Jason, WordPress and SEO* Design/creative experience beneficial* Basic understanding of Adobe creative suite (Photoshop, illustrator, InDesign)* Ability to create wireframes, mockups and prototypes* Basic understanding of UX/UI principals and best practices* Strong analytical and problem-solving skills* Excellent communication and team work abilities* Detail orientated with strong focus on quality and accuracy* Ability to manage multiple projects and meet deadlines in a fast-paced environmentGeneral Duties and Responsibilities:* Design, develop and maintain websites.* Ensure websites are optimized for speed, scalability and user experience* As a web analyst you would collaborate with the data analyst to analyze website performances metrics and user behavior, monitor websites traffic, track SEO performances and identify opportunities for improvement* Troubleshoot and resolve website issues in a timely manner* Work with marketing, designing and analytical team to design and implement landing pages* To ensure all designs are in line with brand guidelines and maintain a constant look and feel across all platforms* Responsible for project management related duties to ensure projects are delivered on time",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002454-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p9124a8e4-819c-4f59-b769-62911965f97e"
     },
     {
       "jobTitle": "Analyst",
@@ -90,7 +225,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002455-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pa7868d29-f6e9-4732-93b3-ca67e1f21c2d"
+      "uuid": "p4b0e4028-4ee8-4adf-973a-5ccffcfa13e9"
     },
     {
       "jobTitle": "Chief Financial Officer",
@@ -105,7 +240,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002457-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p77fc3fd8-407d-4179-8ec2-ca4ffb669b7c"
+      "uuid": "p65ee08f7-3ae5-42ee-8ce4-25af042360ca"
     },
     {
       "jobTitle": "Safety Supervisor",
@@ -120,7 +255,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002431-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p24f1df08-5916-49fc-a4e6-b1a3c613c89f"
+      "uuid": "p0a3fa45f-d0cb-4faa-bd9d-e4a10b79f9d3"
     },
     {
       "jobTitle": "Safety Officer",
@@ -135,7 +270,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002452-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pd2dcc5a3-6840-4900-a524-003ece581dc9"
+      "uuid": "pfd5b827e-9a70-488a-81f4-016afa430467"
     },
     {
       "jobTitle": "Safety Manager",
@@ -150,7 +285,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002451-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p0b104e71-af52-42e1-8eb9-96343e6440d6"
+      "uuid": "p59b40376-4980-435a-bd7f-a782c06294ea"
     },
     {
       "jobTitle": "Safety Supervisor",
@@ -165,7 +300,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002453-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p7d328285-b073-40b6-989e-3cf9c3174d1b"
+      "uuid": "pcba9b970-a677-4960-bb5e-959b0cdb1119"
     },
     {
       "jobTitle": "Accounting Clerk",
@@ -180,7 +315,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002448-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p49037505-634f-4eba-b2ad-c12b7a539a7c"
+      "uuid": "p9460966a-32b6-48ea-be50-6c3ed510323e"
     },
     {
       "jobTitle": "SAQCC Technician (Suppression and Detection)",
@@ -195,7 +330,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002443-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pd29d76b4-20fd-4c47-935f-e3b97eb01b31"
+      "uuid": "p7bc96524-f229-4425-8f26-b2d557de2597"
     },
     {
       "jobTitle": "Financial Manager",
@@ -210,7 +345,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002444-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p0af98f76-43ae-433c-9cdf-99fa0324a4cc"
+      "uuid": "pdf54a0ab-4127-4810-8752-9bd5738fa77a"
     },
     {
       "jobTitle": "Accounting Clerk",
@@ -225,7 +360,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002445-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p65f2c0fe-26d0-4301-b145-5bf68ab20d03"
+      "uuid": "p0a20e651-e830-498e-a7f7-8800a78dbb04"
     },
     {
       "jobTitle": "Creditors / Bookkeeper",
@@ -240,7 +375,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002441-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pc012c2ef-5835-4c9a-ae74-0134efb65c0c"
+      "uuid": "p8e16f317-91b5-4321-9295-90eafcc959cb"
     },
     {
       "jobTitle": "Receptionist",
@@ -255,7 +390,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002446-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p21a5c832-252e-4f38-a506-e3763f81c8dc"
+      "uuid": "p5357459a-7f99-4041-b50e-a2b37fbd67ca"
     },
     {
       "jobTitle": "Receptionist",
@@ -270,22 +405,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002447-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pbccbee4d-f0ba-4b10-aca5-bef4b1c8801f"
-    },
-    {
-      "jobTitle": "Junior Accounts Clerk",
-      "startDate": "2024-05-30 - 2024-06-30",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", JHB - Central",
-        "region": "Gauteng"
-      },
-      "details": "Key Responsibility Areas:Accounting Operations:* Managing accounting operations (including billings, accounts receivable, general ledger, accounts payable etc. )* Ensure the correct allocation of bank statement transactions* Preparation and submission of daily commission calculations* Financial transactions are accurately reordered* Assist with streamlining and improving accounting systems* Documentation of business processes and maintain SOP's* Prepare payments for approvalFinancial Reporting:* Prepare and submit monthly financial reportsAnalyse and interpret financial resultsEnsure financial reports are accurate and compliant with applicable standards* Invoices and statements are submittedCredit Control:* Track receipts against arrear premiums* Improvement of collection processes* Ensure all outstanding debtors balances are maintainedAddition Skills:* Must be organized* Quality driven* Attention to detail* Deadline orientated* Excellent time management skills* Advanced MS Office Suite",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002438-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p0cc159c1-1738-4651-b226-6ec13b474a1d"
+      "uuid": "pba06556c-9fd9-494c-92dd-91f15d028fd3"
     },
     {
       "jobTitle": "Junior Accountant/Payroll and Finance Administrator",
@@ -300,7 +420,22 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002437-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pe4405ff1-359e-48b3-a477-6df80548f02f"
+      "uuid": "p6be75f60-a536-4fbd-a7c9-4c305774d901"
+    },
+    {
+      "jobTitle": "Junior Accounts Clerk",
+      "startDate": "2024-05-30 - 2024-06-30",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", JHB - Central",
+        "region": "Gauteng"
+      },
+      "details": "Key Responsibility Areas:Accounting Operations:* Managing accounting operations (including billings, accounts receivable, general ledger, accounts payable etc. )* Ensure the correct allocation of bank statement transactions* Preparation and submission of daily commission calculations* Financial transactions are accurately reordered* Assist with streamlining and improving accounting systems* Documentation of business processes and maintain SOP's* Prepare payments for approvalFinancial Reporting:* Prepare and submit monthly financial reportsAnalyse and interpret financial resultsEnsure financial reports are accurate and compliant with applicable standards* Invoices and statements are submittedCredit Control:* Track receipts against arrear premiums* Improvement of collection processes* Ensure all outstanding debtors balances are maintainedAddition Skills:* Must be organized* Quality driven* Attention to detail* Deadline orientated* Excellent time management skills* Advanced MS Office Suite",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002438-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p6b86a711-1190-4abf-823c-0719c94944c6"
     },
     {
       "jobTitle": "National Sales Maanger",
@@ -315,67 +450,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002440-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p27582c79-71c5-4c0e-a901-cfe22fccd532"
-    },
-    {
-      "jobTitle": "Graduate Trainee",
-      "startDate": "2024-05-20 - 2024-06-19",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Engineering &amp; Technical",
-      "location": {
-        "city": ", Lanseria / Brits",
-        "region": "Gauteng"
-      },
-      "details": "Qualifications &amp; Experience RequiredQualifications required:\n\nMatric with Mathematics C Symbol or higher\n\nExperience required:\n\n0 – 5 years Working Experience.\n\nComputer Literacy:\n\nMS Office\nExcel advanced\n\nCompetencies required\n\nHigh IQ and EQ.\nHard working with a good work ethic.\nAttention to detail and high level of accuracy.\nAble to work well under pressure.\nAble to use initiative.\nCommon sense\nHonest and trustworthy\nGood time management skills\nExcellent people skills\nLogical reasoning\n\nR 15 000 starting salary – negotiable",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002435-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pf7692af5-8701-4c5b-90f8-f25bd78a23ae"
-    },
-    {
-      "jobTitle": "Management Trainee",
-      "startDate": "2024-05-20 - 2024-06-19",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Engineering &amp; Technical",
-      "location": {
-        "city": ", Lanseria / Brits",
-        "region": "Gauteng"
-      },
-      "details": "Qualifications &amp; Experience RequiredQualifications required:\n\nMatric with Mathematics C Symbol or higher\n\nExperience required:\n\n0 – 5 years Working Experience.\n\nComputer Literacy:\n\nMS Office\nExcel advanced\n\nCompetencies required\n\nHigh IQ and EQ.\nHard working with a good work ethic.\nAttention to detail and high level of accuracy.\nAble to work well under pressure.\nAble to use initiative.\nCommon sense\nHonest and trustworthy\nGood time management skills\nExcellent people skills\nLogical reasoning\n\nR 15 000 starting salary",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002436-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p72e1117d-bd3a-40f5-9d3e-2d469dec5d1c"
-    },
-    {
-      "jobTitle": "Management Trainee",
-      "startDate": "2024-05-19 - 2024-06-19",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Engineering &amp; Technical",
-      "location": {
-        "city": ", Lanseria / Brits",
-        "region": "Gauteng"
-      },
-      "details": "Qualifications and some experience required:* Matric normal mathematics with C Symbol or higher&nbsp;Experience:* 0-5 years experienceComputer Literacy:* MS Office package* Excel essential (will be tested)Competencies Required:* High IQ and EQ* Hardworking&nbsp;* Attention to detail* Able to work well under pressure* Common sense* Honest and trustworthy* Good time management skills* Excellent people skills",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002433-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pcf338e1c-3d7b-4894-a1ef-9861c6b6c500"
-    },
-    {
-      "jobTitle": "Graduate Trainee",
-      "startDate": "2024-05-19 - 2024-06-19",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Engineering &amp; Technical",
-      "location": {
-        "city": ", Lanseria / Brits",
-        "region": "Gauteng"
-      },
-      "details": "Qualifications:* Matric with Mathematics C Symbol or higherExperience Required:* 0-5 years working experienceComputer Literacy:* MS Office package* Excel advanced (will be tested)Competencies Required:* High IQ and EQ* Hard working with good ethic* Attention to detail and high level of accuracy* Able to work under extreme pressure* Able to use imitative* Common sense* Honest and trustworthy* Good time management skills* Excellent people skills* Logical reasoning",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002434-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p4e52b484-69af-44c4-a10d-3d899971e80b"
+      "uuid": "p287813be-64be-4a3b-b02d-8cf7b2337dcc"
     },
     {
       "jobTitle": "Candidate Attorney/Junior Admitted Attorney",
@@ -390,7 +465,7 @@ export const data  = {
       "contact": "Welma Helberg Nel",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002232-WHN",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pdd48d0ce-6204-42ff-bac5-8b83cbd95e48"
+      "uuid": "p5515d896-d2ca-4fe0-b3b3-b89395bd0b83"
     },
     {
       "jobTitle": "TECHNICAL SUPPORT LEAD",
@@ -405,7 +480,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002417-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pe8664592-03f9-4646-88ce-9a944132e69c"
+      "uuid": "p91edea2a-63c5-4c72-b7a2-5e0c09c46a45"
     }
   ]
 }
