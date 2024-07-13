@@ -189,25 +189,21 @@ func (s *Spider) vacancies(url string, ctx context.Context) {
 
 					JobPost.IconLink = s.Posts.IconLink
 					s.Posts.BlogPosts = append(s.Posts.BlogPosts, JobPost)
-
+					
+					// Save after each job post is appended
+					s.save()
 				}
-
-				s.save()
 			} else {
 				log.Println(s.Name, " sorry no job posts found today.")
 				s.close()
 			}
 		}
-
 	}
 }
 
 func (s *Spider) save() {
 	err := pipeline.ProPersonnelFile(&s.Posts)
-
 	s.error(err)
-
-	s.close()
 }
 
 func (s *Spider) date() string {
@@ -217,7 +213,8 @@ func (s *Spider) date() string {
 
 // closes chromedp broswer instance
 func (s *Spider) close() {
-	log.Println(s.Name, "is done.")
+	log.Println(s.Name, "done scraping data.")
+	
 	s.Shutdown()
 }
 
@@ -229,7 +226,6 @@ func (s *Spider) error(err error) {
 		log.Println("Please restart scrapper")
 		log.Println("*************************************")
 		log.Fatal(err)
-
 	}
 }
 

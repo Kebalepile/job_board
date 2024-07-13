@@ -28,7 +28,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	s.Posts.Title = s.Name
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
-		chromedp.Flag("headless", true), // set headless to true for production
+		chromedp.Flag("headless", false), // set headless to true for production
 		chromedp.UserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36"),
 		chromedp.WindowSize(768, 1024), // Tablet size
 	)
@@ -45,7 +45,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 	var nodes []*cdp.Node
 
 	continueElement := "body > div > div > div.container > div:nth-child(2) > div > p:nth-child(3) > a"
-	
+
 	err := chromedp.Run(ctx,
 		chromedp.Navigate(s.AllowedDomains[0]),
 		chromedp.Sleep(1*time.Minute),
@@ -235,9 +235,10 @@ func (s *Spider) crawl(ctx context.Context) {
 		s.error(err)
 
 		s.Posts.BlogPosts[i] = p
+		// stream write to file
+		s.save()
 	}
-
-	s.save()
+	s.close()
 }
 
 // get all job post components & scrape needed data from them
@@ -280,7 +281,7 @@ func (s *Spider) pagination(ctx context.Context) (posts []types.SaYouthPost) {
 func (s *Spider) save() {
 	err := pipeline.SaYouthFile(&s.Posts)
 	s.error(err)
-	s.close()
+	
 }
 
 // Read .env variables to be used.
@@ -303,7 +304,7 @@ func (s *Spider) date() string {
 // closes chromedp broswer instance
 func (s *Spider) close() {
 
-	log.Println(s.Name, "is done.")
+	log.Println(s.Name, "done scraping data.")
 	s.Shutdown()
 }
 

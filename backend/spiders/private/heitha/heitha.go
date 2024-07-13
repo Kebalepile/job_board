@@ -73,7 +73,6 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 		s.jobs(ctx)
 	}
-
 }
 
 // scrapes availabe job posts on loaded page url
@@ -93,6 +92,9 @@ func (s *Spider) jobs(ctx context.Context, url ...string) {
 	
 	s.Posts.BlogPosts = append(s.Posts.BlogPosts, posts...)
 
+	// Save after each set of job posts is appended
+	s.save()
+
 	var pageNum string
 
 	err := chromedp.Run(ctx,
@@ -108,7 +110,7 @@ func (s *Spider) jobs(ctx context.Context, url ...string) {
 	}
 
 	if n >= 10 {
-		s.save()
+		s.close()
 	} else {
 
 		expression := fmt.Sprintf(`document.querySelector(".active").nextElementSibling.querySelector("a").getAttribute("href")`)
@@ -121,12 +123,11 @@ func (s *Spider) jobs(ctx context.Context, url ...string) {
 		s.Robala(6)
 		s.jobs(ctx, nextPage)
 	}
-
 }
 
 // Retrives Job post info needed to compile a job post information card
 // and url to application page for each job post
-func (s *Spider) posts(ctx context.Context) ([]types.JobPost) {
+func (s *Spider) posts(ctx context.Context) []types.JobPost {
 	
 	var posts []types.JobPost
 
@@ -164,15 +165,11 @@ func (s *Spider) posts(ctx context.Context) ([]types.JobPost) {
 	}
 
 	return posts
-
 }
 
 func (s *Spider) save() {
 	err := pipeline.HeithaFile(&s.Posts)
-	if err != nil {
-		s.Error(err)
-	}
-	s.Close()
+	s.Error(err)
 }
 
 func (s *Spider) Date() string {
@@ -181,8 +178,9 @@ func (s *Spider) Date() string {
 }
 
 // closes chromedp broswer instance
-func (s *Spider) Close() {
-	log.Println(s.Name, "is done.")
+func (s *Spider) close() {
+	log.Println(s.Name, "done scraping data.")
+	
 	s.Shutdown()
 }
 

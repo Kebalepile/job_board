@@ -3,7 +3,232 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
-      "jobTitle": "Electrical Engineer/Project Maanger",
+      "jobTitle": "Area Supervisor",
+      "startDate": "2024-07-11 - 2024-08-10",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Mining",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Duties would be but not limited to:* Managing teams and operations* Responsible for shift scheduling &amp; ensuring all employees are on site.* Administration duties will be required* Problem solverQualifications &amp; Requirements must be met:* Have a valid driver* Computer literate in MS Word &amp; Excel* Grade 12",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002481-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pdb2ff572-e6a2-4649-8007-85b53ca3b0e7"
+    },
+    {
+      "jobTitle": "Area Supervisor",
+      "startDate": "2024-07-11 - 2024-08-10",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Other",
+      "location": {
+        "city": ", Carletonville",
+        "region": "Gauteng"
+      },
+      "details": "Duties\n\nManaging operations and Teams\nShift scheduling and ensuring all employers on site\nAdministration\nProblem Solving\nPeople Management\nProblem Solving\n\nRequirements\n\nMust have Grade 12\nMust be computer literate\nMust have valid Driver's License\nFlexi working hours\n\nSalary - R7000",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002482-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p63875948-844b-42ec-b8bf-4402707cbf6e"
+    },
+    {
+      "jobTitle": "Generator Service / Technical Sales",
+      "startDate": "2024-07-05 - 2024-08-04",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Lanseria / Brits",
+        "region": "Gauteng"
+      },
+      "details": "Qualifications required:* Matric with Mathematics C symbol or higher (NO LITERACY)Experience:* 0-5 Years related working experience* Solar, electrical, mechanical or technical interest, would be an advantageComputer Literacy:* MS Office - Excel Advanced (will be tested)Responsibilities:* Present and sell products using solid arguments to perspective and existing customers* Supplying customer with support* Establish, develop and maintain positive business and customer relationships* Prioritize and or escalate client questions and concerns to increase client satisfaction* Supply management with reports on customer needs, problems, interests, completive activities and potential for new products and services* Meet or exceed monthly sales targets / goals",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002479-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p83bcf14c-3c92-4a05-8399-730d939e12f4"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-05 - 2024-08-04",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "Required Education / Experience / Skills:\n\nMatric (Technical/Mechanical qualification advantageous).\n3+ years' experience in the Electrical/Mechanical sector.\nUnderstanding of the mining industry.\nProblem-solving skills and consultative sales approach.\nAbility to work independently and in a team.\nExcellent verbal and written communication skills.\nProficiency in Microsoft Office and contact management software.\nMarket knowledge of the identified area.\nValid driver's license.\n\nTravel Requirements:\n\nExtensive travel to customer sites, including mining plants.\nFlexible hours, including after hours and weekends.\nOccasional out-of-town travel.\n\nSalary &amp; Benefits:\n\nMonthly Base Salary: R25,000.00 – R30,000.00.\nStandby Allowance: R2,500.00 per month.\nMedical Aid: 50% employer contribution.\nPension Fund and Risk Benefits: 10.8% employer contribution.\n13th Check and performance-based annual incentive bonus.\nCompany car and petrol card.\nCell phone.\n",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002480-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pfd9f84f1-9c05-4abc-8363-e9f78a63e078"
+    },
+    {
+      "jobTitle": "Generator Service / Technical Sales",
+      "startDate": "2024-07-04 - 2024-08-04",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Lanseria / Brits",
+        "region": "Gauteng"
+      },
+      "details": "The position is based both in the Lanseria and Brits area.The following is needed to apply for the position:Qualifications required:* Matric with Mathematics C Symbol or Higher a MUST HAVE (must send through with CV)Experience Required:* 0-5 years related working experience within the field.* Solar, electrical, mechanical or technical interestComputer Literacy:* MS Office - EXCEL ADVANCED A MUST (will be tested)Responsibilities &amp; Duties:* Present and sell products using solid arguments to prospective and existing customers* Supplying customer with support when necessary* Establish, develop and maintain positive business and customer relationshipsPerform cost benefit and needs analysis of new existing customers* Develop strategies for more effective sales and products* Supply management with reports on customer needs, problems, interests, competitive activities and potential for new products and servicesMeet or exceed monthly sales targets.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002240-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pbb971151-c837-4868-b988-a233448631e6"
+    },
+    {
+      "jobTitle": "Management Trainee",
+      "startDate": "2024-07-04 - 2024-08-04",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Lanseria / Brits",
+        "region": "Gauteng"
+      },
+      "details": "Qualifications and some experience required:* Matric normal mathematics with C Symbol or higher (NO LITERACY)&nbsp;Experience:* 0-5 years' experienceComputer Literacy:* MS Office package* Excel essential (will be tested)Competencies Required:* High IQ and EQ* Hardworking&nbsp;* Attention to detail* Able to work well under pressure* Common sense* Honest and trustworthy* Good time management skills* Excellent people skills",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002433-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p67a730ac-bfc8-4c45-ba1e-3b5e8aef9a0f"
+    },
+    {
+      "jobTitle": "Counter / Part Sales",
+      "startDate": "2024-07-04 - 2024-08-04",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Lanseria / Brits",
+        "region": "Gauteng"
+      },
+      "details": "Qualifications Required:* Matric with Mathematics, C symbol and higher (NO Math's Literacy)Experience required:* 0-5 years related working experience* Solar, electrical, mechanical or technical interestComputer Literacy:* MS Office - Excel AdvancedResponsibilities:* Greeting customers as when they enter the store* Understanding customer requirements* Participating in accepting shipments od parts, sending orders to customers, and documenting all inventory that enters and exits* Offering excellent customer service* Updating customer information",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002473-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pd0a154cb-7874-4566-8c2f-06068b015494"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "Required Education / Experience / Skills:* Minimum qualification - matric - technical and or mechanical qualification will be an added advantage.* Must have 3 years' experience in the electrical / mechanical sector* Good solid understanding of the mining industry* Demonstrative aptitude for problem solving* Ability to determine solutions for customers&nbsp;* Must be results orientated and able to work both independently and within a team* Must possess excellent verbal and written communication skills* Proficiency in using MS Office Suite applications* Must have market knowledge of the market and customer base in the identified area* Must have a valid driver's licenseMajor Responsibilities (not limited to):* Establish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organization's products/services.* Research of market segments &amp; territories in a view to identify prospective customer and their potential*Coordinate sales effort with marketing, sales management, accounting, logistics and technical service groups* Participate in trade shows and conventions* Follow up of all enquiries and quotations.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002474-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pb64cf1b0-5fff-436e-a055-7d18b6565f96"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Meadowdale",
+        "region": "Gauteng"
+      },
+      "details": "Required Education / Experience / Skills:* Minimum qualification - matric - technical and or mechanical qualification is seen as an added advantage.* Must possess 3 years' experience in the electrical/mechanical sector.* Understanding of the OEM market will be seen as a added advantage* Demonstrate aptitude for problem solving* Ability to determine solutions for customers* Must be results orientated and able to work both independently and within a team* Have excellent verbal and written communications skills* MS Office suite applications experience* Must have market knowledge* Have a valid driver's licenseTravel:* Extensive travel will be required* Flexible hours&nbsp;Responsibilities (not limited to):* Plan and organize personalize sales strategy* Keep abreast of product applications, technical services, market conditions, completive activities, advertising and promotional trends* Participate in trade shows and conventions* Keeping in contact with management and keep them inform of all aspects of the company",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002477-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pc0fcea3a-b6f4-4212-8e68-bf315ead2c65"
+    },
+    {
+      "jobTitle": "Receptionist",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "The suitable candidate needs to have the following requirements:Qualifications:* Grade 12* Studying towards accounting degree would be to your advantage.* Drivers license essentialDuties and experience would be but not limited to the following:* SARS, WCC, UIF follow ups* Registrations and deregistration's* Typing of formal letters, answering the phone* Basic admin duties like, filing, ordering monthly office supplies etc.* Corresponding with clients in a professional manner, and nay other related duties given by management&nbsp;Computer programmes:* Pastel* MS Word* MS Excel* Vanilla Payroll",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002478-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pc5e1ad7d-7165-4d2b-8067-b471b17e05ab"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Germiston",
+        "region": "Gauteng"
+      },
+      "details": "Major Responsibilities:\n\nEstablish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organizations products/services.\nMake telephone calls and in person visits and presentations to existing and prospective customers.\nResearch of market segments &amp; territories, in a view to identify prospective customers and their potential.\nDevelop clear and effective written proposals/quotations for current and prospective customers.\nExpedite the resolution of customer problems and complaints.\nCoordinate sales effort with marketing, sales management, accounting, logistics and technical service groups.\nCreate and manages a customer value plan for existing customers highlighting profile, share and value opportunities.\nIdentify advantages and compare organization’s product/services.\nPlan and organize personal sales strategy by maximizing the return of time investment for the territory/segment.\nSupply management with oral and written reports on customer needs, problems, interests, competitive activities, and potential for new products and services.\nKeep abreast of product applications, technical services, market conditions, competitive activities, advertising and promotional trends through the reading of pertinent literature and consulting with marketing and technical areas.\nParticipate in trade shows and conventions.\nContribute to team efforts by accomplishing related results as needed.\nMonthly and weekly reports on sales,\nChecking orders and booking reports to ensure all invoicing has been done.\nFollow up of all enquiries and quotations.\nKeeping in contact with management of Marathon and keeping them informed of all aspects of our company, positive or negative.\nFamiliarize yourself with the IT operating system\n\n&nbsp;Required Education / Experience / Skills: \n\nMinimum Qualification – Matric – Technical and or Mechanical qualification is seen as an added advantage\nMust possess 3+Years’ experience in the Electrical/Mechanical sector.\nUnderstanding of the OEM market will be seen as an advantage\nDemonstrate aptitude for problem-solving.\nAbility to determine solutions for customers (consultative sales approach).\nMust be results-orientated and able to work both independently and within a team environment.\nMust possess excellent verbal and written communication skills.\nProficiency in using Microsoft Office Suite applications and contact management software.\nMust have market knowledge of the market and customer base in the identified area.\nValid driver’s license\n\n&nbsp;Travel: \n\nExtensive travel - Works predominately out of the office.&nbsp; Required to visit customers on site.\nWorks flexible hours.\nAfter hour and weekend standby required\nIs subject to work beyond normal working hours, evenings, weekends and holidays should the need arise.\nAttends and participates in continuing educational programs designed to keep you abreast of changes in your profession.\nPosition may require out of town travel.\n\n&nbsp;Salary \n\n Monthly Base Salary R25&nbsp;000.00 – R30&nbsp;000.00. \n Medical aid – 50% Employer contribution and 50% employee contribution \n Pension fund and Risk benefits 10.8% Employer contribution and 7.2% Employee contribution \n 13TH Check\n Annual Incentive Bonus – Sales Performance based can be up to 14 and 15th Cheque depending on sales.\n Company car and petrol card\n Cell phone \n",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002475-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p84b2e274-f470-4910-becf-fda62c807096"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "Major Responsibilities:\n\nEstablish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organizations products/services.\nMake telephone calls and in person visits and presentations to existing and prospective customers.\nResearch of market segments &amp; territories, in a view to identify prospective customers and their potential.\nDevelop clear and effective written proposals/quotations for current and prospective customers.\nExpedite the resolution of customer problems and complaints.\nCoordinate sales effort with marketing, sales management, accounting, logistics and technical service groups.\nCreate and manages a customer value plan for existing customers highlighting profile, share and value opportunities.\nIdentify advantages and compare organization’s product/services.\nPlan and organize personal sales strategy by maximizing the return of time investment for the territory/segment.\nSupply management with oral and written reports on customer needs, problems, interests, competitive activities, and potential for new products and services.\nKeep abreast of product applications, technical services, market conditions, competitive activities, advertising and promotional trends through the reading of pertinent literature and consulting with marketing and technical areas.\nParticipate in trade shows and conventions.\nContribute to team efforts by accomplishing related results as needed.\nMonthly and weekly reports on sales,\nChecking orders and booking reports to ensure all invoicing has been done.\nFollow up of all enquiries and quotations.\nKeeping in contact with management of Marathon and keeping them informed of all aspects of our company, positive or negative.\nFamiliarize yourself with the IT operating system\n\n&nbsp;Required Education / Experience / Skills: \n\nMinimum Qualification – Matric – Technical and or Mechanical qualification is seen as an added advantage\nMust possess 3+Years’ experience in the Electrical/Mechanical sector.\nGood solid understanding of the mining industry\nDemonstrate aptitude for problem-solving.\nAbility to determine solutions for customers (consultative sales approach).\nMust be results-orientated and able to work both independently and within a team environment.\nMust possess excellent verbal and written communication skills.\nProficiency in using Microsoft Office Suite applications and contact management software.\nMust have market knowledge of the market and customer base in the identified area.\nValid driver’s license\n\n&nbsp;Travel: \n\nExtensive travel - Works predominately out of the office.&nbsp; Required to visit customers on site e.g. mining plants.\nWorks flexible hours.\nAfter hour and weekend standby required\nIs subject to work beyond normal working hours, evenings, weekends and holidays should the need arise.\nAttends and participates in continuing educational programs designed to keep you abreast of changes in your profession.\nPosition may require out of town travel.\n\n&nbsp;Salary \n\n Monthly Base Salary R25&nbsp;000.00 – R30&nbsp;000.00. \n Standby allowance R2&nbsp;500.00 per month \n Medical aid – 50% Employer contribution and 50% employee contribution \n Pension fund and Risk benefits 10.8% Employer contribution and 7.2% Employee contribution \n 13TH Check\n Annual Incentive Bonus – Sales Performance based can be up to 14 and 15th Cheque depending on sales.\n Company car and petrol card\n Cell phone \n",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002476-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p26c860b0-0026-475e-8637-7acbd5693212"
+    },
+    {
+      "jobTitle": "Graduate Trainee",
+      "startDate": "2024-07-02 - 2024-08-02",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Lanseria / Brits",
+        "region": "Gauteng"
+      },
+      "details": "Qualifications:* Matric with Normal Mathematics C Symbol or higher (No Math's Literacy)Experience Required:* 0-5 years working experienceComputer Literacy:* MS Office package* Excel advanced (will be tested)Competencies Required:* High IQ and EQ* Hard working with good ethic* Attention to detail and high level of accuracy* Able to work under extreme pressure* Able to use imitative* Common sense* Honest and trustworthy* Good time management skills* Excellent people skills* Logical reasoning",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002434-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p053a51aa-8d5f-431e-89ae-58764a48bd93"
+    },
+    {
+      "jobTitle": "Accounting Clerk",
+      "startDate": "2024-06-28 - 2024-07-28",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "The following requirements are needed:* 3-5 years' experience in accounting* Advanced Excel skills* Pastel Partner, Vinalla Payroll* SARS E-filing* Audits will assist with multiple audits such as:- VAT, Income tax, and PAYE* Assisting in preparation of annual financial statements and management accountsQualifications:* Grade 12 certificate* B Comm Accounting or studying towards accounting* Have a valid driver's license",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002470-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p5d8ddafa-5c80-469e-9da2-c51a88695422"
+    },
+    {
+      "jobTitle": "Receptionist",
+      "startDate": "2024-06-28 - 2024-07-28",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "Qualifications:MatricStudying towards an accounting degree would be to your advantage.Computer LiterateMust have a valid driver's license and own transportDuties would be but not limited to:* SARS, WCC, UIF follow ups* Registrations and deregistration's* Typing of formal letters, answering the phone* Basic admin duties (Filing, ordering of monthly supplies)* Corresponding with clients in a professional manner* And any other related queries given by managerComputer programs worked on previously&nbsp;* Pastel* MS Excel* MS Word* MS PowerPoint* Vanilla Payroll (Advantageous)",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002471-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p1786ed55-079b-4bce-a7d5-eddd71cc4b48"
+    },
+    {
+      "jobTitle": "Electrical Engineer/Project Manager",
       "startDate": "2024-06-27 - 2024-07-27",
       "vacancyType": "Permanent",
       "jobSpecFields": "Engineering &amp; Technical",
@@ -15,7 +240,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002469-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5d8962b7-4446-40cc-a84b-8fb1d375e56f"
+      "uuid": "p597f04db-0fad-4d04-a0ba-9bae4b57b37b"
     },
     {
       "jobTitle": "Office Administrator",
@@ -30,22 +255,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002467-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p180c7b5d-bb15-43ed-b26d-559250980fb1"
-    },
-    {
-      "jobTitle": "General Office Admin Lady",
-      "startDate": "2024-06-24 - 2024-07-24",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", Olifantsfontein",
-        "region": "Gauteng"
-      },
-      "details": "The ideal candidate must have previous working experience at least 3-5 years and would be required to assist where possible.Duties would be but not limited to:* Answering phone* Any reception duties that will be required* Assist with invoices* Must be punctual and have excellent communication skills and be well organized* Computer literacy essential",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002468-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p57f85e68-da00-41ca-88e6-08da9ac8edcd"
+      "uuid": "p5fc55b2e-a266-4e74-b3eb-349e22222c52"
     },
     {
       "jobTitle": "Sales Manager",
@@ -60,7 +270,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002464-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pba665df7-7e1c-4ed2-aefd-25c0a752868b"
+      "uuid": "p310a50c8-9782-469f-8eff-504938260c8b"
     },
     {
       "jobTitle": "Sales Manager",
@@ -75,7 +285,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002465-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p02db714f-4a0a-4b3d-9ce6-50a07135e127"
+      "uuid": "pa31a4822-4b65-4746-b16e-1839145f7bc7"
     },
     {
       "jobTitle": "Occupational Therapist",
@@ -90,7 +300,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002463-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pd04fe1e2-a1f0-44bc-9080-798abca00abb"
+      "uuid": "pb8035af2-c9d6-43c9-aa6a-45551421c53e"
     },
     {
       "jobTitle": "Training Officer",
@@ -105,7 +315,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002466-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pa0334cd2-7cf1-4fd7-8eec-ad2f4cf3e23b"
+      "uuid": "p434f4758-796a-4974-969d-e957e9c485e6"
     },
     {
       "jobTitle": "Stock Controller",
@@ -120,7 +330,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002460-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p845254e8-a115-42dd-a273-b0734f4b3000"
+      "uuid": "pc058b107-b159-4ef4-ba8a-8861bac574f9"
     },
     {
       "jobTitle": "Portfolio Officer",
@@ -135,7 +345,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002461-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p9ec1fa36-a7dc-404b-be07-4ab7bbfa380a"
+      "uuid": "pead0c858-a022-4885-b41c-5fe57dc3bfff"
     },
     {
       "jobTitle": "Debtors/Creditors Clerk",
@@ -150,7 +360,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002462-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p86580aa5-5e20-4e15-9b0a-c118ef901ea3"
+      "uuid": "p8798549c-6baa-4aba-90ed-03175abb9067"
     },
     {
       "jobTitle": "Portfolio Officer",
@@ -165,7 +375,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002459-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p6472113c-c861-49b7-bd92-d445ab0608b3"
+      "uuid": "p002ca62e-1019-4915-8ddb-b31699ff3995"
     },
     {
       "jobTitle": "Financial Manager",
@@ -180,307 +390,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002449-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pc74d62f4-c144-4cdb-91d8-6907e6eb56b3"
-    },
-    {
-      "jobTitle": "Copywriter",
-      "startDate": "2024-06-11 - 2024-07-11",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Need to hire English literate graduates with or without experience to work in content creation who is native in English speaking.The candidates must be creative and innovative in order to write high engaging contents that is used across various platforms.These candidates must be organized, and detail orientated in order to create content that is errorfree and has the ability to edit their own work, while having the willingness to learn and further their knowledge and skills.",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002456-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pa87439af-7396-4e28-83dd-4f49de4dda45"
-    },
-    {
-      "jobTitle": "Web Analyst",
-      "startDate": "2024-06-11 - 2024-07-11",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Required Skills and Qualifications:* Bachelors degree in Web developmenty, graphic design or related field* Proficiency in HTML, CSS, JavaScript, PHP, JSE, Jason, WordPress and SEO* Design/creative experience beneficial* Basic understanding of Adobe creative suite (Photoshop, illustrator, InDesign)* Ability to create wireframes, mockups and prototypes* Basic understanding of UX/UI principals and best practices* Strong analytical and problem-solving skills* Excellent communication and team work abilities* Detail orientated with strong focus on quality and accuracy* Ability to manage multiple projects and meet deadlines in a fast-paced environmentGeneral Duties and Responsibilities:* Design, develop and maintain websites.* Ensure websites are optimized for speed, scalability and user experience* As a web analyst you would collaborate with the data analyst to analyze website performances metrics and user behavior, monitor websites traffic, track SEO performances and identify opportunities for improvement* Troubleshoot and resolve website issues in a timely manner* Work with marketing, designing and analytical team to design and implement landing pages* To ensure all designs are in line with brand guidelines and maintain a constant look and feel across all platforms* Responsible for project management related duties to ensure projects are delivered on time",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002454-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p9124a8e4-819c-4f59-b769-62911965f97e"
-    },
-    {
-      "jobTitle": "Analyst",
-      "startDate": "2024-06-11 - 2024-07-11",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Required Skills and Qualifications:* Bachelor's degree in psychology, Strategic Brand Management, Marketing Communication or related field* Basic understanding of SEO principles-beneficial* Understanding of current digital marketing trends and best practices beneficial* Excellent written and verbal communication skills* Strong organizational skills with the ability to manage multiple projects and deadlines in a fast-paced environment* Demonstrated project management skills* Strong analytical and problem-solving skills* Detail orientated with a strong focus on quality and accuracy* Ability to work independently and as part of a team in a fast-paced environmentGeneral Duties and Responsibilities:* Create, schedule and post context various social media platforms* Monitor social media trends and competitor activities to adjust strategies accordingly* Analyse social media metrics and prepare reports to evaluate the effectiveness of campaigns* Collaborate with graphic design team to ensure engaging graphics and visuals for social media posts* Create, review and edit content to ensure it aligns with SEO strategies* Prepare and present regular reports on account status, campaign performance and upcoming initiatives",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002455-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p4b0e4028-4ee8-4adf-973a-5ccffcfa13e9"
-    },
-    {
-      "jobTitle": "Chief Financial Officer",
-      "startDate": "2024-06-11 - 2024-07-11",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "The following requirements is needed:Qualifications:* Must have BCom Accounting or BCom Financial Management degree* Previous working experience in similar position essentialComputer Literacy:* Pastel* MS Word* MS Excel* VIP Payroll* MS PowerpointDuties would be but not limited to:* Lead the management of the company financial strategy and deliverable, process and to ensure that all financial, governance, risk, legal and IT functions and statutory requirements are adhered to.* Key performances and activities:&nbsp;- Strategy design- Operational strategy- Financial Management*Financial Reporting, Annual Report and Annual Financial Statements- Preparation* Funding and liquidity- Management* Regulatory Reporting and Stakeholder- Management- Risk Management- Knowledge leadership",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002457-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p65ee08f7-3ae5-42ee-8ce4-25af042360ca"
-    },
-    {
-      "jobTitle": "Safety Supervisor",
-      "startDate": "2024-06-06 - 2024-07-06",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Saudi Arabia",
-        "region": "Saudi Arabia"
-      },
-      "details": "Duties PerformedOperations\n\nSupport the Safety Manager’s site activities.\nOrganize and coordinate, supervise Safety Officer Site activities, assignment and performance.\nDemonstrate proven man management skills.\nConduct JSA, Toolbox Talks and has knowledge in understanding Safety Inspections,\nChecklists and Work Permit Systems.\nWrite Reports.\nImplement Health, Safety &amp; Environmental Program.\nImpart training to construction staff.\nPrepare Hazard Identification Plan/Activity Hazard Analysis.\nImplement safety matters for Building &amp; Civils and Oil, Gas &amp; Petrochemical Projects.\nCreate awareness of safety among the construction staff and work force.\nIdentify, evaluate and control safety, health and environmental hazards.\nConduct daily safety inspections and monitor safety performance.\nPrepare and implement procedures and plans. Example; excavation, confined space entry,\nWorking at height, fire protection, medical services, emergency, evacuation etc.\nCompile accident statistics.\nImplementation the use of personal protective Safety equipment (PPE) within the work force.\nInvestigate incidents/accidents and take remedial measures to avoid recurrences.\nAttend project safety meetings and present reports.\nMonitor and modify safety techniques to achieve zero injury, zero accident and zero accident.\nInspect the work site daily and correct unsafe methods and conditions.\nKeep a record daily and report to the Safety Manager / Supervisor when necessary.\nCarry out site surveys and inspections to see that only safe work methods are in operation,\nHealth and safety requirements are being observed.\nWelfare and first aid facilities are adequate and properly maintained.\nDetermine the cause of any accidental occurrence and recommend measures to prevent recurrences.\nSuggest ways to prevent injury to personnel, damage to site facility or equipment and fires.\nImplement Safety procedures.\nStop works in the event of unsafe acts or conditions.\nConduct regular Risk Assessments for tasks.\nProvide guidance and mentoring to work force and staff in regards to Safe Work practices and requirements.\nAttend and pass Client interviews.\nContinually improve personal knowledge of Safety, Health and Environmental issues.\nCo-ordinate with project personnel as directed by the Safety Manager.\nReport Safety issues through the established project communication protocol.\nInspection of Camp accommodation as directed by Supervision.\n\nPolicies, Processes, and Procedures\n\nImplement approved department’s policies, processes, and procedures\nProvide instructions to subordinates and monitor their adherence so that work is carried out in a controlled manner\nContribute to the identification of opportunities for continuous improvement of systems, processes and practices taking into account leading practices, improvement of business processes, cost reduction and productivity improvement\nSupport in monitoring day to day activities to ensure compliance with stipulated policies and procedures\n\nSafety, Health, and Environment\n\nComply with all relevant safety, health and environmental management policies, procedures and controls to ensure a healthy and safe work environment\nParticipate in incident and accident investigations as required in line with agreed safety, health and environment policies, procedures and controls\nReport on changes within the company that impact relevant safety, health and environmental management policies, procedures and controls\n\nPeople Management\n\nSupervise, guide, and assist direct reports to perform their daily activities in accordance with the policies and procedures\nActively participate in on-the-job training, mentoring, and coaching of direct reports\nGenerate commitment, motivation, and enthusiasm to team goals, and guide team members through periods of change or uncertainty\nProvide clear direction, prioritize tasks, assign and delegate responsibility, and monitor the work flow\nProvide opportunities for team members, to suggest, participate in and contribute to improvements, innovation, and knowledge sharing initiatives\nEnsure the team complies with the company values, policies, processes, and systems\n\nNecessary Knowledge and Experience\n\nTotal 8 years of experience with at least 5 years’ experience in a similar capacity.\nEnglish language skills\nComputer literate\nA high school diploma or equivalent\n",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002431-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p0a3fa45f-d0cb-4faa-bd9d-e4a10b79f9d3"
-    },
-    {
-      "jobTitle": "Safety Officer",
-      "startDate": "2024-06-06 - 2024-07-06",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Saudi Arabia",
-        "region": "Saudi Arabia"
-      },
-      "details": "Must have the following requirements:Desirable:* Diploma Fire and Safety or equivalent* OSHA or NEBOSH, ISOH* Hold OSHAS 18001:2008 auditor accreditationAdvantage:* Middle East experience oil, gas and petrochemical projectsRequirements:* Age 25 and up* Experience 6 years, 5 years in similar position* Degree HSE Diploma / NEBOSH diploma* Grade 12 certificateNote: interviews will be held in JHB 10, 11&amp; 12 June only",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002452-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pfd5b827e-9a70-488a-81f4-016afa430467"
-    },
-    {
-      "jobTitle": "Safety Manager",
-      "startDate": "2024-06-06 - 2024-07-06",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Saudi Arabia",
-        "region": "Saudi Arabia"
-      },
-      "details": "The following requirements is required:Desirable:* Diploma fire and safety or equivalent* OSHA or NEBOSH, ISOH* Hold OSHA 18001:2008 auditor accreditationAdvantage:* Middle East experience, oil and gas and petrochemical project* Age 40 and up* Experience 10 years, 5 years in similar position* Degree Bs HSE/ HSE diploma / NEBOSH diploma* Grade 12 certificateInterviews will be conducted in JHB 10, 11, &amp; 12 June only, must be available immediately if found suitable",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002451-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p59b40376-4980-435a-bd7f-a782c06294ea"
-    },
-    {
-      "jobTitle": "Safety Supervisor",
-      "startDate": "2024-06-06 - 2024-07-06",
-      "vacancyType": "Contractor",
-      "jobSpecFields": "SHEQ",
-      "location": {
-        "city": ", Saudi Arabia",
-        "region": "Saudi Arabia"
-      },
-      "details": "The minimum requirements for the vacancy is as follows&nbsp;Desirable:* Diploma in Fire and Safety or equivalent* OSHA or NEBOSH ISOHAdvantage:* Middle east experience, oil and gas and petrochemical projects experienceRequirements:* Age 30 and up* Experience 8 years, 5 years in similar position* Degree HSE diploma / NEBOSH diploma* Grade 12 certificateNote: interviews will take place in JHB 10,11 &amp; 12 June only",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002453-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pcba9b970-a677-4960-bb5e-959b0cdb1119"
-    },
-    {
-      "jobTitle": "Accounting Clerk",
-      "startDate": "2024-06-04 - 2024-07-04",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "The following requirements are needed:* 3-5 years' experience in accounting* Advanced Excel skills* Pastel Partner, Vinalla Payroll* SARS E-filing* Audits will assist with multiple audits such as:- VAT, Income tax, and PAYE* Assisting in preparation of annual financial statements and management accountsQualifications:* Grade 12 certificate* B Comm Accounting or studying towards accounting* Have a valid driver's license",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002448-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p9460966a-32b6-48ea-be50-6c3ed510323e"
-    },
-    {
-      "jobTitle": "SAQCC Technician (Suppression and Detection)",
-      "startDate": "2024-06-03 - 2024-07-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Engineering &amp; Technical",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Must HAVE the following requirements:* Valid SAQCC Suppression &amp; Detection (Installer / Commissioner) 1475 Certificate* Be in possession of a valid driver's license.* Previous mine experienceDuties would be but not limited to:* Installation and maintenance of fire detection and suppression systems* Inspection of systems (might include deluge systems)* Inspection and maintenance 1475 tech",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002443-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p7bc96524-f229-4425-8f26-b2d557de2597"
-    },
-    {
-      "jobTitle": "Financial Manager",
-      "startDate": "2024-06-03 - 2024-07-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "Requirements:\n\n5 years experience in Accounting and Financial Management\nProficient in drafting and balancing of annual financial statements.\nAdvanced experience in multiple audits (eg. VAT, IT, PAYE)\nPlanning policies and systems, operational support, VAT calculations and submissions etc.\nGrade 12\nHighest Qualification - BCom Accounting/ BCom Financial Management\nPastel\nVanilla payroll\nMicrosoft Excel, Word, PowerPoint\nNON SMOKER\n\nSalary between R30 000 - R35 000",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002444-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pdf54a0ab-4127-4810-8752-9bd5738fa77a"
-    },
-    {
-      "jobTitle": "Accounting Clerk",
-      "startDate": "2024-06-03 - 2024-07-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "Requirements:\n\n3-5 years experience in Accounting\nAdvanced Excel skills, Pastel Partner, Vanilla Payroll, SARS, E-Filling\nAudits - will assist with multiple audits such as: VAT, Income Tax and PAYE.\nAssisting in preparation of annual Financial Statements and management Accounts\nMust have Grade 12\nMust have relevant qualifications, studying towards Accounting\nMicrosoft Word, Excel, PowerPoint\nMust have valid Drivers License\n\nSalary - R15 000",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002445-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p0a20e651-e830-498e-a7f7-8800a78dbb04"
-    },
-    {
-      "jobTitle": "Creditors / Bookkeeper",
-      "startDate": "2024-06-03 - 2024-07-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Lanseria / Brits",
-        "region": "Gauteng"
-      },
-      "details": "Qualification Required:* Matric with Mathematics C symbol or higher (no math's literacy)* 3-5 years working experienceComputer Literacy:* MS Office Excel advanced (will be tested)* Accounts testResponsibilities:* Process supplier invoices daily for month end payment (Transporters)* Courier guy and Kargo reconciliations and processing* Process cash payment invoices and ensure timely payments* Accounts payable carried out to required standards* VAT queries* Supplier queries &amp; mails* Reconciliations and allocations of supplier statements / payments* Compiling credit releases* Programmes used - SOS inventory, Cin7Core, QuickBooks, Acumatica etc.* Ad hoc creditors / debtors' duties",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002441-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p8e16f317-91b5-4321-9295-90eafcc959cb"
-    },
-    {
-      "jobTitle": "Receptionist",
-      "startDate": "2024-06-03 - 2024-07-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "Duties would be but not limited to:* SARS, WCC, UIF follow ups* Registrations and deregistration's* Typing of formal letters, answering the phone* Basic admin duties (Filing, ordering of monthly supplies)* Corresponding with clients in a professional manner* And any other related queries given by managerQualifications:* Valid matric certificate* Grade 12 and busy studying towards an accounting degree would be to your advantage.* Must have a valid driver's license and own transportComputer programs worked on previously&nbsp;* Pastel* MS Excel* MS Word* MS PowerPoint* Vanilla Payroll",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002446-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5357459a-7f99-4041-b50e-a2b37fbd67ca"
-    },
-    {
-      "jobTitle": "Receptionist",
-      "startDate": "2024-06-03 - 2024-07-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "Requirements:\n\nSARS, WCC, UIF follow-up\nRegistrations and de-registrations\nTyping of formal letters\nAnswering the phone\nBasic admin duties, filing, ordering monthly office supplies.\nCorresponding with clients in a a professional manner, and or any other related queries given by manager.\nMust have Grade 12 and studying towards Accounting Degree would be an advantage.\nPastel\nVanilla Payroll\nMicrosoft Word, Excel, PowerPoint\nMust have valid Drivers license and own transport.\n\nSalary - R10 000",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002447-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pba06556c-9fd9-494c-92dd-91f15d028fd3"
-    },
-    {
-      "jobTitle": "Junior Accountant/Payroll and Finance Administrator",
-      "startDate": "2024-05-30 - 2024-06-29",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Reporting to:CEO and Financial ManagerKey responsibility Areas:Accounting operations:\n\n Managing accounting operations (including billings, accounts receivable, general ledger, accounts payable, etc.)\nEnsure the correct allocation of bank statement transactions\nPreparation and submission of daily commission calculations\nEnsure that all financial transactions are accurately recorded and maintained on the internal database system\nEnsure that transactional data are appropriately reconciled against the policy administration system\nBuild and maintain relationships with all stakeholders (Internal and external)\nReview underlying supporting documents received from Outsourced Partners for validity and accuracy and perform a detailed analysis as required\nProvide operational support to the various processing areas\nAssist with streamlining and improving accounting systems including assisting with automation projects\nAssist with the documentation of business processes and maintain SOP’s with the key objective of strengthening internal controls\nPrepare payments for approval by the Financial Manager and CEO\nAdherence to all quality standards and processes within the Budgeting and Finance area\nAssist with the processing and reconciliations of debit orders&nbsp;\n\nFinancial reporting:&nbsp;\n\n Prepare and submit monthly financial reports timeously\nAnalyse and interpret financial results\nEnsure that financial records are accurate and compliant with the applicable standards and regulatory requirements\nProvide operational support to Outsourced Partners\nEnsure invoices and statements are submitted timeously\nEnsure that reconciliations are accurate\nAssist with the preparation and analysis of monthly management accounts.\nWork on ad hoc projects as required&nbsp;\n\nCredit Control:&nbsp;\n\n Monitor and track receipts against arrear premiums\nIdentify areas of improvement in collection process\nEnsure that outstanding debtors balance are maintained at acceptable levels&nbsp;\n\nInternal Control:&nbsp;\n\n Adherence to the processing area's SOP\nAdherence to organisations compliance processes and procedures\nComplete complex tasks fast and accurately&nbsp;\n\nAdditional Skills:\n\nMust be organised and have the right financial skills\nQuality driven\nAbility to pay attention to detail as accuracy is important\nAbility to work effectively with others and contribute to team task accomplishment\nHave the ability to operate very effectively under pressure\nTask and deadline orientated\nAbility to make decisions, analytical mind and excellent problem-solving techniques\nStrong sense of ownership and assertive personality\nExcellent time management skills\nAdvanced Microsoft suite\nMust have worked on Sage or Xero and must have experience with preparing balance sheet recons\nPro-active and innovative\n\nSalary - between R12 - R14K depending on experience",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002437-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p6be75f60-a536-4fbd-a7c9-4c305774d901"
-    },
-    {
-      "jobTitle": "Junior Accounts Clerk",
-      "startDate": "2024-05-30 - 2024-06-30",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Finance",
-      "location": {
-        "city": ", JHB - Central",
-        "region": "Gauteng"
-      },
-      "details": "Key Responsibility Areas:Accounting Operations:* Managing accounting operations (including billings, accounts receivable, general ledger, accounts payable etc. )* Ensure the correct allocation of bank statement transactions* Preparation and submission of daily commission calculations* Financial transactions are accurately reordered* Assist with streamlining and improving accounting systems* Documentation of business processes and maintain SOP's* Prepare payments for approvalFinancial Reporting:* Prepare and submit monthly financial reportsAnalyse and interpret financial resultsEnsure financial reports are accurate and compliant with applicable standards* Invoices and statements are submittedCredit Control:* Track receipts against arrear premiums* Improvement of collection processes* Ensure all outstanding debtors balances are maintainedAddition Skills:* Must be organized* Quality driven* Attention to detail* Deadline orientated* Excellent time management skills* Advanced MS Office Suite",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002438-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p6b86a711-1190-4abf-823c-0719c94944c6"
-    },
-    {
-      "jobTitle": "National Sales Maanger",
-      "startDate": "2024-05-30 - 2024-06-29",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "FMCG",
-      "location": {
-        "city": ", JHB - Northern Suburbs",
-        "region": "Gauteng"
-      },
-      "details": "Requirements:&nbsp;Min 5 years of sales management experience in the FMCG industryProven track record of success in achieving sales targets and growing businessStrong leadership and management skillsExcellent communication and interpersonal skillsAbility to analyse data and make informed decisionsStrong understanding of the South African FMCG marketBachelor's degree in Business Administration, Marketing, or related field",
-      "contact": "Welma",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002440-R",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p287813be-64be-4a3b-b02d-8cf7b2337dcc"
-    },
-    {
-      "jobTitle": "Candidate Attorney/Junior Admitted Attorney",
-      "startDate": "2024-05-13 - 2024-06-30",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Legal",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Requirements for Candidate AttorneyCompleted LLB degreeCompleted Articles would be an advantage&nbsp;Candidate must have their own car and a driver's licenseRequirements for Junior Admitted AttorneyCompleted LLB degreeCompleted articles&nbsp;Admitted to the role&nbsp;Candidate must have their own car and a driver's license.Candidate must be fluent in Afrikaans&nbsp;",
-      "contact": "Welma Helberg Nel",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002232-WHN",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5515d896-d2ca-4fe0-b3b3-b89395bd0b83"
-    },
-    {
-      "jobTitle": "TECHNICAL SUPPORT LEAD",
-      "startDate": "2024-05-07 - 2024-06-30",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Job ObjectivesSolid grasp of all technical requirements in the Lutron product lineDevelopment and maintenance of training documentationEfficient management of RMA processesTechnical and design assistance to dealers on Lutron lighting &amp; shading projectsMinimum Requirements:- Min 3 years in a technical support role (Smart home industry preferred)- Strong IP networking skills- Mature individual- Good communication skills- Planning and project management- Sound decision-making ability- Skilled problem solver- Results orientated- Strong sense of accountability- Must enjoy working in cross-functional teams with tight deadlines and under high pressure",
-      "contact": "Welma",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002417-R",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p91edea2a-63c5-4c72-b7a2-5e0c09c46a45"
+      "uuid": "pc1c7c4d7-3fee-48fe-a320-52b9f6d5c079"
     }
   ]
 }

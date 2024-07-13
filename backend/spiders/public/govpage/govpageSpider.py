@@ -14,7 +14,7 @@ from datetime import datetime
 
 # Assuming Links and BlogPost classes are defined somewhere else in your project
 from spiders.types.types import Links, BlogPost
-from pipeline.writer import GovPageJsonFile  # Adjust the import statement
+from pipeline.writer import GovPageFile  # Adjust the import statement
 
 
 class Spider:
@@ -123,7 +123,7 @@ class Spider:
                 self.govPageLinks["blogPosts"].append(blogpost)
                 self.progress["departments_scraped"] = i + 1
                 self.save_progress()
-                GovPageJsonFile(self.govPageLinks)
+                GovPageFile(self.govPageLinks)
 
             self.driver.close()
             log.info(f"{self.Name} done")

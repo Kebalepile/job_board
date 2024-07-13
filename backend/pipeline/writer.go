@@ -40,7 +40,7 @@ func GovPageFile(data *types.Links) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 
@@ -64,7 +64,7 @@ func HeithaJsonFile(data *types.HeithaJobs) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 
@@ -88,7 +88,7 @@ func HeithaFile(data *types.HeithaJobs) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 
@@ -112,7 +112,7 @@ func ProPersonnelJsonFile(data *types.ProPersonnelJobs) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 
@@ -136,7 +136,7 @@ func ProPersonnelFile(data *types.ProPersonnelJobs) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 func MinopexFile(data *types.MinopexJobs) error {
@@ -159,7 +159,7 @@ func MinopexFile(data *types.MinopexJobs) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 
@@ -183,7 +183,7 @@ func SaYouthFile(data *types.SaYouthJobs) error {
 	if err != nil {
 		return err
 	}
-	log.Print(data.Title, " Saved at ", filePath)
+	log.Print(data.Title, "stream write scraped data to: ", filePath)
 	return nil
 }
 

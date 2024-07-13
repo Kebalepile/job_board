@@ -15,34 +15,7 @@
                 "iframe": "",
                 "uuid": "p3870d012-babb-45c1-aea9-88b300a4b89f"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -69,34 +42,7 @@
                 "iframe": "",
                 "uuid": "pd65df655-e784-4779-ba58-15e5f39e8335"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -136,34 +82,7 @@
                 "iframe": "",
                 "uuid": "pde40f1c4-be66-4202-9f56-249ee7ddb6cc"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -216,34 +135,7 @@
                 "iframe": "",
                 "uuid": "p1b6e8dff-9190-417d-a0fe-1148c3509322"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -305,34 +197,7 @@
                 "iframe": "https://drive.google.com/file/d/1Z-oFPhZGpJxtfF2hVVO0iv_qbHr-nW5B/preview",
                 "uuid": "p10f4f4f8-43d2-4879-9241-4922dce4023b"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -407,34 +272,7 @@
                 "iframe": "",
                 "uuid": "p66052430-1235-4e3b-a750-acd38b527921"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -534,34 +372,7 @@
                 "iframe": "",
                 "uuid": "p886e875b-5696-480f-aaa1-8f3754dff3d8"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -675,34 +486,7 @@
                 "iframe": "",
                 "uuid": "pb14ae1e4-8c08-4d0c-987b-d1dd920a461c"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -829,34 +613,7 @@
                 "iframe": "",
                 "uuid": "pe518af84-3528-438f-bbbf-7044f5fd3999"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -998,34 +755,7 @@
                 "iframe": "",
                 "uuid": "p2133ec08-0050-47b2-b14b-e35a4b50d58a"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -1180,34 +910,7 @@
                 "iframe": "",
                 "uuid": "p8a1a9f19-e2b3-494b-9a6a-5246210486be"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -1375,34 +1078,7 @@
                 "iframe": "",
                 "uuid": "p89449aa7-9428-4390-9c11-352f074d4492"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -1583,34 +1259,7 @@
                 "iframe": "",
                 "uuid": "pf3462631-aa12-4d90-9f20-08610a279128"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -1806,34 +1455,7 @@
                 "iframe": "",
                 "uuid": "p6d675654-af4a-4bc5-bb05-6fea8ca40a01"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+       ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -2042,34 +1664,7 @@
                 "iframe": "",
                 "uuid": "p2f74a0e1-051a-44c3-a9f7-814589826fca"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+        ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -2294,34 +1889,7 @@
                 "iframe": "",
                 "uuid": "p676fbbbe-dcae-406d-91bc-f51e17091a27"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+       ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -2561,34 +2129,7 @@
                 "iframe": "",
                 "uuid": "p68c65bb1-61f9-42d3-ac63-3707c12b680b"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+     ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -2844,34 +2385,8 @@
                 "iframe": "",
                 "uuid": "p6ec25a93-dba1-4099-98af-0b764186c1b1"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+       ,
+   
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -3140,34 +2655,7 @@
                 "iframe": "",
                 "uuid": "p639db967-51e3-4caf-a4f2-1a8bbeb38cc2"
             }
-        ],
-        "departments": {
-            "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
-            "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
-            "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
-            "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",
-            "public protector vacancies": "https://www.govpage.co.za/public-protector-vacancies-blog/public-protector-vacancies4129214",
-            "small enterprise development agency (seda) vacancies": "https://www.govpage.co.za/small-enterprise-development-agency-seda-vacancies-blog/small-enterprise-development-agency-seda-vacancies9020338",
-            "state information technology agency (sita) vacancies": "https://www.govpage.co.za/state-information-technology-agency-sita-vacancies-blog/state-information-technology-agency-sita-vacancies7154869",
-            "technology innovation agency (tia) vacancies": "https://www.govpage.co.za/technology-innovation-agency-tia-vacancies-blog/technology-innovation-agency-tia-vacancies5515074",
-            "umalusi vacancies": "https://www.govpage.co.za/umalusi-vacancies-blog/umalusi-vacancies8459779",
-            "water research commission (wrc) vacancies": "https://www.govpage.co.za/water-research-commission-wrc-vacancies-blog/water-research-commission-wrc-vacancies6335492",
-            "working on fire (wof) vacancies": "https://www.govpage.co.za/working-on-fire-wof-vacancies-blog/working-on-fire-wof-vacancies4836279",
-            "automotive industry development centre (aidc) vacancies": "https://www.govpage.co.za/automotive-industry-development-centre-aidc-vacancies-blog/automotive-industry-development-centre-aidc-vacancies2099908",
-            "capenature vacancies": "https://www.govpage.co.za/capenature-vacancies-blog/capenature-vacancies2577248",
-            "coega development corporation (cdc) vacancies": "https://www.govpage.co.za/coega-development-corporation-cdc-vacancies-blog/coega-development-corporation-cdc-vacancies3978086",
-            "gauteng film commission (gfc) vacancies": "https://www.govpage.co.za/gauteng-film-commission-gfc-vacancies-blog/gauteng-film-commission-gfc-vacancies5175848",
-            "kzn growth fund vacancies": "https://www.govpage.co.za/kzn-growth-fund-vacancies-blog/kzn-growth-fund-vacancies",
-            "mpumalanga economic growth agency (mega) vacancies": "https://www.govpage.co.za/mpumalanga-economic-growth-agency-mega-vacancies-blog/mpumalanga-economic-growth-agency-mega-vacancies1675474",
-            "johannesburg metrobus vacancies": "https://www.govpage.co.za/johannesburg-metrobus-vacancies-blog/johannesburg-metrobus-vacancies2242532",
-            "johannesburg roads agency (jra) vacancies": "https://www.govpage.co.za/johannesburg-roads-agency-jra-vacancies-blog/johannesburg-roads-agency-jra-vacancies1462361",
-            "johannesburg social housing company - joshco vacancies": "https://www.govpage.co.za/johannesburg-social-housing-company-joshco-vacancies-blog/johannesburg-social-housing-company-joshco-vacancies8822687"
-        }
-    },
-    {
-        "title": "govpage-public-sector",
-        "blogPosts": [
+      ,
             {
                 "imgSrc": "https://www.govpage.co.za/uploads/2/4/0/5/24052997/ccma_orig.jpg",
                 "href": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
@@ -3452,7 +2940,7 @@
         ],
         "departments": {
             "agricultural research council (arc) vacancies": "https://www.govpage.co.za/agricultural-research-council-arc-vacancies-blog/agricultural-research-council-arc-vacancies3776979",
-            "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
+             "commission for conciliation, mediation and arbitration (ccma) vacancies": "https://www.govpage.co.za/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies-blog/commission-for-conciliation-mediation-and-arbitration-ccma-vacancies7987379",
             "housing development agency (hda) vacancies": "https://www.govpage.co.za/housing-development-agency-hda-vacancies-blog/housing-development-agency-hda-vacancies4336394",
             "independent regulatory board for auditors (irba) vacancies": "https://www.govpage.co.za/independent-regulatory-board-for-auditors-irba-vacancies-blog/independent-regulatory-board-for-auditors-irba-vacancies1077064",
             "national agricultural marketing council (namc) vacancies": "https://www.govpage.co.za/national-agricultural-marketing-council-namc-vacancies-blog/national-agricultural-marketing-council-namc-vacancies2822461",

@@ -8,7 +8,7 @@ import json
 from typing import List
 from datetime import datetime
 from selenium import webdriver
-from pipeline.writer import GovPageJsonFile
+from pipeline.writer import GovPageFile
 from selenium.webdriver.common.by import By
 
 from selenium.webdriver.support.ui import WebDriverWait
@@ -181,7 +181,7 @@ class Spider:
                     blogpost = self.postContent(govPageLinks["businesses"][k])
                     govPageLinks["blogPosts"].append(blogpost)
 
-                    GovPageJsonFile(blogpost)
+                    GovPageFile(blogpost)
                     self.current_business_index += 1
                     self.save_state()
 

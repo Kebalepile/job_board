@@ -66,6 +66,7 @@ func (s *Spider) Launch(wg *sync.WaitGroup) {
 
 	s.vacancies(ctx, url)
 }
+
 func (s *Spider) vacancies(ctx context.Context, url string) {
 	log.Println("Searching for latest vacancies ", s.Name)
 
@@ -148,9 +149,10 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 				chromedp.Evaluate(`document.evaluate("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[3]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.querySelector("a").href;`, &p.Apply))
 			s.error(err)
 			s.Posts.BlogPosts[i] = p
+			
+			// Save after each job post is updated
+			s.save()
 		}
-
-		s.save()
 	} else {
 		log.Println(s.Name, " sorry no job posts today.")
 		s.close()
@@ -160,7 +162,6 @@ func (s *Spider) vacancies(ctx context.Context, url string) {
 func (s *Spider) save() {
 	err := pipeline.MinopexFile(&s.Posts)
 	s.error(err)
-	s.close()
 }
 
 func (s *Spider) date() string {
@@ -170,7 +171,8 @@ func (s *Spider) date() string {
 
 // closes chromedp broswer instance
 func (s *Spider) close() {
-	log.Println(s.Name, "is done.")
+	log.Println(s.Name, "done scraping data.")
+	
 	s.Shutdown()
 }
 
