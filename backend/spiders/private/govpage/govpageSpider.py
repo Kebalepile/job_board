@@ -40,7 +40,7 @@ class Spider:
         self.state_file = 'state.json'
         self.load_state()
 
-    def save_state(self):
+    def save_progress(self):
         """Save the current state of the scraper to a file."""
         state = {
             'govPageLinks': govPageLinks,
@@ -48,6 +48,10 @@ class Spider:
         }
         with open(self.state_file, 'w') as f:
             json.dump(state, f)
+
+    def save_data(self):
+          GovPageFile(blogpost,"govpage-private-sector")
+
 
     def load_state(self):
         """Load the previous state of the scraper from a file."""
@@ -181,9 +185,9 @@ class Spider:
                     blogpost = self.postContent(govPageLinks["businesses"][k])
                     govPageLinks["blogPosts"].append(blogpost)
 
-                    GovPageFile(blogpost)
+                    self.save_data()
                     self.current_business_index += 1
-                    self.save_state()
+                    self.save_progress()
 
             self.driver.close()
             log.info(f"{self.Name} done")

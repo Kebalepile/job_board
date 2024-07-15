@@ -8,7 +8,8 @@ def GovPageJsonFile(data: dict, path='database/public/govpage.json'):
         print(f"Data written to: {path}")
 
 # Create JavaScript file
-def GovPageFile(data: dict, path = f'database/public/{data["title"]}.js'):
+def GovPageFile(data: dict, file_name):
+    path = f'database/public/{file_name}.js'
     
     with open(path, "w") as f:
         f.write(f'export const data = {json.dumps(data, indent=4)}')

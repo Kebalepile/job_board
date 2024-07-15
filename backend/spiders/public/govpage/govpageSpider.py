@@ -1,16 +1,15 @@
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import re
 import uuid
 import time
 import logging
 import json
 from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 # Assuming Links and BlogPost classes are defined somewhere else in your project
 from spiders.types.types import Links, BlogPost
@@ -30,8 +29,8 @@ class Spider:
         opt.add_argument("--headless")
         self.driver = webdriver.Firefox(options=opt)
         self.driver.set_window_size(768, 1024)
-        self.load_progress()
         self.govPageLinks = Links()
+        self.load_progress()
 
     def load_progress(self):
         if os.path.exists(self.progress_file):
@@ -44,89 +43,101 @@ class Spider:
         with open(self.progress_file, 'w') as f:
             json.dump(self.progress, f)
 
+    def save_data(self):
+        GovPageFile(self.govPageLinks, "govpage-public-sector")
+
     def launch(self):
         log.info(f"{self.Name} spider has Launched")
         self.driver.get(self.AllowedDomains[0])
         log.info(f"{self.Name} Home page loading...")
 
-        menu = self.driver.find_element(By.CSS_SELECTOR, "*[aria-label='Menu']")
-        menu.click()
-        menu_options = self.driver.find_elements(By.CSS_SELECTOR, "ul li.wsite-menu-item-wrap a.wsite-menu-item")
+        try:
+            menu = self.driver.find_element(By.CSS_SELECTOR, "*[aria-label='Menu']")
+            menu.click()
+            menu_options = self.driver.find_elements(By.CSS_SELECTOR, "ul li.wsite-menu-item-wrap a.wsite-menu-item")
 
-        url = self.AllowedDomains[1]
-        for option in menu_options:
-            if "govpage" in option.text.lower():
-                url = option.get_attribute("href")
-                break
-
-        log.info(f"{self.Name} Home page loaded...")
-        if url:
-            self.driver.get(url)
-            log.info(f"{self.Name} Loading vacancy updates page...")
-            wait = WebDriverWait(self.driver, 10)
-            selector = ".blog-title-link"
-            elems = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, selector)))
-
-            self.driver.execute_script("document.querySelector('.blog-title-link').scrollIntoView({behavior: 'smooth'})")
-            elems = self.driver.find_elements(By.CSS_SELECTOR, selector)
-
-            vacancies_link = None
-            for elem in elems:
-                text = elem.text.lower()
-                full_date = self.get_date().lower()
-                day_month = full_date[:10]
-                weekday = self.get_weekday()
-
-                pattern = rf"{full_date}|{day_month}|{weekday}"
-                if re.search(pattern, text, re.IGNORECASE):
-                    self.govPageLinks["title"] = self.Name
-                    vacancies_link = elem.get_attribute("href")
+            url = self.AllowedDomains[1]
+            for option in menu_options:
+                if "govpage" in option.text.lower():
+                    url = option.get_attribute("href")
                     break
 
-            if vacancies_link:
-                self.scrape_departments(vacancies_link)
-            else:
-                self.close()
+            log.info(f"{self.Name} Home page loaded...")
+            if url:
+                self.driver.get(url)
+                log.info(f"{self.Name} Loading vacancy updates page...")
+                wait = WebDriverWait(self.driver, 10)
+                selector = ".blog-title-link"
+                elems = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, selector)))
+
+                self.driver.execute_script("document.querySelector('.blog-title-link').scrollIntoView({behavior: 'smooth'})")
+                elems = self.driver.find_elements(By.CSS_SELECTOR, selector)
+
+                vacancies_link = None
+                for elem in elems:
+                    text = elem.text.lower()
+                    full_date = self.get_date().lower()
+                    day_month = full_date[:10]
+                    weekday = self.get_weekday()
+
+                    pattern = rf"{full_date}|{day_month}|{weekday}"
+                    if re.search(pattern, text, re.IGNORECASE):
+                        self.govPageLinks["title"] = self.Name
+                        vacancies_link = elem.get_attribute("href")
+                        break
+
+                if vacancies_link:
+                    self.scrape_departments(vacancies_link)
+                else:
+                    self.close()
+
+        except Exception as e:
+            log.error(f"Error during launch: {str(e)}")
+            self.close()
 
     def scrape_departments(self, url: str):
         self.driver.get(url)
         log.info(f"{self.Name} vacancy updates page loaded...")
         self.dynamic_wait(10)
 
-        self.driver.execute_script("document.querySelector('[id^=\"blog-post-\"] a').scrollIntoView({behavior: 'smooth'})")
+        try:
+            self.driver.execute_script("document.querySelector('[id^=\"blog-post-\"] a').scrollIntoView({behavior: 'smooth'})")
 
-        selector = "[id^='blog-post-'] a"
-        elems = self.driver.find_elements(By.CSS_SELECTOR, selector)
+            selector = "[id^='blog-post-'] a"
+            elems = self.driver.find_elements(By.CSS_SELECTOR, selector)
 
-        log.info(f"{self.Name} scraping vacancy updates page links...")
-        if elems:
-            for elem in elems:
-                text = elem.text.lower().lstrip()
-                href = elem.get_attribute("href")
+            log.info(f"{self.Name} scraping vacancy updates page links...")
+            if len(elems) > 0:
+                for elem in elems:
+                    text = elem.text.lower().lstrip()
+                    href = elem.get_attribute("href")
 
-                if text and not re.search(rf"{self.get_date().lower()}|{self.get_date()[:10].lower()}|{self.get_weekday()}", text, re.IGNORECASE) and \
-                   not re.search(r"private property opportunities|private sector opportunities|public sector opportunities", text, re.IGNORECASE):
-                    if "https://www.govpage.co.za" in href:
-                        self.govPageLinks["departments"][text] = href
+                    if text and not re.search(rf"{self.get_date().lower()}|{self.get_date()[:10].lower()}|{self.get_weekday()}", text, re.IGNORECASE) and \
+                       not re.search(r"private property opportunities|private sector opportunities|public sector opportunities", text, re.IGNORECASE):
+                        if "https://www.govpage.co.za" in href:
+                            self.govPageLinks["departments"][text] = href
 
-            num_of_departments = len(self.govPageLinks["departments"].keys())
-            log.info(f"{self.Name} found {num_of_departments} vacancy updates page links.")
-            log.info(f"{self.Name} scraping vacancy updates page links content...")
+                num_of_departments = len(self.govPageLinks["departments"].keys())
+                log.info(f"{self.Name} found {num_of_departments} vacancy updates page links.")
+                log.info(f"{self.Name} scraping vacancy updates page links content...")
 
-            for i, k in enumerate(self.govPageLinks["departments"]):
-                if i < self.progress["departments_scraped"]:
-                    continue
+                for i, k in enumerate(self.govPageLinks["departments"]):
 
-                url = self.govPageLinks["departments"][k]
-                log.info(f"{i + 1}, scraping {k} data")
-                blogpost = self.scrape_post_content(url)
-                self.govPageLinks["blogPosts"].append(blogpost)
-                self.progress["departments_scraped"] = i + 1
-                self.save_progress()
-                GovPageFile(self.govPageLinks)
+                    url = self.govPageLinks["departments"][k]
+                    log.info(f"{i + 1}, scraping {k} data")
+                    blogpost = self.scrape_post_content(url)
+                    self.govPageLinks["blogPosts"].append(blogpost)
+                    self.progress["departments_scraped"] = i + 1
+                    self.save_data()
+                    self.save_progress()
+                    
 
             self.driver.close()
             log.info(f"{self.Name} done")
+
+        except Exception as e:
+            log.error(f"Error during department scraping: {str(e)}")
+            self.close()
 
     def scrape_post_content(self, url: str):
         self.driver.get(url)
@@ -181,9 +192,11 @@ class Spider:
     def dynamic_wait(seconds: float):
         time.sleep(seconds)
 
+
 # Create a custom formatter for log messages
 log_formatter = logging.Formatter("%(asctime)s [%(levelname)s]: %(message)s", datefmt="%d %B %Y %H:%M:%S")
 log = logging.getLogger()
 log.setLevel(logging.INFO)
 console_handler = logging.StreamHandler(sys.stdout)
-console_handler
+console_handler.setFormatter(log_formatter)
+log.addHandler(console_handler)
