@@ -3,6 +3,81 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
+      "jobTitle": "Safety Officer",
+      "startDate": "2024-07-15 - 2024-08-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "SHEQ",
+      "location": {
+        "city": ", Boshoek",
+        "region": "North West"
+      },
+      "details": "Requirements / Qualifications:* Must have 5 years working experience within the mining environment.* Comsoc 1 &amp; 2 essential, with all safety related certificates* Valid grade 12 certificate* Must have valid driver's license* No criminal record* Must be medically fit.",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002483-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pb14b37b2-ec12-4482-b56a-f9bfc2d7556b"
+    },
+    {
+      "jobTitle": "Mechanic",
+      "startDate": "2024-07-15 - 2024-08-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Boshoek",
+        "region": "North West"
+      },
+      "details": "Requirements / Qualifications:* Valid trade certificate* Must have 5 years working experience* Have a valid grade 12 certificate* Have valid driver's license* Mining experience essential* No criminal record",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002484-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p19d4736d-48cf-46d6-942e-56cb9cafb347"
+    },
+    {
+      "jobTitle": "Electrician",
+      "startDate": "2024-07-15 - 2024-08-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Boshoek",
+        "region": "North West"
+      },
+      "details": "Requirement / Qualifications:* Must have 5 years working experience as an Electrician* Valid trade certificate essential* Previous mining experience* No criminal record* Valid grade 12 certificate* Valid driver's license",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002485-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p69efca62-7e8a-4b3e-872f-2861a003f071"
+    },
+    {
+      "jobTitle": "Boilermaker",
+      "startDate": "2024-07-15 - 2024-08-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Engineering &amp; Technical",
+      "location": {
+        "city": ", Boshoek",
+        "region": "North West"
+      },
+      "details": "Requirements / Qualifications:* Must have 5 years working experience as a Boilermaker* Previous mining experience essential* No criminal record* Valid driver's license* Valid grade 12 certificate* Valid drivers license",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002486-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p8560def4-457d-422a-a56d-c9bcbe899397"
+    },
+    {
+      "jobTitle": "RESEARCH PHYSICIAN / PRINCIPAL INVESTIGATOR",
+      "startDate": "2024-07-15 - 2024-08-14",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Medical",
+      "location": {
+        "city": ", Brits",
+        "region": "North West"
+      },
+      "details": "Required / Expected Competencies:\n\nRegistered doctor with MBChB and 2+ years’ clinical research experience.\nCurrent HPCSA registration and medical malpractice insurance.\nStrong knowledge and skills in general medical practice.\nEffective decision-making and collaboration skills.\nThorough knowledge of ICH GCP.\nMeticulous attention to detail in patient data recording.\nCompletion and management of study documentation.\nProfessional attitude and proactive communication with colleagues.\nCommitment to professional development.\nProficiency in MS Word, Excel, PowerPoint.\nAdvantageous: previous clinical research experience, proficiency in Tswana and/or Zulu.\n\nCore Functions will include but not limited to:\n\nDirect and oversee research activities, ensuring research integrity and compliance.\nManage research projects administratively.\nConduct unbiased research in line with regulations.\nEnsure accurate, ethical, and efficient clinical trial processes.\nConduct clinical trials and provide medical oversight.\nLiaise with stakeholders and clients.\nEnsure adherence to ICH GCP and local guidelines.\nApply clinical knowledge per protocol.\nParticipate in and initiate trial data publications.\nOversee regulatory processes, participant recruitment, quality assurance, and laboratory/pharmacy tasks.\nFacilitate participant recruitment and informed consent.\nManage participants clinically as per protocols.\nConduct and attend relevant training.\nReview and action laboratory results.\nInterpret ECGs, CXRs, etc.\nAddress monitoring and data queries.\nReview and draft SOPs.\nPrepare source documents.\nReport adverse events.\nEngage in community education and clinic patient care.\nTrain and develop staff and students in clinical research.\n",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002487-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "peedb0f9d-0bbf-4d3e-ab4e-d0936ef50996"
+    },
+    {
       "jobTitle": "Area Supervisor",
       "startDate": "2024-07-11 - 2024-08-10",
       "vacancyType": "Permanent",
@@ -15,7 +90,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002481-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pdb2ff572-e6a2-4649-8007-85b53ca3b0e7"
+      "uuid": "p62d941ec-58b3-4d2e-85e2-f879281da0e3"
     },
     {
       "jobTitle": "Area Supervisor",
@@ -30,7 +105,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002482-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p63875948-844b-42ec-b8bf-4402707cbf6e"
+      "uuid": "p94af0848-8ee5-4543-b084-eaf31a8eeea1"
     },
     {
       "jobTitle": "Generator Service / Technical Sales",
@@ -45,7 +120,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002479-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p83bcf14c-3c92-4a05-8399-730d939e12f4"
+      "uuid": "p8364734d-b519-40ee-9d7a-e01ddf13f3b7"
     },
     {
       "jobTitle": "Sales Representative",
@@ -60,7 +135,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002480-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pfd9f84f1-9c05-4abc-8363-e9f78a63e078"
+      "uuid": "p2e831e2f-5fb2-4968-bc43-648e611cc2aa"
     },
     {
       "jobTitle": "Generator Service / Technical Sales",
@@ -75,7 +150,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002240-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pbb971151-c837-4868-b988-a233448631e6"
+      "uuid": "p36c6f64e-ed25-4d4c-bdaa-4bfe87e9fb57"
     },
     {
       "jobTitle": "Management Trainee",
@@ -90,7 +165,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002433-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p67a730ac-bfc8-4c45-ba1e-3b5e8aef9a0f"
+      "uuid": "pb5b666e0-5757-4b47-8215-e5abcfd14b26"
     },
     {
       "jobTitle": "Counter / Part Sales",
@@ -105,7 +180,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002473-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pd0a154cb-7874-4566-8c2f-06068b015494"
+      "uuid": "p690dc5e6-14fa-452b-958a-420975929a1b"
     },
     {
       "jobTitle": "Sales Representative",
@@ -120,37 +195,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002474-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pb64cf1b0-5fff-436e-a055-7d18b6565f96"
-    },
-    {
-      "jobTitle": "Sales Representative",
-      "startDate": "2024-07-04 - 2024-08-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", Meadowdale",
-        "region": "Gauteng"
-      },
-      "details": "Required Education / Experience / Skills:* Minimum qualification - matric - technical and or mechanical qualification is seen as an added advantage.* Must possess 3 years' experience in the electrical/mechanical sector.* Understanding of the OEM market will be seen as a added advantage* Demonstrate aptitude for problem solving* Ability to determine solutions for customers* Must be results orientated and able to work both independently and within a team* Have excellent verbal and written communications skills* MS Office suite applications experience* Must have market knowledge* Have a valid driver's licenseTravel:* Extensive travel will be required* Flexible hours&nbsp;Responsibilities (not limited to):* Plan and organize personalize sales strategy* Keep abreast of product applications, technical services, market conditions, completive activities, advertising and promotional trends* Participate in trade shows and conventions* Keeping in contact with management and keep them inform of all aspects of the company",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002477-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pc0fcea3a-b6f4-4212-8e68-bf315ead2c65"
-    },
-    {
-      "jobTitle": "Receptionist",
-      "startDate": "2024-07-04 - 2024-08-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
-      },
-      "details": "The suitable candidate needs to have the following requirements:Qualifications:* Grade 12* Studying towards accounting degree would be to your advantage.* Drivers license essentialDuties and experience would be but not limited to the following:* SARS, WCC, UIF follow ups* Registrations and deregistration's* Typing of formal letters, answering the phone* Basic admin duties like, filing, ordering monthly office supplies etc.* Corresponding with clients in a professional manner, and nay other related duties given by management&nbsp;Computer programmes:* Pastel* MS Word* MS Excel* Vanilla Payroll",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002478-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pc5e1ad7d-7165-4d2b-8067-b471b17e05ab"
+      "uuid": "p56ef67e1-a17b-4bef-8464-8f0fd2c525d5"
     },
     {
       "jobTitle": "Sales Representative",
@@ -165,7 +210,22 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002475-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p84b2e274-f470-4910-becf-fda62c807096"
+      "uuid": "p339432fe-b86d-4317-b4fb-4b2d9073f0e4"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Meadowdale",
+        "region": "Gauteng"
+      },
+      "details": "Required Education / Experience / Skills:* Minimum qualification - matric - technical and or mechanical qualification is seen as an added advantage.* Must possess 3 years' experience in the electrical/mechanical sector.* Understanding of the OEM market will be seen as a added advantage* Demonstrate aptitude for problem solving* Ability to determine solutions for customers* Must be results orientated and able to work both independently and within a team* Have excellent verbal and written communications skills* MS Office suite applications experience* Must have market knowledge* Have a valid driver's licenseTravel:* Extensive travel will be required* Flexible hours&nbsp;Responsibilities (not limited to):* Plan and organize personalize sales strategy* Keep abreast of product applications, technical services, market conditions, completive activities, advertising and promotional trends* Participate in trade shows and conventions* Keeping in contact with management and keep them inform of all aspects of the company",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002477-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p540db467-884c-4d24-a3c9-67f766d21c57"
     },
     {
       "jobTitle": "Sales Representative",
@@ -180,7 +240,22 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002476-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p26c860b0-0026-475e-8637-7acbd5693212"
+      "uuid": "pb369a42a-307e-47c1-8023-ca160671f5c5"
+    },
+    {
+      "jobTitle": "Receptionist",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Admin, Office &amp; Support",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "The suitable candidate needs to have the following requirements:Qualifications:* Grade 12* Studying towards accounting degree would be to your advantage.* Drivers license essentialDuties and experience would be but not limited to the following:* SARS, WCC, UIF follow ups* Registrations and deregistration's* Typing of formal letters, answering the phone* Basic admin duties like, filing, ordering monthly office supplies etc.* Corresponding with clients in a professional manner, and nay other related duties given by management&nbsp;Computer programmes:* Pastel* MS Word* MS Excel* Vanilla Payroll",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002478-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p1c3b07bf-2a36-4228-a548-e76f17df3cd9"
     },
     {
       "jobTitle": "Graduate Trainee",
@@ -195,7 +270,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002434-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p053a51aa-8d5f-431e-89ae-58764a48bd93"
+      "uuid": "p77594c96-1bc6-4aac-b19b-11667e4d9368"
     },
     {
       "jobTitle": "Accounting Clerk",
@@ -210,7 +285,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002470-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5d8ddafa-5c80-469e-9da2-c51a88695422"
+      "uuid": "p5c282dd2-6a04-408f-a15a-e4d99010f63a"
     },
     {
       "jobTitle": "Receptionist",
@@ -225,7 +300,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002471-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p1786ed55-079b-4bce-a7d5-eddd71cc4b48"
+      "uuid": "p16b48f53-d159-4d2f-aa6f-6afec247245f"
     },
     {
       "jobTitle": "Electrical Engineer/Project Manager",
@@ -240,7 +315,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002469-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p597f04db-0fad-4d04-a0ba-9bae4b57b37b"
+      "uuid": "p7d3a8418-4c1e-4f25-8c9d-29cd4491064b"
     },
     {
       "jobTitle": "Office Administrator",
@@ -255,7 +330,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002467-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5fc55b2e-a266-4e74-b3eb-349e22222c52"
+      "uuid": "p2cae0dd5-bf32-4ec6-aaa1-bec1f15c2574"
     },
     {
       "jobTitle": "Sales Manager",
@@ -270,7 +345,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002464-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p310a50c8-9782-469f-8eff-504938260c8b"
+      "uuid": "p4dac842d-e6ee-42a4-b3ed-fdbb5307c145"
     },
     {
       "jobTitle": "Sales Manager",
@@ -285,7 +360,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002465-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pa31a4822-4b65-4746-b16e-1839145f7bc7"
+      "uuid": "p74eb8898-5380-466a-8296-ce972dbd49bb"
     },
     {
       "jobTitle": "Occupational Therapist",
@@ -300,7 +375,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002463-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pb8035af2-c9d6-43c9-aa6a-45551421c53e"
+      "uuid": "p95d0d4ba-0222-45ce-be2c-e5e412c48bd5"
     },
     {
       "jobTitle": "Training Officer",
@@ -315,22 +390,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002466-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p434f4758-796a-4974-969d-e957e9c485e6"
-    },
-    {
-      "jobTitle": "Stock Controller",
-      "startDate": "2024-06-18 - 2024-07-18",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Hospitality",
-      "location": {
-        "city": ", Boshoek",
-        "region": "North West"
-      },
-      "details": "Key Requirements:\n\nAbility to work under pressure.\nStrong communication skills.\nProblem-solving abilities.\nCapability to handle multiple tasks.\n\nPreferred Experience:\n\nPrevious experience in a Hotel or Lodge environment.\nProficiency in both Afrikaans and English.\n\nTechnical Skills:\n\nComputer literacy: Microsoft Word, Excel, PowerPoint, Microsoft Outlook, and Pastel.\n\nOther Requirements:\n\nMatric Certificate.\nDriver's License and own transportation.\nOwn accommodation.\n",
-      "contact": "Welma",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002460-R",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pc058b107-b159-4ef4-ba8a-8861bac574f9"
+      "uuid": "p8e376b58-91a0-4321-9b52-bd682af88d92"
     },
     {
       "jobTitle": "Portfolio Officer",
@@ -345,7 +405,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002461-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pead0c858-a022-4885-b41c-5fe57dc3bfff"
+      "uuid": "p73ed3ada-044b-47ef-9b89-ae83befeec02"
     },
     {
       "jobTitle": "Debtors/Creditors Clerk",
@@ -360,22 +420,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002462-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p8798549c-6baa-4aba-90ed-03175abb9067"
-    },
-    {
-      "jobTitle": "Portfolio Officer",
-      "startDate": "2024-06-14 - 2024-07-14",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Property &amp; Estates",
-      "location": {
-        "city": ", East London",
-        "region": "Eastern Cape"
-      },
-      "details": "EDUCATIONAL REQUIREMENTS\n\nDiploma or Degree in Management\nPaddocks UCT Sectional Title / HOA Management Course qualification advantageous\nRegistered with the PPRA holding a valid FFC advantageous\n\nWORK EXPERIENCE\n\nThree years’ experience in managing Sectional Title Schemes / HOA’s as well as complex management\nExperience in overseeing and management of staff\n\nSKILLS &amp; ATTRIBUTES\n\nPlanning skills\nProblem solving &amp; analytical skills\nAccuracy &amp; Strategy planning\nExcellent communication skills\nExcellent eye for detail\nLogical thinking &amp; information seeking\nSelf-development orientation\nCultural sensitivity\nService orientation\nExcellent people skills\nComputer Literacy in MS Office Suite\nMust have a valid driver's license and own vehicle.\n\nSalary package - R22 000 CTC.",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002459-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p002ca62e-1019-4915-8ddb-b31699ff3995"
+      "uuid": "peb1d6a68-d5d4-475d-9842-c6dfdcaa57d3"
     },
     {
       "jobTitle": "Financial Manager",
@@ -390,7 +435,22 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002449-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pc1c7c4d7-3fee-48fe-a320-52b9f6d5c079"
+      "uuid": "p5e7b2d42-8de6-4464-bae9-97a028876064"
+    },
+    {
+      "jobTitle": "TECHNICAL SUPPORT LEAD",
+      "startDate": "2024-05-07 - 2024-08-31",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Information Technology",
+      "location": {
+        "city": ", Sandton",
+        "region": "Gauteng"
+      },
+      "details": "Job ObjectivesSolid grasp of all technical requirements in the Lutron product lineDevelopment and maintenance of training documentationEfficient management of RMA processesTechnical and design assistance to dealers on Lutron lighting &amp; shading projectsMinimum Requirements:- Min 3 years in a technical support role (Smart home industry preferred)- Strong IP networking skills- Mature individual- Good communication skills- Planning and project management- Sound decision-making ability- Skilled problem solver- Results orientated- Strong sense of accountability- Must enjoy working in cross-functional teams with tight deadlines and under high pressure",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002417-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p703f3526-3717-49ac-8a45-8d1edc77671e"
     }
   ]
 }
