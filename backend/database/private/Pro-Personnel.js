@@ -3,6 +3,81 @@ export const data  = {
   "title": "pro-personnel",
   "blogPosts": [
     {
+      "jobTitle": "Internal Sales",
+      "startDate": "2024-07-23 - 2024-08-22",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Requirements:* Valid matric certificate* Excellent communications skills* Previous technical sales experience, to your advantage* Be able to start immediately* Have valid driver's license and own transport",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002490-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p92ce56d2-902d-4aa9-b753-8f1ed1a51232"
+    },
+    {
+      "jobTitle": "Accountant",
+      "startDate": "2024-07-23 - 2024-08-22",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Finance",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Qualifications &amp; Experience:* Bachelor's degree in accounting, finance or related field* Articles in financial accounting* Minimum 3-5 years of experience in accounting or financial management, preferably in the real estate or property management sector* Experience with budgeting, financial analysis and reporting* Proficiency in accounting software and MS ExcelSkills and Competencies:* Strong analytical and problem-solving skills* Excellent attention to detail and accuracy* Ability to work independently and collaboratively in a team environment* Effective communication and interpersonal skills* Proactive and adaptable to changing priorities* Knowledge of South African Real Estate regulations and compliance requirements* Position based in Rustenburg and may requires occasional travel to properties within portfolio* Have a valid driver's licenseResponsibilities:* Budget Management* Payment Allocations* 10-year maintenance plan* Levy increase* Financial Reporting* Audit Procedures* Compliance and regulations* Collaboration and communication",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002491-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pff9e4ea4-b083-4a2a-aa39-29d29a320b8e"
+    },
+    {
+      "jobTitle": "Section Manager (U/G)",
+      "startDate": "2024-07-23 - 2024-08-22",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Mining",
+      "location": {
+        "city": ", Rustenburg",
+        "region": "North West"
+      },
+      "details": "Responsibilities:\nAssist in controlling, managing, and directing underground mining operations per regulations.\nMinimum Requirements:\nGrade 12 or NQF 4 EquivalentMine Manager's Certificate of Competency3-5 years’ experience as a Mine Manager (MHSA 2.6.1 or 3.1 appointment)Degree or NQF 7 Equivalent in Mining Engineering\nPreferred Qualifications:\nManagement Programme / MDP / MAP3-4 years Trackless Mining experience\nSkills and Knowledge:\nStrong interpersonal skillsKnowledge of HR systems and related legislationProficient in MS Office and SAP System\nPhysical/Legal Requirements:\nMedical fitness certificateClear criminal recordValid driving license",
+      "contact": "Welma",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002492-R",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p9df95050-72c4-450f-88ff-464604d59242"
+    },
+    {
+      "jobTitle": "Real Estate Agent",
+      "startDate": "2024-07-19 - 2024-08-18",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Property &amp; Estates",
+      "location": {
+        "city": ", Roodepoort",
+        "region": "Gauteng"
+      },
+      "details": "Requirements:* Grade 12* Experience as a real estate agent&nbsp;* Proven track record of successful sales* Ability to work independent* Strong sales, negotiation and communication skills* MS Office familiarityThe successful candidate should have:* A valid fund certificate (FFC) as issued by PPRA*Access to Wi-Fi (teams)* Reliable own transport and valid driver's licenseMust be:* Well spoken* Friendly* Trustworthy* PunctualResponsibilities:* Performing comparative market analysis to estimate property values&nbsp;* Provide guidance and assist sellers and purchases in marketing and purchasing property for the right price under best terms* Determine clients' needs for financial abilities to propose solutions that suit them* Intermediate negotiation processes, consult clients on market conditions, prices, mortgages, legal requirements and related matters, ensuring a fair and honest dealing* Display and market property to potential purchases* Prepare and complete required documentation* Maintain and update listings of available properties* Cooperated with appraisers, escrow companies, lender and home inspectors.* Promote sales through advertisements, open houses and listing services* Remain knowledgeable about real estate market and best practices* Attend and arrange viewings for prospective purchasers* Keeping sellers informed regarding any queries and viewings* Reply to and follow up on correspondence and telephone enquiries&nbsp;* Source new business",
+      "contact": "Yolanda Day-Garden",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002488-YDG",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p231cae5c-57f2-43db-905a-80cef6bf5e5a"
+    },
+    {
+      "jobTitle": "Real Estate Agents",
+      "startDate": "2024-07-19 - 2024-08-18",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Roodepoort",
+        "region": "Gauteng"
+      },
+      "details": "Responsibilities\n\nSourcing and marketing listings and providing guidance to buyers and sellers.\nPerforming comparative market analysis to estimate property values\nProvide guidance and assist sellers and purchasers in marketing and purchasing property for the right price under the best terms\nDetermine clients’ needs and financials abilities to propose solutions that suit them\nIntermediate negotiation processes, consult clients on market conditions, prices, mortgages, legal requirements and related matters, ensuring a fair and honest dealing\nDisplay and market property to potential purchasers\nPrepare and complete required documentation\nMaintain and update listings of available properties\nCooperate with appraisers, escrow companies, lenders and home\n\nRequirements:\n\nA valid Fidelity Fund Certificate (FFC) as issued by PPRA,\nAccess to Wi-Fi (Teams),\nMust be well spoken, friendly, trustworthy and punctual.\nMatriculation\nExperience as a Real Estate Agent preferred but not a must\nProven track record of successful sales\nValid driver’s license and own reliable vehicle\nAbility to work independently combined with excellent interpersonal skills\nStrong sales, negotiation and communication skills\nMS Office familiarity\n\nSalary - Commission based ONLY",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002489-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "p08bbb4c1-104b-4cfc-bad5-5ac4e2bfed9f"
+    },
+    {
       "jobTitle": "Safety Officer",
       "startDate": "2024-07-15 - 2024-08-14",
       "vacancyType": "Permanent",
@@ -15,7 +90,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002483-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pb14b37b2-ec12-4482-b56a-f9bfc2d7556b"
+      "uuid": "pfdfe978c-827c-4605-830d-5df4ab39e153"
     },
     {
       "jobTitle": "Mechanic",
@@ -30,7 +105,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002484-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p19d4736d-48cf-46d6-942e-56cb9cafb347"
+      "uuid": "p934e01ac-174c-4ec3-96a6-312cefd8e91d"
     },
     {
       "jobTitle": "Electrician",
@@ -45,7 +120,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002485-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p69efca62-7e8a-4b3e-872f-2861a003f071"
+      "uuid": "p354aceb3-6ab5-4361-8cb2-105d1a4f0c37"
     },
     {
       "jobTitle": "Boilermaker",
@@ -60,7 +135,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002486-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p8560def4-457d-422a-a56d-c9bcbe899397"
+      "uuid": "p4319c827-f9cf-4e14-9550-6451f809ceaa"
     },
     {
       "jobTitle": "RESEARCH PHYSICIAN / PRINCIPAL INVESTIGATOR",
@@ -75,7 +150,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002487-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "peedb0f9d-0bbf-4d3e-ab4e-d0936ef50996"
+      "uuid": "p07d2fd13-94dd-4440-94b1-8ca8f91f0c19"
     },
     {
       "jobTitle": "Area Supervisor",
@@ -90,7 +165,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002481-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p62d941ec-58b3-4d2e-85e2-f879281da0e3"
+      "uuid": "p692fdd90-a76f-4250-b032-0779c044c666"
     },
     {
       "jobTitle": "Area Supervisor",
@@ -105,7 +180,7 @@ export const data  = {
       "contact": "Dianne",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002482-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p94af0848-8ee5-4543-b084-eaf31a8eeea1"
+      "uuid": "pbe8c1ad1-f438-4b48-a765-4d8841136018"
     },
     {
       "jobTitle": "Generator Service / Technical Sales",
@@ -120,7 +195,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002479-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p8364734d-b519-40ee-9d7a-e01ddf13f3b7"
+      "uuid": "p8b9464e6-7c19-40e4-a8c0-c55907750d99"
     },
     {
       "jobTitle": "Sales Representative",
@@ -135,7 +210,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002480-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p2e831e2f-5fb2-4968-bc43-648e611cc2aa"
+      "uuid": "p353b55e5-4408-4972-86f9-64fc591fee6a"
     },
     {
       "jobTitle": "Generator Service / Technical Sales",
@@ -150,7 +225,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002240-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p36c6f64e-ed25-4d4c-bdaa-4bfe87e9fb57"
+      "uuid": "pe9ac23fd-b06e-4daf-82b0-7ca21c02f8d4"
     },
     {
       "jobTitle": "Management Trainee",
@@ -165,7 +240,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002433-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pb5b666e0-5757-4b47-8215-e5abcfd14b26"
+      "uuid": "p65394298-9647-4455-ab4c-9fe3b5af6294"
     },
     {
       "jobTitle": "Counter / Part Sales",
@@ -180,7 +255,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002473-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p690dc5e6-14fa-452b-958a-420975929a1b"
+      "uuid": "p4adadc40-da88-4cb6-828c-4fd1ba701d41"
     },
     {
       "jobTitle": "Sales Representative",
@@ -195,22 +270,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002474-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p56ef67e1-a17b-4bef-8464-8f0fd2c525d5"
-    },
-    {
-      "jobTitle": "Sales Representative",
-      "startDate": "2024-07-04 - 2024-08-03",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", Germiston",
-        "region": "Gauteng"
-      },
-      "details": "Major Responsibilities:\n\nEstablish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organizations products/services.\nMake telephone calls and in person visits and presentations to existing and prospective customers.\nResearch of market segments &amp; territories, in a view to identify prospective customers and their potential.\nDevelop clear and effective written proposals/quotations for current and prospective customers.\nExpedite the resolution of customer problems and complaints.\nCoordinate sales effort with marketing, sales management, accounting, logistics and technical service groups.\nCreate and manages a customer value plan for existing customers highlighting profile, share and value opportunities.\nIdentify advantages and compare organization’s product/services.\nPlan and organize personal sales strategy by maximizing the return of time investment for the territory/segment.\nSupply management with oral and written reports on customer needs, problems, interests, competitive activities, and potential for new products and services.\nKeep abreast of product applications, technical services, market conditions, competitive activities, advertising and promotional trends through the reading of pertinent literature and consulting with marketing and technical areas.\nParticipate in trade shows and conventions.\nContribute to team efforts by accomplishing related results as needed.\nMonthly and weekly reports on sales,\nChecking orders and booking reports to ensure all invoicing has been done.\nFollow up of all enquiries and quotations.\nKeeping in contact with management of Marathon and keeping them informed of all aspects of our company, positive or negative.\nFamiliarize yourself with the IT operating system\n\n&nbsp;Required Education / Experience / Skills: \n\nMinimum Qualification – Matric – Technical and or Mechanical qualification is seen as an added advantage\nMust possess 3+Years’ experience in the Electrical/Mechanical sector.\nUnderstanding of the OEM market will be seen as an advantage\nDemonstrate aptitude for problem-solving.\nAbility to determine solutions for customers (consultative sales approach).\nMust be results-orientated and able to work both independently and within a team environment.\nMust possess excellent verbal and written communication skills.\nProficiency in using Microsoft Office Suite applications and contact management software.\nMust have market knowledge of the market and customer base in the identified area.\nValid driver’s license\n\n&nbsp;Travel: \n\nExtensive travel - Works predominately out of the office.&nbsp; Required to visit customers on site.\nWorks flexible hours.\nAfter hour and weekend standby required\nIs subject to work beyond normal working hours, evenings, weekends and holidays should the need arise.\nAttends and participates in continuing educational programs designed to keep you abreast of changes in your profession.\nPosition may require out of town travel.\n\n&nbsp;Salary \n\n Monthly Base Salary R25&nbsp;000.00 – R30&nbsp;000.00. \n Medical aid – 50% Employer contribution and 50% employee contribution \n Pension fund and Risk benefits 10.8% Employer contribution and 7.2% Employee contribution \n 13TH Check\n Annual Incentive Bonus – Sales Performance based can be up to 14 and 15th Cheque depending on sales.\n Company car and petrol card\n Cell phone \n",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002475-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p339432fe-b86d-4317-b4fb-4b2d9073f0e4"
+      "uuid": "pff49e79c-b5fb-4c2a-95c3-323ca8cb24e2"
     },
     {
       "jobTitle": "Sales Representative",
@@ -225,7 +285,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002477-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p540db467-884c-4d24-a3c9-67f766d21c57"
+      "uuid": "pc22c1f6a-caad-4832-9b0b-e4cb51368b90"
     },
     {
       "jobTitle": "Sales Representative",
@@ -233,14 +293,14 @@ export const data  = {
       "vacancyType": "Permanent",
       "jobSpecFields": "Sales",
       "location": {
-        "city": ", Middelburg",
-        "region": "Mpumalanga"
+        "city": ", Germiston",
+        "region": "Gauteng"
       },
-      "details": "Major Responsibilities:\n\nEstablish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organizations products/services.\nMake telephone calls and in person visits and presentations to existing and prospective customers.\nResearch of market segments &amp; territories, in a view to identify prospective customers and their potential.\nDevelop clear and effective written proposals/quotations for current and prospective customers.\nExpedite the resolution of customer problems and complaints.\nCoordinate sales effort with marketing, sales management, accounting, logistics and technical service groups.\nCreate and manages a customer value plan for existing customers highlighting profile, share and value opportunities.\nIdentify advantages and compare organization’s product/services.\nPlan and organize personal sales strategy by maximizing the return of time investment for the territory/segment.\nSupply management with oral and written reports on customer needs, problems, interests, competitive activities, and potential for new products and services.\nKeep abreast of product applications, technical services, market conditions, competitive activities, advertising and promotional trends through the reading of pertinent literature and consulting with marketing and technical areas.\nParticipate in trade shows and conventions.\nContribute to team efforts by accomplishing related results as needed.\nMonthly and weekly reports on sales,\nChecking orders and booking reports to ensure all invoicing has been done.\nFollow up of all enquiries and quotations.\nKeeping in contact with management of Marathon and keeping them informed of all aspects of our company, positive or negative.\nFamiliarize yourself with the IT operating system\n\n&nbsp;Required Education / Experience / Skills: \n\nMinimum Qualification – Matric – Technical and or Mechanical qualification is seen as an added advantage\nMust possess 3+Years’ experience in the Electrical/Mechanical sector.\nGood solid understanding of the mining industry\nDemonstrate aptitude for problem-solving.\nAbility to determine solutions for customers (consultative sales approach).\nMust be results-orientated and able to work both independently and within a team environment.\nMust possess excellent verbal and written communication skills.\nProficiency in using Microsoft Office Suite applications and contact management software.\nMust have market knowledge of the market and customer base in the identified area.\nValid driver’s license\n\n&nbsp;Travel: \n\nExtensive travel - Works predominately out of the office.&nbsp; Required to visit customers on site e.g. mining plants.\nWorks flexible hours.\nAfter hour and weekend standby required\nIs subject to work beyond normal working hours, evenings, weekends and holidays should the need arise.\nAttends and participates in continuing educational programs designed to keep you abreast of changes in your profession.\nPosition may require out of town travel.\n\n&nbsp;Salary \n\n Monthly Base Salary R25&nbsp;000.00 – R30&nbsp;000.00. \n Standby allowance R2&nbsp;500.00 per month \n Medical aid – 50% Employer contribution and 50% employee contribution \n Pension fund and Risk benefits 10.8% Employer contribution and 7.2% Employee contribution \n 13TH Check\n Annual Incentive Bonus – Sales Performance based can be up to 14 and 15th Cheque depending on sales.\n Company car and petrol card\n Cell phone \n",
+      "details": "Major Responsibilities:\n\nEstablish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organizations products/services.\nMake telephone calls and in person visits and presentations to existing and prospective customers.\nResearch of market segments &amp; territories, in a view to identify prospective customers and their potential.\nDevelop clear and effective written proposals/quotations for current and prospective customers.\nExpedite the resolution of customer problems and complaints.\nCoordinate sales effort with marketing, sales management, accounting, logistics and technical service groups.\nCreate and manages a customer value plan for existing customers highlighting profile, share and value opportunities.\nIdentify advantages and compare organization’s product/services.\nPlan and organize personal sales strategy by maximizing the return of time investment for the territory/segment.\nSupply management with oral and written reports on customer needs, problems, interests, competitive activities, and potential for new products and services.\nKeep abreast of product applications, technical services, market conditions, competitive activities, advertising and promotional trends through the reading of pertinent literature and consulting with marketing and technical areas.\nParticipate in trade shows and conventions.\nContribute to team efforts by accomplishing related results as needed.\nMonthly and weekly reports on sales,\nChecking orders and booking reports to ensure all invoicing has been done.\nFollow up of all enquiries and quotations.\nKeeping in contact with management of Marathon and keeping them informed of all aspects of our company, positive or negative.\nFamiliarize yourself with the IT operating system\n\n&nbsp;Required Education / Experience / Skills: \n\nMinimum Qualification – Matric – Technical and or Mechanical qualification is seen as an added advantage\nMust possess 3+Years’ experience in the Electrical/Mechanical sector.\nUnderstanding of the OEM market will be seen as an advantage\nDemonstrate aptitude for problem-solving.\nAbility to determine solutions for customers (consultative sales approach).\nMust be results-orientated and able to work both independently and within a team environment.\nMust possess excellent verbal and written communication skills.\nProficiency in using Microsoft Office Suite applications and contact management software.\nMust have market knowledge of the market and customer base in the identified area.\nValid driver’s license\n\n&nbsp;Travel: \n\nExtensive travel - Works predominately out of the office.&nbsp; Required to visit customers on site.\nWorks flexible hours.\nAfter hour and weekend standby required\nIs subject to work beyond normal working hours, evenings, weekends and holidays should the need arise.\nAttends and participates in continuing educational programs designed to keep you abreast of changes in your profession.\nPosition may require out of town travel.\n\n&nbsp;Salary \n\n Monthly Base Salary R25&nbsp;000.00 – R30&nbsp;000.00. \n Medical aid – 50% Employer contribution and 50% employee contribution \n Pension fund and Risk benefits 10.8% Employer contribution and 7.2% Employee contribution \n 13TH Check\n Annual Incentive Bonus – Sales Performance based can be up to 14 and 15th Cheque depending on sales.\n Company car and petrol card\n Cell phone \n",
       "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002476-D",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002475-D",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "pb369a42a-307e-47c1-8023-ca160671f5c5"
+      "uuid": "p9f705dc3-3956-48cd-b975-bf287afd1cab"
     },
     {
       "jobTitle": "Receptionist",
@@ -255,7 +315,22 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002478-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p1c3b07bf-2a36-4228-a548-e76f17df3cd9"
+      "uuid": "p9f6adb44-87bf-496e-b208-e1700228dca3"
+    },
+    {
+      "jobTitle": "Sales Representative",
+      "startDate": "2024-07-04 - 2024-08-03",
+      "vacancyType": "Permanent",
+      "jobSpecFields": "Sales",
+      "location": {
+        "city": ", Middelburg",
+        "region": "Mpumalanga"
+      },
+      "details": "Major Responsibilities:\n\nEstablish, develop and maintain business relationships with current customers and prospective customers in the assigned territory/market segments, to generate new business for the organizations products/services.\nMake telephone calls and in person visits and presentations to existing and prospective customers.\nResearch of market segments &amp; territories, in a view to identify prospective customers and their potential.\nDevelop clear and effective written proposals/quotations for current and prospective customers.\nExpedite the resolution of customer problems and complaints.\nCoordinate sales effort with marketing, sales management, accounting, logistics and technical service groups.\nCreate and manages a customer value plan for existing customers highlighting profile, share and value opportunities.\nIdentify advantages and compare organization’s product/services.\nPlan and organize personal sales strategy by maximizing the return of time investment for the territory/segment.\nSupply management with oral and written reports on customer needs, problems, interests, competitive activities, and potential for new products and services.\nKeep abreast of product applications, technical services, market conditions, competitive activities, advertising and promotional trends through the reading of pertinent literature and consulting with marketing and technical areas.\nParticipate in trade shows and conventions.\nContribute to team efforts by accomplishing related results as needed.\nMonthly and weekly reports on sales,\nChecking orders and booking reports to ensure all invoicing has been done.\nFollow up of all enquiries and quotations.\nKeeping in contact with management of Marathon and keeping them informed of all aspects of our company, positive or negative.\nFamiliarize yourself with the IT operating system\n\n&nbsp;Required Education / Experience / Skills: \n\nMinimum Qualification – Matric – Technical and or Mechanical qualification is seen as an added advantage\nMust possess 3+Years’ experience in the Electrical/Mechanical sector.\nGood solid understanding of the mining industry\nDemonstrate aptitude for problem-solving.\nAbility to determine solutions for customers (consultative sales approach).\nMust be results-orientated and able to work both independently and within a team environment.\nMust possess excellent verbal and written communication skills.\nProficiency in using Microsoft Office Suite applications and contact management software.\nMust have market knowledge of the market and customer base in the identified area.\nValid driver’s license\n\n&nbsp;Travel: \n\nExtensive travel - Works predominately out of the office.&nbsp; Required to visit customers on site e.g. mining plants.\nWorks flexible hours.\nAfter hour and weekend standby required\nIs subject to work beyond normal working hours, evenings, weekends and holidays should the need arise.\nAttends and participates in continuing educational programs designed to keep you abreast of changes in your profession.\nPosition may require out of town travel.\n\n&nbsp;Salary \n\n Monthly Base Salary R25&nbsp;000.00 – R30&nbsp;000.00. \n Standby allowance R2&nbsp;500.00 per month \n Medical aid – 50% Employer contribution and 50% employee contribution \n Pension fund and Risk benefits 10.8% Employer contribution and 7.2% Employee contribution \n 13TH Check\n Annual Incentive Bonus – Sales Performance based can be up to 14 and 15th Cheque depending on sales.\n Company car and petrol card\n Cell phone \n",
+      "contact": "Dianne",
+      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002476-D",
+      "iconLink": "agency_icons/pro-personnel.jpg",
+      "uuid": "pe4562eef-7475-4c77-99db-3d2d720c8c1a"
     },
     {
       "jobTitle": "Graduate Trainee",
@@ -270,7 +345,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002434-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p77594c96-1bc6-4aac-b19b-11667e4d9368"
+      "uuid": "p7eba0a85-287b-45ed-a166-2b409cc11b9a"
     },
     {
       "jobTitle": "Accounting Clerk",
@@ -285,7 +360,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002470-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5c282dd2-6a04-408f-a15a-e4d99010f63a"
+      "uuid": "p62ecfc38-8ca6-4d5f-b34a-284a3517db54"
     },
     {
       "jobTitle": "Receptionist",
@@ -300,7 +375,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002471-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p16b48f53-d159-4d2f-aa6f-6afec247245f"
+      "uuid": "p6f64f0a5-3753-4316-9218-d69505e7c8e8"
     },
     {
       "jobTitle": "Electrical Engineer/Project Manager",
@@ -315,7 +390,7 @@ export const data  = {
       "contact": "Welma",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002469-R",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p7d3a8418-4c1e-4f25-8c9d-29cd4491064b"
+      "uuid": "pa5e61b90-3bc7-476f-baec-8da76a2c9736"
     },
     {
       "jobTitle": "Office Administrator",
@@ -330,97 +405,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002467-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p2cae0dd5-bf32-4ec6-aaa1-bec1f15c2574"
-    },
-    {
-      "jobTitle": "Sales Manager",
-      "startDate": "2024-06-20 - 2024-07-20",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Our client has a position available with the following requirements:* Min of 3 years post matric experience in sales* Valid grade 12 certificate* Must have experience in marketing, sales and have excellent communication skills* Previous experience in project management will be a advantage* Must have a valid driver's license with own transport",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002464-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p4dac842d-e6ee-42a4-b3ed-fdbb5307c145"
-    },
-    {
-      "jobTitle": "Sales Manager",
-      "startDate": "2024-06-20 - 2024-07-20",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Sales",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Requirements:\n\nMust have Matric\nMust have relevant qualifications\nMinimum 3 years experience in Sales\nMust have experience in Marketing&nbsp;\nGreat communication skills\nPrevious experience in Project Management advantageous\nMust have a valid Driver’s license\nMust be able to start ASAP\n\nSalary - R15 000 basic plus commission",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002465-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p74eb8898-5380-466a-8296-ce972dbd49bb"
-    },
-    {
-      "jobTitle": "Occupational Therapist",
-      "startDate": "2024-06-20 - 2024-07-20",
-      "vacancyType": "Temp",
-      "jobSpecFields": "Medical",
-      "location": {
-        "city": ", Rustenburg",
-        "region": "North West"
-      },
-      "details": "Minimum Requirements&nbsp;Required Qualifications and experience \n\nOccupational Therapist with (Bachelor’s degree in Occupational Therapy)\nMinimum of 3 to 5 years’ experience post qualification in Mining\nGood understanding of Functional Capacity Evaluation in Job Fit System\nUnderstanding of relevant Labor Law legislation as well as the MHSA\nRegistration with the Interim Medical and Dental Council of South Africa and the Occupational Therapy Association of South Africa must have BOTH Essential\n\nAs an Occupational Therapist, you will be responsible for the following:\n\nHaving&nbsp;a clear understanding of safety risk management practices and requirements and ensures that the risk profile in his/her area(s) of responsibility when individual therapeutic treatment plans are recommended\nAssessing, planning and implementing treatment plans and interventions aimed at facilitating the integration of the employee with their workspace\nImplementing the OREP process with the use of standard templates, designation for all occupations on the mine as well as outlining the implementation process and ensuring the implementation of a Functionality Ability Assessment programme in conjunction with the OREP\nWorking out complete rehabilitation programmes and intervention activities for employees identified High Risk in line with minimum criteria for the Underground work environment as well as Injuries on Duty\n",
-      "contact": "Dianne",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002463-D",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p95d0d4ba-0222-45ce-be2c-e5e412c48bd5"
-    },
-    {
-      "jobTitle": "Training Officer",
-      "startDate": "2024-06-20 - 2024-07-20",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Mining",
-      "location": {
-        "city": ", Klerksdorp",
-        "region": "North West"
-      },
-      "details": "Education &amp; Experience:* Matric, NQF Skills Development Facilitation / Assessor / Moderator qualification* Must be computer literate* Valid drivers license is required* Own reliable transport&nbsp;* Minimum of 3 years' experience as a Training Officer or Equivalent position within the mining or engineering industrySkills and Competencies:* Knowledge and understanding of Safety practices, skills development acts and related legislations* Excellent communication and interpersonal skills to effectively interact with management, clients, customers and employees* Good analytical and problem-solving skills* Above average computer skills MS Office, Word, Excel and Powerpoint presentations* Ability to gather, compile, analyze and report on statistical data* Service orientated and team playerKey Responibilities:* To liaise with management and clients regarding legal compliance training* Gather information, analyze current skills, conduct a gap analyzis, identify training needs in accordance with training expiry dates and job requirements* Compile and present the training plan and schedules in accordance with needs identifies, to senior management and site management for consideration and apporval* Liaise with training service providers obtain quotes for planned and approved training, facilitate purchase orders in accordance with the procurement procedures* Arrange and facilitate in house induction and training at various business units/sites.* Recordkeeping training, expenses, invoices, certificates, minutes of meetings etc.* Upload training certificates on the SHE folder in one drive as and when training is conducted* These are just some of the duties, but not limited to additional requirements.",
-      "contact": "Yolanda Day-Garden",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002466-YDG",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p8e376b58-91a0-4321-9b52-bd682af88d92"
-    },
-    {
-      "jobTitle": "Portfolio Officer",
-      "startDate": "2024-06-18 - 2024-07-18",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", East London",
-        "region": "Eastern Cape"
-      },
-      "details": "Educational Requirements:\n\nDiploma or Degree in Management\nPaddocks UCT Sectional Title / HOA Management Course qualification (advantageous)\nRegistered with the PPRA holding a valid FFC (advantageous)\n\nWork Experience:\n\nMinimum of three years' experience in managing Sectional Title Schemes / HOAs and complex management\nExperience in overseeing and managing staff\n\nSkills &amp; Attributes:\n\nExcellent planning skills\nStrong problem-solving and analytical skills\nHigh accuracy and strategic planning capabilities\nOutstanding communication skills\nKeen eye for detail\nLogical thinking and information-seeking behavior\nOrientation towards self-development\nCultural sensitivity and adaptability\nService-oriented mindset\nExceptional people skills\nProficiency in MS Office Suite\n\nResponsibilities:\n\nRepresent The Client as the face of the company in dealings with third-party BC/HOA properties\nFocus on growing the third-party BC/HOA portfolio and achieving revenue targets\nMaintain and strengthen current relationships with third-party BC/HOA properties\nOversee the management of Sectional Title Schemes and HOAs\nEnsure effective planning and strategy implementation\nSolve problems and analyze issues to provide effective solutions\nCommunicate effectively with residents, staff, and stakeholders\nMaintain accurate records and documentation\nDevelop and implement policies and procedures\nFoster a service-oriented environment and ensure high levels of resident satisfaction\n\nBenefits:\n\nCompetitive salary\nProfessional development opportunities\nPositive and supportive work environment\n\nIf you meet the above requirements and are passionate about property management, we would love to hear from you.",
-      "contact": "Welma",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002461-R",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p73ed3ada-044b-47ef-9b89-ae83befeec02"
-    },
-    {
-      "jobTitle": "Debtors/Creditors Clerk",
-      "startDate": "2024-06-18 - 2024-07-18",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Admin, Office &amp; Support",
-      "location": {
-        "city": ", Brits",
-        "region": "North West"
-      },
-      "details": "Key Responsibilities:\n\nCOUPA Portal System: Manage orders, tenders, quotations, invoices, and payments through the COUPA system. Previous experience with COUPA is preferred.\nDebtors and Creditors Management: Utilize Pastel Accounting System for invoicing and data capture.\nMicrosoft Office: Excellent proficiency in Microsoft Office Suite.\nPetty Cash Management: Handle and oversee petty cash transactions.\nOffice Administration: Perform various office administrative tasks to support daily operations.\n\nCandidate Requirements:\n\nEducation: Minimum Matric pass with Mathematics.\nExperience: Extensive knowledge in COUPA, Pastel Accounting, and Microsoft Office. Previous office administration experience is essential.\nSkills: Highly accurate and precise, with strong time-management abilities.\nPersonal Attributes:\n\nPrefer working independently.\nTrustworthy and honest, with the ability to handle sensitive information.\n\n\nAdditional Requirements:\n\nValid driver’s license.\nReside close to Brits or Hartbeespoort.\nAge: Preferably between 35 and 50 years old.\n\n\n\nThis role demands a person who is meticulous, trustworthy, and capable of working predominantly on the computer with minimal supervision. The position involves limited communication but requires exceptional concentration and attention to detail.",
-      "contact": "Welma",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002462-R",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "peb1d6a68-d5d4-475d-9842-c6dfdcaa57d3"
+      "uuid": "pe12a2bd5-f6c6-45c1-8ec3-1ba389da0049"
     },
     {
       "jobTitle": "Financial Manager",
@@ -435,22 +420,7 @@ export const data  = {
       "contact": "Yolanda Day-Garden",
       "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002449-YDG",
       "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p5e7b2d42-8de6-4464-bae9-97a028876064"
-    },
-    {
-      "jobTitle": "TECHNICAL SUPPORT LEAD",
-      "startDate": "2024-05-07 - 2024-08-31",
-      "vacancyType": "Permanent",
-      "jobSpecFields": "Information Technology",
-      "location": {
-        "city": ", Sandton",
-        "region": "Gauteng"
-      },
-      "details": "Job ObjectivesSolid grasp of all technical requirements in the Lutron product lineDevelopment and maintenance of training documentationEfficient management of RMA processesTechnical and design assistance to dealers on Lutron lighting &amp; shading projectsMinimum Requirements:- Min 3 years in a technical support role (Smart home industry preferred)- Strong IP networking skills- Mature individual- Good communication skills- Planning and project management- Sound decision-making ability- Skilled problem solver- Results orientated- Strong sense of accountability- Must enjoy working in cross-functional teams with tight deadlines and under high pressure",
-      "contact": "Welma",
-      "apply": "https://webapp.placementpartner.com/wi/application_form.php?id=propersonnel&amp;vacancy_ref=RTB002417-R",
-      "iconLink": "agency_icons/pro-personnel.jpg",
-      "uuid": "p703f3526-3717-49ac-8a45-8d1edc77671e"
+      "uuid": "p68e803f4-1bff-47dc-ac45-587cd0990a83"
     }
   ]
 }
