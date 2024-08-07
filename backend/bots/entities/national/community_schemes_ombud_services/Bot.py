@@ -14,8 +14,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class Bot:
     def __init__(self):
-        self.name ="National Credit Regulator"
-        self.url = "https://www.ncr.org.za/"
+        self.name ="Community Schemes Ombud Service"
+        self.url = "https://csos.org.za/"
         self.driver = None
         self.wait = None
         # Specify the directory to save the downloaded files
@@ -46,14 +46,18 @@ class Bot:
 
     def download_vacancies_pdf(self):
         try:
+            # open side bar menu
+            self.wait_visible_and_click(By.XPATH,"/html/body/div[1]/section[2]/div/div[3]/div/div/div/div")
+            self.pause(5)
             # click career button 
-            self.wait_visible_and_click(By.CSS_SELECTOR,"#bm-cool-menu-108 > ul > li.item-104 > a" )
-            # Scroll postions table into view, find the element using XPath
-            table = self.driver.find_element(By.XPATH,'//*[@id="sp-component"]/article/section/table/tbody')
+            self.wait_visible_and_click(By.XPATH,'//*[@id="menu-2-a4c9d1b"]/li[7]/a' )
+
+            # Scroll job post element into view, find the element using XPath
+            table = self.driver.find_element(By.XPATH,'//*[@id="content"]/div/div[1]/section[2]/div/div/div/div[2]')
             # Scroll the element into view
             self.driver.execute_script("arguments[0].scrollIntoView();", table)
             # Find all links in the "Download" column
-            download_links = table.find_elements(By.XPATH, './/td[3]/a')
+            download_links = table.find_elements(By.XPATH, '//a[.//span[text()="Apply"]]')
             
             if not os.path.exists(self.download_directory):
                 os.makedirs(self.download_directory)
