@@ -2,6 +2,7 @@
 # from spiders.private.govpage.govpageSpider import Spider as PrivateSpider
 from bots.entities.national.national_credit_regulator.Bot import Bot as NCR_Bot
 from  bots.entities.national.community_schemes_ombud_services.Bot import Bot as CSOS_Bot
+from bots.entities.national.postbank.Bot import Bot as Postbank_Bot
 import time
 import logging
 
@@ -20,15 +21,16 @@ def main():
         # logging.info("Starting Private Spider")
         # govpage_private_spider = PrivateSpider()
         # govpage_private_spider.launch()  # Changed to Launch with capital 'L'
-        # logging.info("Starting NCR Bot")
-        # nrc_bot = NCR_Bot()
-        # nrc_bot.run()
+        logging.info("Starting NCR Bot")
+        nrc_bot = NCR_Bot()
+        nrc_bot.run()
 
         logging.info("Starting CSOS Bot")
         csos_bot = CSOS_Bot()
         csos_bot.run()
 
-        # logging.info("Scraping completed")
+        postbank_bot = Postbank_Bot()
+        postbank_bot.run()
 
 
     except Exception as e:

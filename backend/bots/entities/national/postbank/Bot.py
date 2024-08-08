@@ -20,7 +20,7 @@ class Bot:
         # Specify the directory to save the downloaded files
         self.download_directory = 'database/pdfs'
 
-    def run(self):
+    def setup_driver(self):
         # Set up the Chrome driver
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--start-maximized")
@@ -34,68 +34,103 @@ class Bot:
 
         # Set the window size to 1000x755
         self.driver.set_window_size(1000, 755)
+
+    def run(self):
+
+        self.setup_driver()
         self.wait = WebDriverWait(self.driver, 10)
+        self.driver.get(self.url)
 
         logging.info(f'{self.name} Bot running')
-
-        self.driver.get(self.url)
         logging.info(f"{self.name} loading URL: {self.url}")
 
-        self.download_vacancies_pdf()
+        self.navigation()
 
-    def download_vacancies_pdf(self):
-        try:
-            # Click career button 
+    def navigation(self):
+         # Click career button 
             self.wait_visible_and_click(By.XPATH, '//*[@id="menuwrapper"]/nav/ul/li[8]/a')
             logging.info("Loading career page")
+            self.download_vacancies_pdf()
             
+
+    def download_vacancies_pdf(self):
+        
+        self.get_icon_url()
+        
+        try:
+           
             # Scroll job post element into view, find the element using XPath
             table = self.driver.find_element(By.XPATH, '/html/body/div[5]/div/div/div/table')
             self.driver.execute_script("arguments[0].scrollIntoView();", table)
             
-            # Find all rows data in the table
-            all_table_data = table.find_elements(By.XPATH, './/tbody/tr/td')
+            # Find all td elements
+            all_td_elements = table.find_elements(By.XPATH, './/tbody/tr/td')
 
             # Get the current date, month, and year
-            current_date, current_month, current_year = self.current_date()
+            current_day, current_month, current_year = self.current_date()
 
-            for table_data in all_table_data:
+            for td in all_td_elements:
                 try:
-                    # Check if the td element contains a date string
-                    date_str = table_data.find_element(By.XPATH, './/p[contains(text(), "2024")]').text.strip()
-                    
-                    # Parse the date string
-                    closing_date = self.parse_date(date_str)
+                    # Find the <p> element within the <td>
+                    p_element = td.find_element(By.XPATH, './/p')
+                    text = p_element.text.strip()
 
-                    # Log the parsed date and other details
-                    logging.info(f"Parsed Closing Date: {closing_date}")
-                    logging.info(f"Month: {closing_date.month}")
-                    logging.info(f"Year: {closing_date.year}")
-                    logging.info(f"Day: {closing_date.day}")
-                    logging.info("=======================")
-                    logging.info(f"Current Month: {current_month}")
-                    logging.info(f"Current Year: {current_year}")
-                    logging.info(f"Current Date: {current_date}")
+                    # Check if the text ends with CURRENT YEAR"
+                    current_year = "2024"
+                    if text.endswith(current_year):
+                        date_str = text
+                        closing_date = self.parse_date(date_str)
+                        
+                        # Calculate the difference in days between the closing date and the current date
+                        days_difference = closing_date.day - current_day
 
-                    # Check if the date is in the current month or within 14 days
-                    if (closing_date.month == current_month and closing_date.year == current_year) or (closing_date - current_date).days <= 14:
-                        try:
-                            # Check if the td element contains an 'a' tag with the class 'myLink'
-                            a_tag = table_data.find_element(By.XPATH, './/p/a[@class="myLink"]')
-                            # Extract and log the title and URL from the 'a' tag
-                            title = a_tag.get_attribute('title')
-                            url = a_tag.get_attribute('href')
-                            logging.info(f"Title: {title}")
-                            logging.info(f"URL: {url}")
+                        # Determine if the job application is still open
+                        still_open_for_applications = (
+                            closing_date.month == current_month and  # Check if the month is the current month
+                            closing_date.year == int(current_year) and  # Check if the year is the current year
+                            0 <= days_difference <= 14  # Check if the day difference is between 0 and 14 (inclusive)
+                        )
+                        # logging.info(still_open_for_applications)
+                        # If the job application is still open
+                        if still_open_for_applications:
+                            try:
+                                # Find the parent <td> element
+                                parent_td = td.find_element(By.XPATH, '..')
+                                # Check if the td element contains an 'a' tag with the class 'myLink'
+                                a_tag = parent_td.find_element(By.XPATH, './/a[@class="myLink"]')
+                                # Extract and log the title and URL from the 'a' tag
+                                title = a_tag.get_attribute('title')
+                                file_url  = a_tag.get_attribute('href')
+                                # logging.info(f"Title: {title}")
+                                # logging.info(f"URL: {file_url }")
+                                # Extract the file name from the URL and replace %20 with an underscore or space
+                                file_name = file_url.split('/')[-1].replace('%20', '_')  # Use '_'
+                                file_path = os.path.join(self.download_directory, file_name)
+                                                        
+                                if not os.path.exists(self.download_directory):
+                                    os.makedirs(self.download_directory)  
+                                # file_name = os.path.join(
+                                #     self.download_directory, file_url.split('/')[-1].replace('%20', '_'))
+                                if self.file_exists(file_path):
+                                    pass
+                                else:
+                                    response = requests.get(file_url)
+                                    with open(file_path, 'wb') as file:
+                                        file.write(response.content)
+                                        
+                                    logging.info(f"Downloaded {file_name}")
+                                    
+                                    self.pause(5)  # Pause for 5 seconds
+                            except Exception as e:
+                                logging.info(f"Error downloading file: {e}")
+                            except NoSuchElementException:
+                                # If no 'a' tag is found, continue to the next td element
+                                # logging.info("No link found in this td element.")
+                                pass
 
-                        except Exception as e:
-                            # If no 'a' tag is found, continue to the next td element
-                            logging.error(f"Error extracting link: {e}")
-                        logging.info(f"Closing Date: {date_str}")
-
-                except Exception as e:
-                    # If no date string is found, continue to the next td element
-                    logging.error(f"Error processing table data: {e}")
+                except NoSuchElementException:
+                    # If no <p> element is found, continue to the next td element
+                    # logging.info("No <p> element found in this td element.")
                     continue
 
             self.quit()
@@ -117,25 +152,99 @@ class Bot:
         except Exception as e:
             logging.error(f"Error clicking element: {e}")
 
+
     def parse_date(self, date_str):
         try:
-            # Function to parse date in 'dd MMM yyyy' format
-            parsed_date = datetime.strptime(date_str, '%d %b %Y')
-            logging.info(f"Parsed Date: {parsed_date}")
-            return parsed_date
+            # Define different date formats
+            formats = [
+                '%d %b %Y',   # e.g., 31 Jul 2024
+                '%d %B %Y',   # e.g., 31 July 2024
+                '%d %b, %Y',  # e.g., 31 Jul, 2024
+                '%d %B, %Y',  # e.g., 31 July, 2024
+                '%b %d, %Y',  # e.g., Jul 31, 2024
+                '%B %d, %Y',  # e.g., July 31, 2024
+                '%m/%d/%Y',   # e.g., 07/31/2024
+                '%d/%m/%Y',   # e.g., 31/07/2024 (day first format)
+                '%d-%m-%Y',   # e.g., 31-07-2024
+            ]
+            
+            # Normalize the month part
+            month_abbr = {
+                "Jan": "January", "Feb": "February", "Mar": "March", "Apr": "April",
+                "May": "May", "Jun": "June", "Jul": "July", "Aug": "August",
+                "Sep": "September", "Oct": "October", "Nov": "November", "Dec": "December",
+                "JAN": "January", "FEB": "February", "MAR": "March", "APR": "April",
+                "MAY": "May", "JUN": "June", "JUL": "July", "AUG": "August",
+                "SEP": "September", "OCT": "October", "NOV": "November", "DEC": "December"
+            }
+            
+            # Convert month abbreviation or number to full month name
+            parts = date_str.split()
+            if len(parts) > 1 and parts[1] in month_abbr:
+                parts[1] = month_abbr[parts[1]]
+                date_str = " ".join(parts)
+            
+            # Try to parse the date using different formats
+            for fmt in formats:
+                try:
+                    return datetime.strptime(date_str, fmt)
+                except ValueError:
+                    continue
+
+            raise ValueError(f"Date format not recognized: {date_str}")
+        
         except Exception as e:
-            logging.error(f"Error parsing date: {e}")
+            logging.error(f"Could not parse date: {date_str}. Error: {e}")
             raise
 
     def current_date(self):
         try:
             # Get the current date, month, and year
-            current_date = datetime.now()
-            current_month = current_date.month
-            current_year = current_date.year
-            return current_date, current_month, current_year
+            date = datetime.now()
+            month = date.month
+            year = date.year
+            day = date.day
+            return day, month, year
         except Exception as e:
             logging.error(f"Error getting current date: {e}")
             raise
 
+    def pause(self, seconds):
+        logging.info(f"Pausing for {seconds} seconds...")
+        time.sleep(seconds)
 
+    def file_exists(self, file_path):
+        if os.path.exists(file_path):
+            logging.info(f"File '{file_name}' already downloaded previously.")
+            return True
+        return False
+
+    def get_icon_url(self):
+        
+        try:
+            # Wait until the <link> element with rel="icon" is present
+            link_element = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "link[rel='icon']")))
+            icon_url = link_element.get_attribute('href')
+            
+            if icon_url:
+                 self.download_file(icon_url)
+
+        except Exception as e:
+            logging.error(f"Error finding the icon URL: {e}")
+            return None
+    
+    def download_file(self, file_url):
+        # Extract the file name from the URL
+        file_name = file_url.split('/')[-1]
+        file_path = os.path.join("database/agency_icons", file_name)
+        
+        if os.path.exists(file_path):
+            logging.info(f"File '{file_name}' already downloaded previously.")
+        else:
+            response = requests.get(file_url)
+            if response.status_code == 200:
+                with open(file_path, 'wb') as file:
+                    file.write(response.content)
+                logging.info(f"website icon '{file_name}' downloaded and saved.")
+            else:
+                logging.error(f"Failed to download file '{file_name}'. Status code: {response.status_code}")
