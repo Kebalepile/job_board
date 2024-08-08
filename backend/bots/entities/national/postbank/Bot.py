@@ -5,11 +5,14 @@ import requests
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException
-from webdriver_manager.chrome import ChromeDriverManager
+
+# from selenium.webdriver.firefox.service import Service as FirefoxService
+# from selenium.webdriver.firefox.options import Options as FirefoxOptions
+# from webdriver_manager.firefox import GeckoDriverManager
 
 class Bot:
     def __init__(self):
@@ -21,17 +24,9 @@ class Bot:
         self.download_directory = 'database/pdfs'
 
     def setup_driver(self):
-        # Set up the Chrome driver
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--start-maximized")
-        # chrome_options.add_argument("--headless")  # Remove or comment out this line to see the browser
-        # Block notifications
-        prefs = {"profile.default_content_setting_values.notifications": 1}
-        chrome_options.add_experimental_option("prefs", prefs)
-
-        self.driver = webdriver.Chrome(service=ChromeService(
-            ChromeDriverManager().install()), options=chrome_options)
-
+        opt = webdriver.FirefoxOptions()
+        opt.add_argument("--headless")
+        self.driver = webdriver.Firefox(options=opt)
         # Set the window size to 1000x755
         self.driver.set_window_size(1000, 755)
 
@@ -40,6 +35,8 @@ class Bot:
         self.setup_driver()
         self.wait = WebDriverWait(self.driver, 10)
         self.driver.get(self.url)
+        self.pause(10)
+        self.get_icon_url()
 
         logging.info(f'{self.name} Bot running')
         logging.info(f"{self.name} loading URL: {self.url}")
@@ -54,8 +51,6 @@ class Bot:
             
 
     def download_vacancies_pdf(self):
-        
-        self.get_icon_url()
         
         try:
            
@@ -111,7 +106,7 @@ class Bot:
                                     os.makedirs(self.download_directory)  
                                 # file_name = os.path.join(
                                 #     self.download_directory, file_url.split('/')[-1].replace('%20', '_'))
-                                if self.file_exists(file_path):
+                                if self.file_exists(file_path,file_name):
                                     pass
                                 else:
                                     response = requests.get(file_url)
@@ -213,26 +208,24 @@ class Bot:
         logging.info(f"Pausing for {seconds} seconds...")
         time.sleep(seconds)
 
-    def file_exists(self, file_path):
+    def file_exists(self, file_path,file_name):
         if os.path.exists(file_path):
             logging.info(f"File '{file_name}' already downloaded previously.")
             return True
         return False
 
     def get_icon_url(self):
-        
         try:
-            # Wait until the <link> element with rel="icon" is present
             link_element = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "link[rel='icon']")))
             icon_url = link_element.get_attribute('href')
             
             if icon_url:
-                 self.download_file(icon_url)
-
+                self.download_file(icon_url)
+            else:
+                logging.info("Icon URL not found or is empty.")
         except Exception as e:
-            logging.error(f"Error finding the icon URL: {e}")
-            return None
-    
+            logging.error(f"Error finding the icon URL")
+        
     def download_file(self, file_url):
         # Extract the file name from the URL
         file_name = file_url.split('/')[-1]
