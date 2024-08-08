@@ -1,14 +1,14 @@
 import React, { useContext, useRef, useEffect, Suspense } from "react";
-
 import { PiTelegramLogoThin } from "react-icons/pi";
 import { MdOutlineMailOutline } from "react-icons/md";
+import MainImage from "../../assets/images/4.jpg";
+import navContext from "../../contexts/navigation/context";
+import { ABOUTPLATFORM as type } from "../../contexts/types";
+import { scrollIntoView, toggleClass } from "../../utils/functions";
+import "./about.css"
 
-import MainImage from "../assets/images/4.jpg";
-import navContext from "../contexts/navigation/context";
-import { ABOUTPLATFORM as type } from "../contexts/types";
 
-import { scrollIntoView, toggleClass } from "../utils/functions";
-export default function AboutPlatform() {
+export default function About() {
   const { Display, ABOUTPLATFORM: isOpen } = useContext(navContext);
   const dialogRef = useRef();
 

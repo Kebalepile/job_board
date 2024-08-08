@@ -1,11 +1,11 @@
 import React, { useContext, useEffect } from "react";
 
-import Share from "../utils/share";
+import Share from "../../utils/share";
 import { useNavigate } from "react-router-dom";
 import { IoIosCloseCircle } from "react-icons/io";
 
-import JobBoardContext from "../contexts/jobBoard/context";
-import isObject from "../utils/isObject";
+import JobBoardContext from "../../contexts/jobBoard/context";
+import isObject from "../../utils/isObject";
 
 function useNavigation() {
   const navigateTo = useNavigate();

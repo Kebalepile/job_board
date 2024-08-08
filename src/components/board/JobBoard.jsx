@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 
 import { useNavigate } from 'react-router-dom'
-import isObject from '../utils/isObject'
+import isObject from '../../utils/isObject'
 import { IoIosCloseCircle } from 'react-icons/io'
 
-import JobBoardContext from '../contexts/jobBoard/context'
+import JobBoardContext from '../../contexts/jobBoard/context'
 
 function useNavigation () {
   const navigateTo = useNavigate()

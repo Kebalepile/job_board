@@ -1,0 +1,13 @@
+#info.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  #info > form {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 5px;
+    height: 95dvh;
+    overflow-y: scroll;
+  }
+  

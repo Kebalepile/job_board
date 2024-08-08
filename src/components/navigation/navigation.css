@@ -1,0 +1,27 @@
+.menu {
+  position: fixed;
+  bottom: -25px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  min-width: 400px;
+  height: 50px;
+  background-color: #6ba1f4;
+  border-radius: 5px;
+  z-index: 1;
+}
+.menu-items {
+  height: 25px;
+  border: none;
+  background-color: rgba(255, 192, 203, 0);
+  cursor: pointer;
+  filter: invert(1);
+}
+.menu-items > * {
+  height: inherit;
+  width: inherit;
+}

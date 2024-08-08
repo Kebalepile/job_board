@@ -1,19 +1,13 @@
 import React, { useContext } from "react";
 // import { useNavigate } from "react-router-dom";
-import navContext from "../contexts/navigation/context";
-import { ABOUTPLATFORM } from "../contexts/types";
+import navContext from "../../contexts/navigation/context";
+import { ABOUTPLATFORM } from "../../contexts/types";
 import { MdHomeFilled } from "react-icons/md";
 import { MdWork } from "react-icons/md";
 import { RiMenu5Line } from "react-icons/ri";
-import { scrollIntoView } from "../utils/functions";
+import { scrollIntoView } from "../../utils/functions";
+import "./navigation.css"
 
-// function useNavigation() {
-//   const navigateTo = useNavigate();
-//   function navigate(path) {
-//     navigateTo(path);
-//   }
-//   return navigate;
-// }
 
 export default function Nav() {
   // const Navigate = useNavigation();

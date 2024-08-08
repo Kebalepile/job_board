@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 
 import { GoShareAndroid } from 'react-icons/go'
-import boardImg from '../assets/images/2.jpg'
-import Share from '../utils/share'
+import boardImg from '../../assets/images/2.jpg'
+import Share from '../../utils/share'
 
-import JobBoardContext from '../contexts/jobBoard/context'
+import JobBoardContext from '../../contexts/jobBoard/context'
 
 /**
  * @description displays states about jobs availble in respective sectors

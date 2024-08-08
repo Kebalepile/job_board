@@ -1,11 +1,11 @@
 import React, { useEffect, lazy, Suspense } from "react";
-import { scrollIntoView } from "../utils/functions";
+import { scrollIntoView } from "../../utils/functions";
 // Use lazy() to dynamically import the components
-const Nav = lazy(() => import("./Nav"));
-const InfoBanner = lazy(() => import("./InfoBanner"));
+const Nav = lazy(() => import("../navigation/Nav"));
+const InfoBanner = lazy(() => import("../about/InfoBanner"));
 
-const AboutPlatform = lazy(() => import("./AboutPlatform"));
-const JobBoard = lazy(() => import("./JobBoard"));
+const AboutPlatform = lazy(() => import("../about/About"));
+const JobBoard = lazy(() => import("../board/JobBoard"));
 
 export default function Home() {
   useEffect(() => {

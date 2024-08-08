@@ -2,9 +2,9 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
-const Home = lazy(() => import("./components/Home"));
-const Opportunity = lazy(() => import("./components/Opportunity"));
-const NotFound = lazy(() => import("./components/NotFound"));
+const Home = lazy(() => import("./components/home/Home"));
+const Opportunity = lazy(() => import("./components/board/Opportunity"));
+const NotFound = lazy(() => import("./components/redirect/NotFound"));
 
 function App() {
   return (
