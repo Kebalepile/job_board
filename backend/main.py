@@ -22,7 +22,7 @@ def main():
         # logging.info("Starting Private Spider")
         # govpage_private_spider = PrivateSpider()
         # govpage_private_spider.launch()  # Changed to Launch with capital 'L'
-        logging.info("Starting NCR Bot")
+        logging.info("Starting Bots")
         # nrc_bot = NCR_Bot()
         # nrc_bot.run()
 

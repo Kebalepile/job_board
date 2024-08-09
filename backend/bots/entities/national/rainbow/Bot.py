@@ -16,33 +16,35 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 class Bot:
     def __init__(self):
-        self.name ="RAINBOW"
-        self.url = "https://rainbowchickens.co.za/
+        self.name = "RAINBOW"
+        self.url = "https://rainbowchickens.co.za/"
         self.driver = None
         self.wait = None
         # Specify the directory to save the downloaded files
         self.download_directory = 'database/pdfs' 
     
-
     def setup_driver(self):
-            # Set up Firefox options
-            opt = webdriver.FirefoxOptions()
-            # opt.add_argument("--headless")  # Run in headless mode
+        # Set up Firefox options
+        opt = webdriver.FirefoxOptions()
+        # opt.add_argument("--headless")  # Run in headless mode if needed
 
-            # Set up Firefox profile for handling PDF downloads
-            profile = webdriver.FirefoxProfile()
+        # Set up Firefox profile for handling PDF downloads
+        profile = webdriver.FirefoxProfile()
 
-            # Configure download settings
-            profile.set_preference("browser.download.folderList", 2)  # Use a custom download directory
-            profile.set_preference("browser.download.manager.showWhenStarting", False)  # Don't show download manager
-            profile.set_preference("browser.download.dir", self.download_directory)  # Set the download directory
-            profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/pdf")  # Download PDFs automatically
+        # Configure download settings
+        profile.set_preference("browser.download.folderList", 2)  # Use a custom download directory
+        profile.set_preference("browser.download.manager.showWhenStarting", False)  # Don't show download manager
+        profile.set_preference("browser.download.dir", self.download_directory)  # Set the download directory
+        profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/pdf")  # Download PDFs automatically
 
-            # Initialize the WebDriver with options and profile
-            self.driver = webdriver.Firefox(firefox_profile=profile, options=opt)
+        # Attach the profile to the options
+        opt.profile = profile
 
-            # Set the window size to 1000x755
-            self.driver.set_window_size(1000, 755)
+        # Initialize the WebDriver with the updated options
+        self.driver = webdriver.Firefox(options=opt)
+
+        # Set the window size to 1000x755
+        self.driver.set_window_size(1000, 755)
 
     def run(self):
 
@@ -63,24 +65,33 @@ class Bot:
 
             # click career button 
             self.wait_visible_and_click(By.XPATH,'//*[@id="menu-rainbow-top-menu"]/li[4]/a' )
-            logging.info("Loading career page")
+            logging.info(f"{self.name} loading career page")
             self.download_vacancies_pdf()
 
     def download_vacancies_pdf(self):
 
         try:
             # Scroll postions vacancey link into view, find the element using XPath
-            vacancy_button = self.driver.find_element(By.XPATH,'//*[@id="post-109479"]/div/div/div/div[2]/div/div/div[6]/a')
-            # Scroll the element into view
-            self.driver.execute_script("arguments[0].scrollIntoView().click();", vacancy_button)
             self.pause(10)
-            # find table and scroll into view
-            table = self.find_element(By.XPATH,'//*[@id="ContentPlaceHolder1_grvvacancies"]')
+            vacancy_button = self.wait.until(EC.presence_of_element_located((By.XPATH, "//a[text()='VIEW ALL OUR CURRENT VACANCIES HERE']")))
+            # Scroll the element into view &  Use JavaScript to click
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", vacancy_button)
+                        # Get the href attribute of the element
+            href = vacancy_button.get_attribute("href")
+            # Navigate to the URL in the href attribute
+            self.driver.get(href)
+            logging.info(f'{self.name} clicked view all vacancies button')
+            self.pause(20)
+            logging.info(f"{self.name} loading vacancies page")
+            # find table and scroll into view //*[@id="ContentPlaceHolder1_grvvacancies"]
+            table = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'table#ContentPlaceHolder1_grvvacancies')))
+            logging.info(f"{self.name} found vacancies list")
             self.driver.execute_script("arguments[0].scrollIntoView();",table)
             # Find all links in the "view" column
-            links =self.find_elements(By.CSS_SELECTOR,".btn-outline-secondary.btn.pull-right")
+            links =self.driver.find_elements(By.CSS_SELECTOR,".btn-outline-secondary.btn.pull-right")
             # Filter the elements that have text content "View"
             view_links = [link for link in links if link.text == "View"]
+            logging.info(f"{self.name} clicking {len(view_links)} view links found")
 
             for view_link in view_links:
                 view_link.click()
@@ -92,7 +103,7 @@ class Bot:
                 download_link.click()
                 self.pause(20)
                 # Get a list of files in the download directory after downloading
-                after_download = set(os.listdir(self.download_dir))
+                after_download = set(os.listdir(self.download_directory))
                 # Determine the new file by comparing before and after lists
                 new_files = after_download - before_download
                 if new_files:
@@ -106,6 +117,7 @@ class Bot:
 
         except Exception as e:
                         logging.error(f"Error downloading file: {e}")
+                        # self.quit()
 
     def quit(self):
         logging.info(f'{self.name} task compeleted.')
