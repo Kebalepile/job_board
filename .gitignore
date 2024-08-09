@@ -11,7 +11,7 @@ __pycache__
 node_modules
 venv
 webdrivers
-
+backend/bots/index.html
 dist-ssr
 *.local
 .env
