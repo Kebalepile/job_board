@@ -27,7 +27,7 @@ class Bot:
     def setup_driver(self):
             # Set up Firefox options
             opt = webdriver.FirefoxOptions()
-            opt.add_argument("--headless")  # Run in headless mode
+            # opt.add_argument("--headless")  # Run in headless mode
 
             # Set up Firefox profile for handling PDF downloads
             profile = webdriver.FirefoxProfile()
