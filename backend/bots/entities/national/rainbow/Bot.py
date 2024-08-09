@@ -79,7 +79,7 @@ class Bot:
 
     def get_vacancies_view_links(self):
         try:
-            self.pause(20)
+            self.pause(10)
             # Find table and scroll it into view
             table = self.wait.until(EC.presence_of_element_located(
                 (By.CSS_SELECTOR, 'table#ContentPlaceHolder1_grvvacancies')))
@@ -102,7 +102,6 @@ class Bot:
 
 
     def view_vacancies(self):
-
         try:
             # Scroll postions vacancey link into view, find the element using XPath
             self.pause(10)
@@ -127,7 +126,7 @@ class Bot:
             logging.error(f"Error in view_vacancies method: {e}")
             # self.quit()
 
-    def download_vacancies_pdf(self, total, index, links):
+    def download_vacancies_pdf(self, total, index, view_links):
         try:
             if index >= total:
                 self.quit()
@@ -151,7 +150,7 @@ class Bot:
                 if window != original_window:
                     self.driver.switch_to.window(window)
                     break
-            # self.pause(20)  # Consider using an explicit wait instead of a fixed pause
+            self.pause(10)  # Consider using an explicit wait instead of a fixed pause
 
             # Get a list of files in the download directory after downloading
             after_download = set(os.listdir(self.download_directory))
@@ -171,7 +170,7 @@ class Bot:
             self.driver.back()
 
             view_links = self.get_vacancies_view_links()
-            self.download_vacancies_pdf(len(view_links), index + 1, view_links)
+            return self.download_vacancies_pdf(len(view_links), index + 1, view_links)
 
         except Exception as e:
             logging.error(f"Error in download_vacancies_pdf method {e}")
