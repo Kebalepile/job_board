@@ -21,7 +21,7 @@ class Bot:
         self.driver = None
         self.wait = None
         # Specify the directory to save the downloaded files
-        self.download_directory = 'database/pdfs' 
+        self.download_directory = 'C:\\Users\\pimp\\Desktop\\projects\\job_board\\backend\\database\\pdfs' 
     
     def setup_driver(self):
         # Set up Firefox options
@@ -95,23 +95,35 @@ class Bot:
 
             for view_link in view_links:
                 view_link.click()
-                download_link = self.wait.until(
-                    EC.presence_of_element_located((By.XPATH,'//*[@id="ContentPlaceHolder1_btnPrint1"]'))
-                )
+
+                # Wait for the download button to be available and re-fetch the element
+                download_link = self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="ContentPlaceHolder1_btnPrint1"]')))
                 # Get a list of files in the download directory before downloading
                 before_download = set(os.listdir(self.download_directory))
                 download_link.click()
-                self.pause(20)
+                # Handle tab switching if a new tab is opened
+                original_window = self.driver.current_window_handle
+                all_windows = self.driver.window_handles
+                for window in all_windows:
+                    if window != original_window:
+                        self.driver.switch_to.window(window)
+                        break
+                self.pause(20)  # Consider using an explicit wait instead of a fixed pause
+
                 # Get a list of files in the download directory after downloading
                 after_download = set(os.listdir(self.download_directory))
-                # Determine the new file by comparing before and after lists
                 new_files = after_download - before_download
+
                 if new_files:
                     file_name = new_files.pop()
                     logging.info(f"Downloaded file: {file_name}")
-                    
                 else:
                     logging.info("No new file was downloaded.")
+
+                # Close the new tab if opened and switch back to the original window
+                if len(all_windows) > 1:
+                    self.driver.close()
+                    self.driver.switch_to.window(original_window)
 
             self.quit()
 
