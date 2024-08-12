@@ -9,6 +9,8 @@ import Footer from '../footer/Footer'
 export default function Home () {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isLoaded] = useLoadingPlaceholder(1000)
+  const [isSliderContainerLoaded] = useLoadingPlaceholder(1000)
+
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -29,32 +31,39 @@ export default function Home () {
 
   return (
     <>
-      <div className='slider-container'>
-        {isLoaded && agencyData.length > 0 ? (
-          <>
-            <img
-              src={agencyData[currentIndex].image}
-              alt='Agency Icon'
-              className='slide-image'
-            />
-            <p className='slider-message'>{agencyData[currentIndex].message}</p>
-          </>
-        ) : (
-          <div className='loading-placeholder'>Loading...</div>
-        )}
-        <div className='dots-container'>
-          {agencyData.map((_, index) => (
-            <span
-              key={index}
-              className={`dot ${index === currentIndex ? 'active' : ''}`}
-              onClick={() => goToSlide(index)}
-            ></span>
-          ))}
+      {isSliderContainerLoaded ? (
+        <div className='slider-container'>
+          {isLoaded && agencyData.length > 0 ? (
+            <>
+              <img
+                src={agencyData[currentIndex].image}
+                alt='Agency Icon'
+                className='slide-image'
+              />
+              <p className='slider-message'>
+                {agencyData[currentIndex].message}
+              </p>
+            </>
+          ) : (
+            <div className='placeholder loading-placeholder'></div>
+          )}
+          <div className='dots-container'>
+            {agencyData.map((_, index) => (
+              <span
+                key={index}
+                className={`dot ${index === currentIndex ? 'active' : ''}`}
+                onClick={() => goToSlide(index)}
+              ></span>
+            ))}
+          </div>
+          <button className='vacancies-button' onClick={navigateToVacancies}>
+            View Vacancies
+          </button>
         </div>
-        <button className='vacancies-button' onClick={navigateToVacancies}>
-          View Vacancies
-        </button>
-      </div>
+      ) : (
+        <div className='placeholder slider-container-placeholder'></div>
+      )}
+
       <About />
       <Footer />
     </>

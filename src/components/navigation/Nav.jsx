@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { BiMenuAltLeft } from 'react-icons/bi'
 import { FaHome, FaEnvelope, FaSignInAlt } from 'react-icons/fa'
 import { scrollIntoView } from '../../utils/functions'
@@ -14,12 +15,18 @@ export default function Nav () {
   const [isContactLoaded] = useLoadingPlaceholder(1800)
   const [isLoginLoaded] = useLoadingPlaceholder(2000)
 
+  const navigate = useNavigate()
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
   const handleClick = selector => {
     scrollIntoView(selector)
     toggleMenu()
+  }
+
+  const navigateToPage = (path) => {
+    navigate(path)
   }
 
   return (
@@ -42,7 +49,7 @@ export default function Nav () {
 
       <div className={`dropdown-menu ${isMenuOpen ? 'open' : ''}`}>
         <ul>
-          <li onClick={() => handleClick('#home')}>
+          <li onClick={() => navigateToPage('/')}>
             {!isHomeLoaded ? (
               <div className='placeholder placeholder-text'></div>
             ) : (

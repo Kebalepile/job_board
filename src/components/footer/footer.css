@@ -13,6 +13,18 @@
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
 }
+/* Placeholder Styling for Loading State */
+.placeholder {
+  background-color: #e0e0e0; /* Light gray background */
+  border-radius: 2px;
+  animation: loading 1.5s infinite;
+}
+.contact-placeholder {
+  width: 90%; /*Match .slide-image width*/
+  height: 150px; /*Match .slide-image height*/
+  border-radius: 3px;
+  margin: 30px auto;
+}
 
 .i {
   font-size: 1.2rem;

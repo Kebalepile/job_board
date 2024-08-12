@@ -6,6 +6,18 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+/* Placeholder Styling for Loading State */
+.placeholder {
+  background-color: #e0e0e0; /* Light gray background */
+  border-radius: 2px;
+  animation: loading 1.5s infinite;
+}
+.about-container-placeholder {
+  width: 80%; /*Match .slide-image width*/
+  height: 400px; /*Match .slide-image height*/
+  border-radius: 10px;
+  margin:20px auto;
+}
 
 #about {
   text-align: justify; /* Justify the text */
