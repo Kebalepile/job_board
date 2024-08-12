@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BiMenuAltLeft } from 'react-icons/bi'
-import { FaHome, FaEnvelope, FaSignInAlt } from 'react-icons/fa' 
+import { FaHome, FaEnvelope, FaSignInAlt } from 'react-icons/fa'
 import { scrollIntoView } from '../../utils/functions'
 import useLoadingPlaceholder from '../../hooks/useLoadingPlaceholder'
 import './navigation.css'
@@ -16,6 +16,10 @@ export default function Nav () {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+  }
+  const handleClick = selector => {
+    scrollIntoView(selector)
+    toggleMenu()
   }
 
   return (
@@ -38,7 +42,7 @@ export default function Nav () {
 
       <div className={`dropdown-menu ${isMenuOpen ? 'open' : ''}`}>
         <ul>
-          <li onClick={() => scrollIntoView('#home')}>
+          <li onClick={() => handleClick('#home')}>
             {!isHomeLoaded ? (
               <div className='placeholder placeholder-text'></div>
             ) : (
@@ -49,7 +53,7 @@ export default function Nav () {
             )}
           </li>
 
-          <li onClick={() => scrollIntoView('#contact')}>
+          <li onClick={() => handleClick('#contact')}>
             {!isContactLoaded ? (
               <div className='placeholder placeholder-text'></div>
             ) : (
@@ -59,7 +63,7 @@ export default function Nav () {
             )}
           </li>
 
-          <li onClick={() => scrollIntoView('#login')}>
+          <li onClick={() => handleClick('#login')}>
             {!isLoginLoaded ? (
               <div className='placeholder placeholder-text'></div>
             ) : (
@@ -70,7 +74,7 @@ export default function Nav () {
             )}
           </li>
 
-          <li onClick={() => scrollIntoView('#about')}>
+          <li onClick={() => handleClick('#about')}>
             {!isAboutLoaded ? (
               <div className='placeholder placeholder-text'></div>
             ) : (
