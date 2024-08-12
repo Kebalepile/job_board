@@ -6,7 +6,7 @@ export default function Layout ({ children }) {
   const location = useLocation()
 
   // List of valid paths where Nav should be shown
-  const validPaths = ['/', '/post_information']
+  const validPaths = ['/', '/post_information', '/vacancies']
 
   // Check if the current path is one of the valid paths
   const shouldShowNav = validPaths.includes(location.pathname)
