@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { BiMenuAltLeft } from 'react-icons/bi'
-import { FaHome, FaInfoCircle, FaEnvelope, FaSignInAlt } from 'react-icons/fa' // Added icons
+import { FaHome, FaEnvelope, FaSignInAlt } from 'react-icons/fa' 
 import { scrollIntoView } from '../../utils/functions'
 import useLoadingPlaceholder from '../../hooks/useLoadingPlaceholder'
 import './navigation.css'
