@@ -1,7 +1,7 @@
 import React, { useEffect, lazy, Suspense } from "react";
 import { scrollIntoView } from "../../utils/functions";
 // Use lazy() to dynamically import the components
-const Nav = lazy(() => import("../navigation/Nav"));
+// const Nav = lazy(() => import("../navigation/Nav"));
 const InfoBanner = lazy(() => import("../about/InfoBanner"));
 
 const AboutPlatform = lazy(() => import("../about/About"));
@@ -20,10 +20,10 @@ export default function Home() {
   return (
     <>
       <Suspense className="loadingDiv">
-        <InfoBanner />
-        <AboutPlatform />
-        <JobBoard />
-        <Nav />
+        {/* <InfoBanner /> */}
+        {/* <AboutPlatform /> */}
+        {/* <JobBoard /> */}
+        {/* <Nav /> */}
       </Suspense>
     </>
   );

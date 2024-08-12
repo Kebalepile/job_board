@@ -1,5 +1,6 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./hooks/Layout"
 import "./App.css";
 
 const Home = lazy(() => import("./components/home/Home"));
@@ -9,15 +10,29 @@ const NotFound = lazy(() => import("./components/redirect/NotFound"));
 function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div className="loadingDiv"></div>}>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/post_information" element={<Opportunity />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Suspense>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <Home />
+            </Layout>
+          }
+        />
+        <Route
+          path="/post_information"
+          element={
+            <Layout>
+              <Opportunity />
+            </Layout>
+          }
+        />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </BrowserRouter>
   );
 }
+
+
 
 export default App;

@@ -1,4 +1,36 @@
+
 :root {
+  --default-bg-color: #f4f5d4;
+  --primary-bg: #3fcefa;
+  --primary-color: #007bff;
+  --secondary-color: #f4f5d4;
+  --accent-color: #13a0ff;
+  --danger-color: #fa0921;
+  --light-color: white;
+  --dark-color: black;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: var(--dark-color);
+  background-color: var(--default-bg-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-color: var(--default-bg-color);
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -262,4 +294,4 @@ a:hover {
   border-radius: 50%;
   border-top: 6px solid #3498db;
   animation: spin 2s linear infinite;
-}
+} */

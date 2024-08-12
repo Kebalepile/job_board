@@ -17,7 +17,7 @@
 /*  overflow-x: auto; Enables horizontal scrolling */
 /* overflow-y: hidden; Prevents vertical scrolling */
 /* -webkit-overflow-scrolling: touch; Smooth scrolling for touch devices */
-#board {
+/* #board {
   border: none;
   border-radius: 5px;
   color: rgba(255, 255, 255, 0.87);
@@ -99,7 +99,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* SA Youth  */
 h2.card-title {
