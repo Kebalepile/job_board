@@ -1,0 +1,40 @@
+.about-container {
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+  text-align: justify; /* Justify the text */
+}
+
+#about h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+}
+
+#about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify; /* Justify paragraphs */
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+  text-align: justify; /* Justify list items */
+}
+
+#about li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+#about li strong {
+  font-weight: bold;
+}

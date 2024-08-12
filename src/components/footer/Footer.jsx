@@ -1,14 +1,13 @@
 import React from 'react'
-import { PiTelegramLogoThin } from 'react-icons/pi'
-import { MdOutlineMailOutline } from 'react-icons/md'
+import { FaTelegramPlane, FaEnvelope } from 'react-icons/fa'
+import './footer.css' // Ensure the path to your CSS file is correct
 
 export default function Footer () {
   return (
-    <>
+    <div id='contact'>
       <hr />
-
       <p className='i'>Contacts</p>
-      <br />
+
       <p className='contacts'>
         <a
           className='contact'
@@ -17,20 +16,18 @@ export default function Footer () {
           rel='noopener noreferrer'
           title='https://t.me/Kebalepile_1'
         >
-          <PiTelegramLogoThin />
+          <FaTelegramPlane />
         </a>
         <a
           className='contact'
           href='mailto:boitkongcommunity@gmail.com'
           title='boitkongcommunity@gmail.com'
         >
-          <MdOutlineMailOutline />
+          <FaEnvelope />
         </a>
       </p>
-      <br />
-      <h6 className='i' style={{ color: 'gray' }}>
-        © 2024 K.T Motshoana
-      </h6>
-    </>
+
+      <h6 className='i'>© 2024 Boitekong Community Job Board</h6>
+    </div>
   )
 }
