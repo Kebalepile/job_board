@@ -1,16 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const usePdfIframe = fileUrl => {
+const usePdfIframe = (fileUrl) => {
   const [iframeUrl, setIframeUrl] = useState("");
 
-  useState(
-    () => {
-      if (fileUrl) {
-        setIframeUrl(fileUrl);
-      }
-    },
-    [fileUrl]
-  );
+  useEffect(() => {
+    if (fileUrl) {
+      setIframeUrl(fileUrl);
+    }
+  }, [fileUrl]);
 
   return iframeUrl;
 };
