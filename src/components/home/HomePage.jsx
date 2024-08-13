@@ -23,20 +23,8 @@ export default function HomePage () {
     }
   }
 
-
   return (
     <div>
-      <h1>Vacancies</h1>
-      {isPdfContainerLoaded ? (
-        <div className='pdf-container'>
-          <div className='pdf-viewer-iframe'>
-            <PDFViewerIframe file={pdfFiles[currentPage]} />
-          </div>
-        </div>
-      ) : (
-        <div className='placeholder pdf-container-placeholder'></div>
-      )}
-
       <div className='pagination'>
         <button onClick={handlePrevClick} disabled={currentPage === 0}>
           Previous
@@ -51,6 +39,16 @@ export default function HomePage () {
           Next
         </button>
       </div>
+
+      {isPdfContainerLoaded ? (
+        <div className='pdf-container'>
+          <div className='pdf-viewer-iframe'>
+            <PDFViewerIframe file={pdfFiles[currentPage]} />
+          </div>
+        </div>
+      ) : (
+        <div className='placeholder pdf-container-placeholder'></div>
+      )}
     </div>
   )
 }
