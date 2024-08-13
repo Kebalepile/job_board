@@ -1,0 +1,18 @@
+/* Container for the PDF viewer */
+.pdf-viewer-container {
+    width: 100%;
+    height: calc(100vh - 50px); /* Adjust height according to your layout */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f5f5f5; Light gray background */
+  }
+  
+  /* Style for the iframe */
+  .pdf-viewer-iframe {
+    width: 90%;
+    height: 100%;
+    border: none; /* Remove border */
+  }
+  

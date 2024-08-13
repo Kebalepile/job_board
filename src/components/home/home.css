@@ -80,6 +80,18 @@
   background-color: #0056b3;
 }
 
+.pdf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdf-container .react-pdf__Document {
+  width: 100%;
+  height: auto;
+}
+
+
 @media (max-width: 768px) {
   .slider-container {
     max-width: 100%;
