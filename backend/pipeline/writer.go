@@ -82,7 +82,7 @@ func HeithaFile(data *types.HeithaJobs) error {
 		return err
 	}
 	title := cleanStr(data.Title)
-	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.js", title))
+	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.json", title))
 
 	err = os.WriteFile(filePath, buffer.Bytes(), 0644)
 	if err != nil {
@@ -119,7 +119,7 @@ func ProPersonnelJsonFile(data *types.ProPersonnelJobs) error {
 func ProPersonnelFile(data *types.ProPersonnelJobs) error {
 
 	buffer := &bytes.Buffer{}
-	buffer.WriteString("export const data  = ")
+	// buffer.WriteString("export const data  = ")
 
 	encoder := json.NewEncoder(buffer)
 	encoder.SetEscapeHTML(false)
@@ -130,7 +130,7 @@ func ProPersonnelFile(data *types.ProPersonnelJobs) error {
 		return err
 	}
 	title := cleanStr(data.Title)
-	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.js", title))
+	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.json", title))
 
 	err = os.WriteFile(filePath, buffer.Bytes(), 0644)
 	if err != nil {
@@ -142,7 +142,7 @@ func ProPersonnelFile(data *types.ProPersonnelJobs) error {
 func MinopexFile(data *types.MinopexJobs) error {
 
 	buffer := &bytes.Buffer{}
-	buffer.WriteString("export const data  = ")
+	// buffer.WriteString("export const data  = ")
 
 	encoder := json.NewEncoder(buffer)
 	encoder.SetEscapeHTML(false)
@@ -153,7 +153,7 @@ func MinopexFile(data *types.MinopexJobs) error {
 		return err
 	}
 	title := cleanStr(data.Title)
-	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.js", title))
+	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.json", title))
 
 	err = os.WriteFile(filePath, buffer.Bytes(), 0644)
 	if err != nil {
@@ -166,7 +166,7 @@ func MinopexFile(data *types.MinopexJobs) error {
 func SaYouthFile(data *types.SaYouthJobs) error {
 
 	buffer := &bytes.Buffer{}
-	buffer.WriteString("export const data  = ")
+	// buffer.WriteString("export const data  = ")
 
 	encoder := json.NewEncoder(buffer)
 	encoder.SetEscapeHTML(false)
@@ -177,7 +177,7 @@ func SaYouthFile(data *types.SaYouthJobs) error {
 		return err
 	}
 	title := cleanStr(data.Title)
-	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.js", title))
+	filePath := filepath.Join("database", "private", fmt.Sprintf("%s.json", title))
 
 	err = os.WriteFile(filePath, buffer.Bytes(), 0644)
 	if err != nil {
