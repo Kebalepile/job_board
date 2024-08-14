@@ -1,0 +1,158 @@
+.slider-container {
+  width: 80%;
+  max-width: 600px;
+  max-height: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional background color */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slider-container-placeholder {
+  width: 80%;
+  max-width: 600px;
+  height: 200px;
+  margin: 20px auto;
+}
+
+.slide-image {
+  max-width: 100%;
+  max-height: 400px;
+  display: block;
+  border-radius: 10px;
+  object-fit: contain; /* Preserve image quality */
+  background-color: #fff; /* Background color to handle smaller images */
+  transition: transform 0.5s ease-in-out; /* Smooth transition for resizing */
+}
+
+.slider-message {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Placeholder Styling for Loading State */
+.placeholder {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  border-radius: 4px;
+  animation: loading 1.5s infinite;
+}
+
+.loading-placeholder {
+  max-width: 100%; /* Match .slide-image width */
+  max-height: 400px; /* Match .slide-image height */
+  border-radius: 10px;
+}
+
+.dots-container {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}
+
+.vacancies-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vacancies-button:hover {
+  background-color: #0056b3;
+}
+
+.pdf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.pdf-container-placeholder {
+  margin: 20px auto;
+  width: 300px;
+  height: 400px;
+}
+
+.pdf-container .react-pdf__Document {
+  width: 100%;
+  height: auto;
+}
+
+.pagination {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+
+}
+
+.pagination button {
+  border: none;
+  border-radius: 4px;
+  background-color: #00a2ff;
+  color: whitesmoke;
+  height: 30px;
+  min-width:70px;
+  margin: auto 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    max-width: 100%;
+  }
+
+  .slide-image {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-image {
+    max-height: 200px;
+  }
+
+  .vacancies-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Loading Animation */
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

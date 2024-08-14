@@ -1,4 +1,5 @@
-export function scrollIntoView(elem, behaviour = "smooth") {
+export function scrollIntoView(selector, behaviour = "smooth") {
+  const elem = document.querySelector(selector);
   elem.scrollIntoView({ behaviour });
   elem.focus();
 }
